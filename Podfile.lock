@@ -1,0 +1,32 @@
+PODS:
+  - AGCategories (0.1.8)
+  - AGTimerManager (0.5.1)
+  - AGVerifyManager (0.3.4)
+  - AGViewModel (0.6.25)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - AGCategories (~> 0.1.8)
+  - AGTimerManager (~> 0.5.1)
+  - AGVerifyManager (~> 0.3.4)
+  - AGViewModel (~> 0.6.25)
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AGCategories
+    - AGTimerManager
+    - AGVerifyManager
+    - AGViewModel
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  AGCategories: 1fcd073caad1c6f369521234cff7abf095e21c29
+  AGTimerManager: 26321cb98c200c52bcbac21ebce6f36318ba3927
+  AGVerifyManager: dd61d7ee90e1ef41458ff179b99645176c53c163
+  AGViewModel: 8e928058bde9ad08b7c3a94771ec6dc78575099d
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 13d1ccab3d83ab66639080325bf6e796631ddf72
+
+COCOAPODS: 1.6.1

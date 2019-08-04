@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A4222FE22F6891A001D12C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4222FD22F6891A001D12C2 /* AppDelegate.m */; };
+		3A42230122F6891A001D12C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42230022F6891A001D12C2 /* ViewController.m */; };
+		3A42230422F6891A001D12C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A42230222F6891A001D12C2 /* Main.storyboard */; };
+		3A42230622F6891C001D12C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A42230522F6891C001D12C2 /* Assets.xcassets */; };
+		3A42230922F6891C001D12C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A42230722F6891C001D12C2 /* LaunchScreen.storyboard */; };
+		3A42230C22F6891C001D12C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42230B22F6891C001D12C2 /* main.m */; };
+		3A42231E22F68A9E001D12C2 /* AGThemePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42231722F68A9D001D12C2 /* AGThemePack.m */; };
+		3A42231F22F68A9E001D12C2 /* AGThemePackBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42231822F68A9D001D12C2 /* AGThemePackBox.m */; };
+		3A42232022F68A9E001D12C2 /* AGThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42231C22F68A9E001D12C2 /* AGThemeManager.m */; };
+		3A42234822F6AC5D001D12C2 /* AGMainImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42233E22F6AC5D001D12C2 /* AGMainImageCell.m */; };
+		3A42234922F6AC5D001D12C2 /* AGMainMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42233F22F6AC5D001D12C2 /* AGMainMessageCell.m */; };
+		3A42234A22F6AC5D001D12C2 /* AGMainCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42234022F6AC5D001D12C2 /* AGMainCollectionViewCell.m */; };
+		3A42234B22F6AC5D001D12C2 /* AGMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42234622F6AC5D001D12C2 /* AGMainTableViewController.m */; };
+		3A42234C22F6AC5D001D12C2 /* AGMainCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42234722F6AC5D001D12C2 /* AGMainCollectionViewController.m */; };
+		3A42234F22F6ACBE001D12C2 /* AGThemePackCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42234E22F6ACBE001D12C2 /* AGThemePackCollectionViewController.m */; };
+		3A42235222F6AD27001D12C2 /* AGThemePackCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42235122F6AD27001D12C2 /* AGThemePackCollectionViewCell.m */; };
+		3A42235C22F6B11B001D12C2 /* AGCustomThemeConstKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42235422F6B11B001D12C2 /* AGCustomThemeConstKeys.m */; };
+		3A42235D22F6B11B001D12C2 /* AGPurpleThemePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42235522F6B11B001D12C2 /* AGPurpleThemePack.m */; };
+		3A42235E22F6B11B001D12C2 /* AGBlueThemePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42235A22F6B11B001D12C2 /* AGBlueThemePack.m */; };
+		3A42235F22F6B11B001D12C2 /* AGOrangeThemePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42235B22F6B11B001D12C2 /* AGOrangeThemePack.m */; };
+		3A42236522F6C894001D12C2 /* AGFileThemePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42236422F6C894001D12C2 /* AGFileThemePack.m */; };
+		3A42236822F6CB2B001D12C2 /* AGDataThemePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42236722F6CB2B001D12C2 /* AGDataThemePack.m */; };
+		3A42236C22F6D8D6001D12C2 /* NSObject+AGThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42236A22F6D8CA001D12C2 /* NSObject+AGThemeManager.m */; };
+		899C4EC6ECD60C9C24949A70 /* libPods-AGThemeManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F93661AFEC540A9EB4A8DD05 /* libPods-AGThemeManager.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30376FECA0B455C8D6D90328 /* Pods-AGThemeManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGThemeManager.debug.xcconfig"; path = "Target Support Files/Pods-AGThemeManager/Pods-AGThemeManager.debug.xcconfig"; sourceTree = "<group>"; };
+		3A4222F922F6891A001D12C2 /* AGThemeManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGThemeManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A4222FC22F6891A001D12C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A4222FD22F6891A001D12C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A4222FF22F6891A001D12C2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3A42230022F6891A001D12C2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3A42230322F6891A001D12C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A42230522F6891C001D12C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A42230822F6891C001D12C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A42230A22F6891C001D12C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A42230B22F6891C001D12C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A42231522F68A9D001D12C2 /* AGThemePackBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGThemePackBox.h; sourceTree = "<group>"; };
+		3A42231722F68A9D001D12C2 /* AGThemePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGThemePack.m; sourceTree = "<group>"; };
+		3A42231822F68A9D001D12C2 /* AGThemePackBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGThemePackBox.m; sourceTree = "<group>"; };
+		3A42231A22F68A9D001D12C2 /* AGThemePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGThemePack.h; sourceTree = "<group>"; };
+		3A42231B22F68A9E001D12C2 /* AGThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGThemeManager.h; sourceTree = "<group>"; };
+		3A42231C22F68A9E001D12C2 /* AGThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGThemeManager.m; sourceTree = "<group>"; };
+		3A42233D22F6AC5D001D12C2 /* AGMainCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGMainCollectionViewCell.h; sourceTree = "<group>"; };
+		3A42233E22F6AC5D001D12C2 /* AGMainImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGMainImageCell.m; sourceTree = "<group>"; };
+		3A42233F22F6AC5D001D12C2 /* AGMainMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGMainMessageCell.m; sourceTree = "<group>"; };
+		3A42234022F6AC5D001D12C2 /* AGMainCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGMainCollectionViewCell.m; sourceTree = "<group>"; };
+		3A42234122F6AC5D001D12C2 /* AGMainMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGMainMessageCell.h; sourceTree = "<group>"; };
+		3A42234222F6AC5D001D12C2 /* AGMainImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGMainImageCell.h; sourceTree = "<group>"; };
+		3A42234422F6AC5D001D12C2 /* AGMainCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGMainCollectionViewController.h; sourceTree = "<group>"; };
+		3A42234522F6AC5D001D12C2 /* AGMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGMainTableViewController.h; sourceTree = "<group>"; };
+		3A42234622F6AC5D001D12C2 /* AGMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGMainTableViewController.m; sourceTree = "<group>"; };
+		3A42234722F6AC5D001D12C2 /* AGMainCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGMainCollectionViewController.m; sourceTree = "<group>"; };
+		3A42234D22F6ACBE001D12C2 /* AGThemePackCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGThemePackCollectionViewController.h; sourceTree = "<group>"; };
+		3A42234E22F6ACBE001D12C2 /* AGThemePackCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGThemePackCollectionViewController.m; sourceTree = "<group>"; };
+		3A42235022F6AD27001D12C2 /* AGThemePackCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGThemePackCollectionViewCell.h; sourceTree = "<group>"; };
+		3A42235122F6AD27001D12C2 /* AGThemePackCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGThemePackCollectionViewCell.m; sourceTree = "<group>"; };
+		3A42235422F6B11B001D12C2 /* AGCustomThemeConstKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGCustomThemeConstKeys.m; sourceTree = "<group>"; };
+		3A42235522F6B11B001D12C2 /* AGPurpleThemePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGPurpleThemePack.m; sourceTree = "<group>"; };
+		3A42235622F6B11B001D12C2 /* AGOrangeThemePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGOrangeThemePack.h; sourceTree = "<group>"; };
+		3A42235722F6B11B001D12C2 /* AGBlueThemePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGBlueThemePack.h; sourceTree = "<group>"; };
+		3A42235822F6B11B001D12C2 /* AGPurpleThemePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGPurpleThemePack.h; sourceTree = "<group>"; };
+		3A42235922F6B11B001D12C2 /* AGCustomThemeConstKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGCustomThemeConstKeys.h; sourceTree = "<group>"; };
+		3A42235A22F6B11B001D12C2 /* AGBlueThemePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGBlueThemePack.m; sourceTree = "<group>"; };
+		3A42235B22F6B11B001D12C2 /* AGOrangeThemePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGOrangeThemePack.m; sourceTree = "<group>"; };
+		3A42236022F6B469001D12C2 /* AGThemeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGThemeKit.h; sourceTree = "<group>"; };
+		3A42236322F6C894001D12C2 /* AGFileThemePack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGFileThemePack.h; sourceTree = "<group>"; };
+		3A42236422F6C894001D12C2 /* AGFileThemePack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGFileThemePack.m; sourceTree = "<group>"; };
+		3A42236622F6CB2B001D12C2 /* AGDataThemePack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGDataThemePack.h; sourceTree = "<group>"; };
+		3A42236722F6CB2B001D12C2 /* AGDataThemePack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGDataThemePack.m; sourceTree = "<group>"; };
+		3A42236A22F6D8CA001D12C2 /* NSObject+AGThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AGThemeManager.m"; sourceTree = "<group>"; };
+		3A42236B22F6D8CA001D12C2 /* NSObject+AGThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AGThemeManager.h"; sourceTree = "<group>"; };
+		ABA60242AE7E1BB15593298A /* Pods-AGThemeManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGThemeManager.release.xcconfig"; path = "Target Support Files/Pods-AGThemeManager/Pods-AGThemeManager.release.xcconfig"; sourceTree = "<group>"; };
+		F93661AFEC540A9EB4A8DD05 /* libPods-AGThemeManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AGThemeManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A4222F622F6891A001D12C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899C4EC6ECD60C9C24949A70 /* libPods-AGThemeManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D670DE96998A263ECEF81AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30376FECA0B455C8D6D90328 /* Pods-AGThemeManager.debug.xcconfig */,
+				ABA60242AE7E1BB15593298A /* Pods-AGThemeManager.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		28B3F17D497BE719FF937E94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F93661AFEC540A9EB4A8DD05 /* libPods-AGThemeManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A4222F022F6891A001D12C2 = {
+			isa = PBXGroup;
+			children = (
+				3A4222FB22F6891A001D12C2 /* AGThemeManager */,
+				3A4222FA22F6891A001D12C2 /* Products */,
+				1D670DE96998A263ECEF81AA /* Pods */,
+				28B3F17D497BE719FF937E94 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3A4222FA22F6891A001D12C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A4222F922F6891A001D12C2 /* AGThemeManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A4222FB22F6891A001D12C2 /* AGThemeManager */ = {
+			isa = PBXGroup;
+			children = (
+				3A42231222F689BA001D12C2 /* Core */,
+				3A42231422F689CC001D12C2 /* Demo */,
+				3A4222FC22F6891A001D12C2 /* AppDelegate.h */,
+				3A4222FD22F6891A001D12C2 /* AppDelegate.m */,
+				3A4222FF22F6891A001D12C2 /* ViewController.h */,
+				3A42230022F6891A001D12C2 /* ViewController.m */,
+				3A42230222F6891A001D12C2 /* Main.storyboard */,
+				3A42230522F6891C001D12C2 /* Assets.xcassets */,
+				3A42230722F6891C001D12C2 /* LaunchScreen.storyboard */,
+				3A42230A22F6891C001D12C2 /* Info.plist */,
+				3A42230B22F6891C001D12C2 /* main.m */,
+			);
+			path = AGThemeManager;
+			sourceTree = "<group>";
+		};
+		3A42231222F689BA001D12C2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3A42236922F6D8CA001D12C2 /* Category */,
+				3A42236022F6B469001D12C2 /* AGThemeKit.h */,
+				3A42231A22F68A9D001D12C2 /* AGThemePack.h */,
+				3A42231722F68A9D001D12C2 /* AGThemePack.m */,
+				3A42231522F68A9D001D12C2 /* AGThemePackBox.h */,
+				3A42231822F68A9D001D12C2 /* AGThemePackBox.m */,
+				3A42231B22F68A9E001D12C2 /* AGThemeManager.h */,
+				3A42231C22F68A9E001D12C2 /* AGThemeManager.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3A42231422F689CC001D12C2 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				3A42235322F6B11B001D12C2 /* CustomTheme */,
+				3A42234322F6AC5D001D12C2 /* Controllers */,
+				3A42233C22F6AC5D001D12C2 /* Views */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		3A42233C22F6AC5D001D12C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3A42233D22F6AC5D001D12C2 /* AGMainCollectionViewCell.h */,
+				3A42234022F6AC5D001D12C2 /* AGMainCollectionViewCell.m */,
+				3A42234222F6AC5D001D12C2 /* AGMainImageCell.h */,
+				3A42233E22F6AC5D001D12C2 /* AGMainImageCell.m */,
+				3A42234122F6AC5D001D12C2 /* AGMainMessageCell.h */,
+				3A42233F22F6AC5D001D12C2 /* AGMainMessageCell.m */,
+				3A42235022F6AD27001D12C2 /* AGThemePackCollectionViewCell.h */,
+				3A42235122F6AD27001D12C2 /* AGThemePackCollectionViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3A42234322F6AC5D001D12C2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3A42234422F6AC5D001D12C2 /* AGMainCollectionViewController.h */,
+				3A42234722F6AC5D001D12C2 /* AGMainCollectionViewController.m */,
+				3A42234522F6AC5D001D12C2 /* AGMainTableViewController.h */,
+				3A42234622F6AC5D001D12C2 /* AGMainTableViewController.m */,
+				3A42234D22F6ACBE001D12C2 /* AGThemePackCollectionViewController.h */,
+				3A42234E22F6ACBE001D12C2 /* AGThemePackCollectionViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3A42235322F6B11B001D12C2 /* CustomTheme */ = {
+			isa = PBXGroup;
+			children = (
+				3A42235922F6B11B001D12C2 /* AGCustomThemeConstKeys.h */,
+				3A42235422F6B11B001D12C2 /* AGCustomThemeConstKeys.m */,
+				3A42235722F6B11B001D12C2 /* AGBlueThemePack.h */,
+				3A42235A22F6B11B001D12C2 /* AGBlueThemePack.m */,
+				3A42235622F6B11B001D12C2 /* AGOrangeThemePack.h */,
+				3A42235B22F6B11B001D12C2 /* AGOrangeThemePack.m */,
+				3A42235822F6B11B001D12C2 /* AGPurpleThemePack.h */,
+				3A42235522F6B11B001D12C2 /* AGPurpleThemePack.m */,
+				3A42236322F6C894001D12C2 /* AGFileThemePack.h */,
+				3A42236422F6C894001D12C2 /* AGFileThemePack.m */,
+				3A42236622F6CB2B001D12C2 /* AGDataThemePack.h */,
+				3A42236722F6CB2B001D12C2 /* AGDataThemePack.m */,
+			);
+			path = CustomTheme;
+			sourceTree = "<group>";
+		};
+		3A42236922F6D8CA001D12C2 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3A42236B22F6D8CA001D12C2 /* NSObject+AGThemeManager.h */,
+				3A42236A22F6D8CA001D12C2 /* NSObject+AGThemeManager.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A4222F822F6891A001D12C2 /* AGThemeManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A42230F22F6891C001D12C2 /* Build configuration list for PBXNativeTarget "AGThemeManager" */;
+			buildPhases = (
+				48AC7B31830B8CE3EC0EC39A /* [CP] Check Pods Manifest.lock */,
+				3A4222F522F6891A001D12C2 /* Sources */,
+				3A4222F622F6891A001D12C2 /* Frameworks */,
+				3A4222F722F6891A001D12C2 /* Resources */,
+				7CFF1ECE9D2FD07006B6DF60 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AGThemeManager;
+			productName = AGThemeManager;
+			productReference = 3A4222F922F6891A001D12C2 /* AGThemeManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A4222F122F6891A001D12C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = JohnnyB0Y;
+				TargetAttributes = {
+					3A4222F822F6891A001D12C2 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 3A4222F422F6891A001D12C2 /* Build configuration list for PBXProject "AGThemeManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A4222F022F6891A001D12C2;
+			productRefGroup = 3A4222FA22F6891A001D12C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A4222F822F6891A001D12C2 /* AGThemeManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A4222F722F6891A001D12C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A42230922F6891C001D12C2 /* LaunchScreen.storyboard in Resources */,
+				3A42230622F6891C001D12C2 /* Assets.xcassets in Resources */,
+				3A42230422F6891A001D12C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48AC7B31830B8CE3EC0EC39A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AGThemeManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CFF1ECE9D2FD07006B6DF60 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AGThemeManager/Pods-AGThemeManager-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AGThemeManager/Pods-AGThemeManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A4222F522F6891A001D12C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A42235D22F6B11B001D12C2 /* AGPurpleThemePack.m in Sources */,
+				3A42234822F6AC5D001D12C2 /* AGMainImageCell.m in Sources */,
+				3A42235F22F6B11B001D12C2 /* AGOrangeThemePack.m in Sources */,
+				3A42234A22F6AC5D001D12C2 /* AGMainCollectionViewCell.m in Sources */,
+				3A42234B22F6AC5D001D12C2 /* AGMainTableViewController.m in Sources */,
+				3A42235E22F6B11B001D12C2 /* AGBlueThemePack.m in Sources */,
+				3A42236522F6C894001D12C2 /* AGFileThemePack.m in Sources */,
+				3A42230122F6891A001D12C2 /* ViewController.m in Sources */,
+				3A42236822F6CB2B001D12C2 /* AGDataThemePack.m in Sources */,
+				3A42232022F68A9E001D12C2 /* AGThemeManager.m in Sources */,
+				3A42236C22F6D8D6001D12C2 /* NSObject+AGThemeManager.m in Sources */,
+				3A42230C22F6891C001D12C2 /* main.m in Sources */,
+				3A42235222F6AD27001D12C2 /* AGThemePackCollectionViewCell.m in Sources */,
+				3A42235C22F6B11B001D12C2 /* AGCustomThemeConstKeys.m in Sources */,
+				3A42234F22F6ACBE001D12C2 /* AGThemePackCollectionViewController.m in Sources */,
+				3A42234922F6AC5D001D12C2 /* AGMainMessageCell.m in Sources */,
+				3A42231F22F68A9E001D12C2 /* AGThemePackBox.m in Sources */,
+				3A42231E22F68A9E001D12C2 /* AGThemePack.m in Sources */,
+				3A42234C22F6AC5D001D12C2 /* AGMainCollectionViewController.m in Sources */,
+				3A4222FE22F6891A001D12C2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A42230222F6891A001D12C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A42230322F6891A001D12C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A42230722F6891C001D12C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A42230822F6891C001D12C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A42230D22F6891C001D12C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3A42230E22F6891C001D12C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A42231022F6891C001D12C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30376FECA0B455C8D6D90328 /* Pods-AGThemeManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3MK3532499;
+				INFOPLIST_FILE = AGThemeManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiezuoriji.AGThemeManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A42231122F6891C001D12C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABA60242AE7E1BB15593298A /* Pods-AGThemeManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3MK3532499;
+				INFOPLIST_FILE = AGThemeManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiezuoriji.AGThemeManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A4222F422F6891A001D12C2 /* Build configuration list for PBXProject "AGThemeManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A42230D22F6891C001D12C2 /* Debug */,
+				3A42230E22F6891C001D12C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A42230F22F6891C001D12C2 /* Build configuration list for PBXNativeTarget "AGThemeManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A42231022F6891C001D12C2 /* Debug */,
+				3A42231122F6891C001D12C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A4222F122F6891A001D12C2 /* Project object */;
+}

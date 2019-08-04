@@ -1,0 +1,9 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AGCategories" "${PODS_ROOT}/Headers/Public/AGTimerManager" "${PODS_ROOT}/Headers/Public/AGVerifyManager" "${PODS_ROOT}/Headers/Public/AGViewModel" "${PODS_ROOT}/Headers/Public/SVProgressHUD"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AGCategories" "${PODS_CONFIGURATION_BUILD_DIR}/AGTimerManager" "${PODS_CONFIGURATION_BUILD_DIR}/AGVerifyManager" "${PODS_CONFIGURATION_BUILD_DIR}/AGViewModel" "${PODS_CONFIGURATION_BUILD_DIR}/SVProgressHUD"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AGCategories" -isystem "${PODS_ROOT}/Headers/Public/AGTimerManager" -isystem "${PODS_ROOT}/Headers/Public/AGVerifyManager" -isystem "${PODS_ROOT}/Headers/Public/AGViewModel" -isystem "${PODS_ROOT}/Headers/Public/SVProgressHUD"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AGCategories" -l"AGTimerManager" -l"AGVerifyManager" -l"AGViewModel" -l"SVProgressHUD" -framework "Foundation" -framework "QuartzCore" -framework "UIKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
