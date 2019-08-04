@@ -72,7 +72,7 @@ __weak typeof(self) weakSelf = self;
 
 #### 4，补充
 - Demo 有完整使用方式
-- [简书思路回顾](https://www.jianshu.com/p/03858c4fdc1f)
+- [思路回顾](https://www.jianshu.com/p/03858c4fdc1f)
 
 
 
