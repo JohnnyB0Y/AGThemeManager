@@ -73,6 +73,53 @@
     }
 }
 
+#pragma mark 字体
+- (void)setFontTextStyle:(UIFontTextStyle)style forKey:(NSString *)key
+{
+    self[key] = style;
+}
+- (void)setFont:(UIFont *)font forKey:(NSString *)key
+{
+    self[key] = font;
+}
+
+
+#pragma mark 图片
+- (void)setImage:(UIImage *)image forKey:(NSString *)key
+{
+    self[key] = image;
+}
+- (void)setImageName:(NSString *)imageName forKey:(NSString *)key
+{
+    self[key] = imageName;
+}
+- (void)setImageFilePath:(NSString *)path forKey:(NSString *)key
+{
+    self[key] = path;
+}
+
+
+#pragma mark 颜色
+- (void)setColor:(UIColor *)color forKey:(NSString *)key
+{
+    self[key] = color;
+}
+- (void)setColorName:(NSString *)colorName forKey:(NSString *)key
+{
+    self[key] = colorName;
+}
+
+
+#pragma mark 链接
+- (void)setURL:(NSURL *)url forKey:(NSString *)key
+{
+    self[key] = url;
+}
+- (void)setURLStr:(NSString *)urlStr forKey:(NSString *)key
+{
+    self[key] = urlStr;
+}
+
 #pragma mark - ----------- Getter Methods -----------
 - (NSMutableDictionary *)dictM
 {

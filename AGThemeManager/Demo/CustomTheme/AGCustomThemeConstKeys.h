@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 FOUNDATION_EXTERN NSString * const kAGPurpleThemePack;
 FOUNDATION_EXTERN NSString * const kAGBlueThemePack;
 FOUNDATION_EXTERN NSString * const kAGOrangeThemePack;
-
+FOUNDATION_EXTERN NSString * const kAGDarkThemePack;
 #pragma mark - 主题元素 keys
 FOUNDATION_EXTERN NSString * const kAGThemePackHomeCellContentTextColor;
 FOUNDATION_EXTERN NSString * const kAGThemePackHomeCellContentTextFont;

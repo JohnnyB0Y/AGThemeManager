@@ -33,23 +33,16 @@
     
     self.textLabel.text = @"MIT License \n\nA short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.";
     
-    __weak typeof(self) weakSelf = self;
-    [self ag_setupThemeUsingBlock:^(NSString * _Nonnull theme, AGThemePack * _Nonnull pack) {
-        __strong typeof(weakSelf) self = weakSelf;
-        if ( nil == self ) return;
-        // ...
-        self.textLabel.font = pack[kAGThemePackHomeCellContentTextFont];
-        self.textLabel.textColor = pack[kAGThemePackHomeCellContentTextColor];
-    }];
+    [self ag_themeSupportAndExecute];
     
-    [self ag_executeSetupThemeBlock];
 }
 
-- (void)dealloc
+- (void)traitCollectionDidChange:(UITraitCollection *)previousTraitCollection
 {
-    if ( [AGThemeManager sharedInstance].openLog ) {
-        NSLog(@"AGMainMessageCell dealloc!");
-    }
+    [super traitCollectionDidChange:previousTraitCollection];
+    
+    self.textLabel.font = [UIFont ag_themeWithDynamicFontForKey:kAGThemePackHomeCellContentTextFont];
+    self.textLabel.textColor = [UIColor ag_themeForKey:kAGThemePackHomeCellContentTextColor];
 }
 
 @end

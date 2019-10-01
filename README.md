@@ -2,16 +2,18 @@
 
 ### Cocoapods 集成
 ``` objective-c
-platform :ios, '7.0'
+platform :ios, '8.0'
 target 'AGThemeManager' do
 
-pod 'AGThemeManager', '~> 0.0.1'
+pod 'AGThemeManager', '~> 0.1.0'
 
 end
 ```
 
 ### APP动态主题切换
 ###### 主题包管理，动态更新全局主题元素
+###### 对系统动态字体添加了支持
+###### 对系统黑暗模式添加了支持
 
 #### 1，通过派生子类生成主题包，有3中方式生成主题包
  
@@ -36,22 +38,32 @@ AGDataThemePack
   
  
 #### 2，在UI类中使用主题包
- - 调用 -ag_setupAndExecuteThemeUsingBlock: 方法，添加设置Block并执行；
- - 需要注意的是，在Block 中注意循环引用问题；
- - 其实不需要手动移除设置Block，在类dealloc 后，会自动移除Block；
  
  ```objective-c
- // 根据主题，配置好并执行
-__weak typeof(self) weakSelf = self;
-[self ag_setupAndExecuteThemeUsingBlock:^(NSString * _Nonnull theme, AGThemePack * _Nonnull pack) {
-    __strong typeof(weakSelf) self = weakSelf;
-    if ( nil == self ) return;
-    // ...
-    NSString *imageName = pack[kAGThemePackHomeCellIconImageName];
-    self.imageView.image = [UIImage imageNamed:imageName];
-    self.textLabel.font = pack[kAGThemePackHomeCellContentTextFont];
-    self.textLabel.textColor = pack[kAGThemePackHomeCellContentTextColor];
-}];
+ ###### 在UI类中添加对主题的支持 #######
+ /// 添加主题支持
+- (void)ag_themeSupport;
+
+/// 添加主题支持并执行修改
+- (void)ag_themeSupportAndExecute;
+
+/// 移除主题支持
+- (void)ag_themeRemoveSupport;
+
+/// 执行主题修改
+- (void)ag_themeExecute;
+
+
+ ###### 重写系统特征变化方法，设置变化后的数据 #######
+- (void)traitCollectionDidChange:(UITraitCollection *)previousTraitCollection
+{
+    [super traitCollectionDidChange:previousTraitCollection];
+    
+    self.textLabel.font = [UIFont ag_themeWithDynamicFontForKey:kAGThemePackHomeCellContentTextFont];
+    self.textLabel.textColor = [UIColor ag_themeForKey:kAGThemePackHomeCellContentTextColor];
+    self.imageView.image = [UIImage ag_themeForKey:kAGThemePackHomeCellIconImageName];
+}
+
  ```
 
 
@@ -60,14 +72,17 @@ __weak typeof(self) weakSelf = self;
 
  ```objective-c
 // 配置主题
- AGThemePackBox *themePackBox = [AGThemePackBox newWithCurrentTheme:kAGOrangeThemePack];
- [themePackBox ag_registerThemePack:[AGOrangeThemePack newWithPackName:kAGOrangeThemePack]];
- [themePackBox ag_registerThemePack:[AGPurpleThemePack newWithPackName:kAGPurpleThemePack]];
- [themePackBox ag_registerThemePack:[AGBlueThemePack newWithPackName:kAGBlueThemePack]];
- [AGThemeManager sharedInstance].themePackBox = themePackBox;
- 
- // 打开调试日志
- [AGThemeManager sharedInstance].openLog = YES;
+    AGThemeCollection *themeCollection = [AGThemeCollection newWithDefaultTheme:kAGOrangeThemePack];
+    [themeCollection ag_registerThemePack:[AGOrangeThemePack newWithPackName:kAGOrangeThemePack]];
+    [themeCollection ag_registerThemePack:[AGPurpleThemePack newWithPackName:kAGPurpleThemePack]];
+    [themeCollection ag_registerThemePack:[AGBlueThemePack newWithPackName:kAGBlueThemePack]];
+    [themeCollection ag_registerThemePack:[AGDarkThemePack newWithPackName:kAGDarkThemePack]]; // 黑暗模式
+    [AGThemeManager sharedInstance].themeCollection = themeCollection;
+    // 打开调试日志
+    [AGThemeManager sharedInstance].openLog = YES;
+    
+    // 指定黑暗模式的主题包名
+    [AGThemeManager sharedInstance].systemDarkThemeName = kAGDarkThemePack; 
 ```
 
 #### 4，补充

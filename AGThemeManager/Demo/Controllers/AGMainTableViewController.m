@@ -36,14 +36,13 @@
     UIBarButtonItem *rightItem = [[UIBarButtonItem alloc] initWithTitle:@"更换主题" style:UIBarButtonItemStyleDone target:self action:@selector(rightItemClick:)];
     self.navigationItem.rightBarButtonItem = rightItem;
     
-    // 记录刷新界面
-    __weak typeof(self) weakSelf = self;
-    [self.tableView ag_setupThemeUsingBlock:^(NSString * _Nonnull theme, AGThemePack * _Nonnull pack) {
-        __strong typeof(weakSelf) self = weakSelf;
-        if ( nil == self ) return;
-        // ...
-        [self.tableView reloadData];
-    }];
+    [self ag_themeSupport];
+}
+
+- (void)traitCollectionDidChange:(UITraitCollection *)previousTraitCollection
+{
+    [super traitCollectionDidChange:previousTraitCollection];
+    [self.tableView reloadData];
 }
 
 #pragma mark - ----------- Event Methods -----------

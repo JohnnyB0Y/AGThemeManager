@@ -27,30 +27,61 @@
  
  
  2，在UI类中使用主题包
- - 调用 -ag_setupAndExecuteThemeUsingBlock: 方法，添加设置Block并执行；
- - 需要注意的是，在Block 中注意循环引用问题；
- - 其实不需要手动移除设置Block，在类dealloc 后，会自动移除Block；
+  ###### 在UI类中添加对主题的支持 #######
+  /// 添加主题支持
+ - (void)ag_themeSupport;
+
+ /// 添加主题支持并执行修改
+ - (void)ag_themeSupportAndExecute;
+
+ /// 移除主题支持
+ - (void)ag_themeRemoveSupport;
+
+ /// 执行主题修改
+ - (void)ag_themeExecute;
+
+
+  ###### 重写系统特征变化方法，设置变化后的数据 #######
+ - (void)traitCollectionDidChange:(UITraitCollection *)previousTraitCollection
+ {
+     [super traitCollectionDidChange:previousTraitCollection];
+     
+     self.textLabel.font = [UIFont ag_themeWithDynamicFontForKey:kAGThemePackHomeCellContentTextFont];
+     self.textLabel.textColor = [UIColor ag_themeForKey:kAGThemePackHomeCellContentTextColor];
+     self.imageView.image = [UIImage ag_themeForKey:kAGThemePackHomeCellIconImageName];
+ }
 
  
  
  3，初始化配置
  - 在 AppDelegate 中，初始化视图界面之前配置好要使用的主题；
  // 配置主题
- AGThemePackBox *themePackBox = [AGThemePackBox newWithCurrentTheme:kAGOrangeThemePack];
- [themePackBox ag_registerThemePack:[AGOrangeThemePack newWithPackName:kAGOrangeThemePack]];
- [themePackBox ag_registerThemePack:[AGPurpleThemePack newWithPackName:kAGPurpleThemePack]];
- [themePackBox ag_registerThemePack:[AGBlueThemePack newWithPackName:kAGBlueThemePack]];
- [AGThemeManager sharedInstance].themePackBox = themePackBox;
+ AGThemeCollection *themeCollection = [AGThemeCollection newWithDefaultTheme:kAGOrangeThemePack];
+ [themeCollection ag_registerThemePack:[AGOrangeThemePack newWithPackName:kAGOrangeThemePack]];
+ [themeCollection ag_registerThemePack:[AGPurpleThemePack newWithPackName:kAGPurpleThemePack]];
+ [themeCollection ag_registerThemePack:[AGBlueThemePack newWithPackName:kAGBlueThemePack]];
+ [themeCollection ag_registerThemePack:[AGDarkThemePack newWithPackName:kAGDarkThemePack]]; // 黑暗模式
+ [AGThemeManager sharedInstance].themeCollection = themeCollection;
  // 打开调试日志
  [AGThemeManager sharedInstance].openLog = YES;
+ 
+ // 指定黑暗模式的主题包名
+ [AGThemeManager sharedInstance].systemDarkThemeName = kAGDarkThemePack;
+
  
  
  */
 
 
-#import "NSObject+AGThemeManager.h"
 #import "AGThemeManager.h"
-#import "AGThemePackBox.h"
+#import "AGThemeCollection.h"
 #import "AGThemePack.h"
+
+#import "UIView+AGThemeManager.h"
+#import "UIViewController+AGThemeManager.h"
+#import "UIColor+AGThemeManager.h"
+#import "UIFont+AGThemeManager.h"
+#import "UIImage+AGThemeManager.h"
+#import "NSURL+AGThemeManager.h"
 
 #endif /* AGThemeKit_h */

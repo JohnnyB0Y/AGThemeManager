@@ -30,24 +30,17 @@
 - (void)setup
 {
     // 根据主题，配置好
-    __weak typeof(self) weakSelf = self;
-    [self ag_setupThemeUsingBlock:^(NSString * _Nonnull theme, AGThemePack * _Nonnull pack) {
-        __strong typeof(weakSelf) self = weakSelf;
-        if ( nil == self ) return;
-        // ...
-        NSString *imageName = pack[kAGThemePackHomeCellIconImageName];
-        self.imageView.image = [UIImage imageNamed:imageName];
-    }];
+    [self ag_themeSupport];
     
     // 根据主题，直接执行
-    [self ag_executeSetupThemeBlock];
+    [self ag_themeExecute];
 }
 
-- (void)dealloc
+- (void)traitCollectionDidChange:(UITraitCollection *)previousTraitCollection
 {
-    if ( [AGThemeManager sharedInstance].openLog ) {
-        NSLog(@"AGMainImageCell dealloc!");
-    }
+    [super traitCollectionDidChange:previousTraitCollection];
+    
+    self.imageView.image = [UIImage ag_themeForKey:kAGThemePackHomeCellIconImageName];
 }
 
 @end

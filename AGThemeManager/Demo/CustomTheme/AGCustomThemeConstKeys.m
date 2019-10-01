@@ -12,6 +12,7 @@
 NSString * const kAGPurpleThemePack = @"kAGPurpleThemePack";
 NSString * const kAGBlueThemePack = @"kAGBlueThemePack";
 NSString * const kAGOrangeThemePack = @"kAGOrangeThemePack";
+NSString * const kAGDarkThemePack = @"kAGDarkThemePack";
 
 #pragma mark - 主题元素 keys
 NSString * const kAGThemePackHomeCellContentTextColor = @"kAGThemePackHomeCellContentTextColor";

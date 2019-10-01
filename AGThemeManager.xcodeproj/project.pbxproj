@@ -14,7 +14,7 @@
 		3A42230922F6891C001D12C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A42230722F6891C001D12C2 /* LaunchScreen.storyboard */; };
 		3A42230C22F6891C001D12C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42230B22F6891C001D12C2 /* main.m */; };
 		3A42231E22F68A9E001D12C2 /* AGThemePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42231722F68A9D001D12C2 /* AGThemePack.m */; };
-		3A42231F22F68A9E001D12C2 /* AGThemePackBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42231822F68A9D001D12C2 /* AGThemePackBox.m */; };
+		3A42231F22F68A9E001D12C2 /* AGThemeCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42231822F68A9D001D12C2 /* AGThemeCollection.m */; };
 		3A42232022F68A9E001D12C2 /* AGThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42231C22F68A9E001D12C2 /* AGThemeManager.m */; };
 		3A42234822F6AC5D001D12C2 /* AGMainImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42233E22F6AC5D001D12C2 /* AGMainImageCell.m */; };
 		3A42234922F6AC5D001D12C2 /* AGMainMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42233F22F6AC5D001D12C2 /* AGMainMessageCell.m */; };
@@ -29,7 +29,14 @@
 		3A42235F22F6B11B001D12C2 /* AGOrangeThemePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42235B22F6B11B001D12C2 /* AGOrangeThemePack.m */; };
 		3A42236522F6C894001D12C2 /* AGFileThemePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42236422F6C894001D12C2 /* AGFileThemePack.m */; };
 		3A42236822F6CB2B001D12C2 /* AGDataThemePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42236722F6CB2B001D12C2 /* AGDataThemePack.m */; };
-		3A42236C22F6D8D6001D12C2 /* NSObject+AGThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42236A22F6D8CA001D12C2 /* NSObject+AGThemeManager.m */; };
+		3A42236C22F6D8D6001D12C2 /* UIView+AGThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42236A22F6D8CA001D12C2 /* UIView+AGThemeManager.m */; };
+		3ABB28B82342319700B90117 /* UIColor+AGThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB28B72342319700B90117 /* UIColor+AGThemeManager.m */; };
+		3ABB28BB234231B000B90117 /* UIFont+AGThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB28BA234231B000B90117 /* UIFont+AGThemeManager.m */; };
+		3ABB28BE234231D200B90117 /* UIImage+AGThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB28BD234231D200B90117 /* UIImage+AGThemeManager.m */; };
+		3ABB28C4234238E400B90117 /* NSURL+AGThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB28C3234238E400B90117 /* NSURL+AGThemeManager.m */; };
+		3ABB28CB23429FCB00B90117 /* UIViewController+AGThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB28CA23429FCB00B90117 /* UIViewController+AGThemeManager.m */; };
+		3ABB28CE2343049100B90117 /* AGDarkThemePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB28CD2343049100B90117 /* AGDarkThemePack.m */; };
+		3ABB28D223431B9F00B90117 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3ABB28D123431B9F00B90117 /* README.md */; };
 		899C4EC6ECD60C9C24949A70 /* libPods-AGThemeManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F93661AFEC540A9EB4A8DD05 /* libPods-AGThemeManager.a */; };
 /* End PBXBuildFile section */
 
@@ -45,9 +52,9 @@
 		3A42230822F6891C001D12C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A42230A22F6891C001D12C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A42230B22F6891C001D12C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3A42231522F68A9D001D12C2 /* AGThemePackBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGThemePackBox.h; sourceTree = "<group>"; };
+		3A42231522F68A9D001D12C2 /* AGThemeCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGThemeCollection.h; sourceTree = "<group>"; };
 		3A42231722F68A9D001D12C2 /* AGThemePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGThemePack.m; sourceTree = "<group>"; };
-		3A42231822F68A9D001D12C2 /* AGThemePackBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGThemePackBox.m; sourceTree = "<group>"; };
+		3A42231822F68A9D001D12C2 /* AGThemeCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGThemeCollection.m; sourceTree = "<group>"; };
 		3A42231A22F68A9D001D12C2 /* AGThemePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGThemePack.h; sourceTree = "<group>"; };
 		3A42231B22F68A9E001D12C2 /* AGThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGThemeManager.h; sourceTree = "<group>"; };
 		3A42231C22F68A9E001D12C2 /* AGThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGThemeManager.m; sourceTree = "<group>"; };
@@ -78,8 +85,22 @@
 		3A42236422F6C894001D12C2 /* AGFileThemePack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGFileThemePack.m; sourceTree = "<group>"; };
 		3A42236622F6CB2B001D12C2 /* AGDataThemePack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGDataThemePack.h; sourceTree = "<group>"; };
 		3A42236722F6CB2B001D12C2 /* AGDataThemePack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGDataThemePack.m; sourceTree = "<group>"; };
-		3A42236A22F6D8CA001D12C2 /* NSObject+AGThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AGThemeManager.m"; sourceTree = "<group>"; };
-		3A42236B22F6D8CA001D12C2 /* NSObject+AGThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AGThemeManager.h"; sourceTree = "<group>"; };
+		3A42236A22F6D8CA001D12C2 /* UIView+AGThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AGThemeManager.m"; sourceTree = "<group>"; };
+		3A42236B22F6D8CA001D12C2 /* UIView+AGThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AGThemeManager.h"; sourceTree = "<group>"; };
+		3ABB28B62342319700B90117 /* UIColor+AGThemeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+AGThemeManager.h"; sourceTree = "<group>"; };
+		3ABB28B72342319700B90117 /* UIColor+AGThemeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AGThemeManager.m"; sourceTree = "<group>"; };
+		3ABB28B9234231B000B90117 /* UIFont+AGThemeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+AGThemeManager.h"; sourceTree = "<group>"; };
+		3ABB28BA234231B000B90117 /* UIFont+AGThemeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+AGThemeManager.m"; sourceTree = "<group>"; };
+		3ABB28BC234231D200B90117 /* UIImage+AGThemeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+AGThemeManager.h"; sourceTree = "<group>"; };
+		3ABB28BD234231D200B90117 /* UIImage+AGThemeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AGThemeManager.m"; sourceTree = "<group>"; };
+		3ABB28C2234238E400B90117 /* NSURL+AGThemeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+AGThemeManager.h"; sourceTree = "<group>"; };
+		3ABB28C3234238E400B90117 /* NSURL+AGThemeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+AGThemeManager.m"; sourceTree = "<group>"; };
+		3ABB28C823429CE600B90117 /* AGThemeProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGThemeProtocol.h; sourceTree = "<group>"; };
+		3ABB28C923429FCB00B90117 /* UIViewController+AGThemeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AGThemeManager.h"; sourceTree = "<group>"; };
+		3ABB28CA23429FCB00B90117 /* UIViewController+AGThemeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AGThemeManager.m"; sourceTree = "<group>"; };
+		3ABB28CC2343049100B90117 /* AGDarkThemePack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGDarkThemePack.h; sourceTree = "<group>"; };
+		3ABB28CD2343049100B90117 /* AGDarkThemePack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGDarkThemePack.m; sourceTree = "<group>"; };
+		3ABB28D123431B9F00B90117 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		ABA60242AE7E1BB15593298A /* Pods-AGThemeManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGThemeManager.release.xcconfig"; path = "Target Support Files/Pods-AGThemeManager/Pods-AGThemeManager.release.xcconfig"; sourceTree = "<group>"; };
 		F93661AFEC540A9EB4A8DD05 /* libPods-AGThemeManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AGThemeManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -144,6 +165,7 @@
 				3A42230522F6891C001D12C2 /* Assets.xcassets */,
 				3A42230722F6891C001D12C2 /* LaunchScreen.storyboard */,
 				3A42230A22F6891C001D12C2 /* Info.plist */,
+				3ABB28D123431B9F00B90117 /* README.md */,
 				3A42230B22F6891C001D12C2 /* main.m */,
 			);
 			path = AGThemeManager;
@@ -154,10 +176,11 @@
 			children = (
 				3A42236922F6D8CA001D12C2 /* Category */,
 				3A42236022F6B469001D12C2 /* AGThemeKit.h */,
+				3ABB28C823429CE600B90117 /* AGThemeProtocol.h */,
 				3A42231A22F68A9D001D12C2 /* AGThemePack.h */,
 				3A42231722F68A9D001D12C2 /* AGThemePack.m */,
-				3A42231522F68A9D001D12C2 /* AGThemePackBox.h */,
-				3A42231822F68A9D001D12C2 /* AGThemePackBox.m */,
+				3A42231522F68A9D001D12C2 /* AGThemeCollection.h */,
+				3A42231822F68A9D001D12C2 /* AGThemeCollection.m */,
 				3A42231B22F68A9E001D12C2 /* AGThemeManager.h */,
 				3A42231C22F68A9E001D12C2 /* AGThemeManager.m */,
 			);
@@ -217,6 +240,8 @@
 				3A42236422F6C894001D12C2 /* AGFileThemePack.m */,
 				3A42236622F6CB2B001D12C2 /* AGDataThemePack.h */,
 				3A42236722F6CB2B001D12C2 /* AGDataThemePack.m */,
+				3ABB28CC2343049100B90117 /* AGDarkThemePack.h */,
+				3ABB28CD2343049100B90117 /* AGDarkThemePack.m */,
 			);
 			path = CustomTheme;
 			sourceTree = "<group>";
@@ -224,8 +249,18 @@
 		3A42236922F6D8CA001D12C2 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				3A42236B22F6D8CA001D12C2 /* NSObject+AGThemeManager.h */,
-				3A42236A22F6D8CA001D12C2 /* NSObject+AGThemeManager.m */,
+				3A42236B22F6D8CA001D12C2 /* UIView+AGThemeManager.h */,
+				3A42236A22F6D8CA001D12C2 /* UIView+AGThemeManager.m */,
+				3ABB28C923429FCB00B90117 /* UIViewController+AGThemeManager.h */,
+				3ABB28CA23429FCB00B90117 /* UIViewController+AGThemeManager.m */,
+				3ABB28B62342319700B90117 /* UIColor+AGThemeManager.h */,
+				3ABB28B72342319700B90117 /* UIColor+AGThemeManager.m */,
+				3ABB28B9234231B000B90117 /* UIFont+AGThemeManager.h */,
+				3ABB28BA234231B000B90117 /* UIFont+AGThemeManager.m */,
+				3ABB28BC234231D200B90117 /* UIImage+AGThemeManager.h */,
+				3ABB28BD234231D200B90117 /* UIImage+AGThemeManager.m */,
+				3ABB28C2234238E400B90117 /* NSURL+AGThemeManager.h */,
+				3ABB28C3234238E400B90117 /* NSURL+AGThemeManager.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -291,6 +326,7 @@
 			files = (
 				3A42230922F6891C001D12C2 /* LaunchScreen.storyboard in Resources */,
 				3A42230622F6891C001D12C2 /* Assets.xcassets in Resources */,
+				3ABB28D223431B9F00B90117 /* README.md in Resources */,
 				3A42230422F6891A001D12C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,20 +391,26 @@
 				3A42234A22F6AC5D001D12C2 /* AGMainCollectionViewCell.m in Sources */,
 				3A42234B22F6AC5D001D12C2 /* AGMainTableViewController.m in Sources */,
 				3A42235E22F6B11B001D12C2 /* AGBlueThemePack.m in Sources */,
+				3ABB28C4234238E400B90117 /* NSURL+AGThemeManager.m in Sources */,
 				3A42236522F6C894001D12C2 /* AGFileThemePack.m in Sources */,
+				3ABB28B82342319700B90117 /* UIColor+AGThemeManager.m in Sources */,
 				3A42230122F6891A001D12C2 /* ViewController.m in Sources */,
 				3A42236822F6CB2B001D12C2 /* AGDataThemePack.m in Sources */,
 				3A42232022F68A9E001D12C2 /* AGThemeManager.m in Sources */,
-				3A42236C22F6D8D6001D12C2 /* NSObject+AGThemeManager.m in Sources */,
+				3A42236C22F6D8D6001D12C2 /* UIView+AGThemeManager.m in Sources */,
 				3A42230C22F6891C001D12C2 /* main.m in Sources */,
+				3ABB28CB23429FCB00B90117 /* UIViewController+AGThemeManager.m in Sources */,
 				3A42235222F6AD27001D12C2 /* AGThemePackCollectionViewCell.m in Sources */,
 				3A42235C22F6B11B001D12C2 /* AGCustomThemeConstKeys.m in Sources */,
 				3A42234F22F6ACBE001D12C2 /* AGThemePackCollectionViewController.m in Sources */,
 				3A42234922F6AC5D001D12C2 /* AGMainMessageCell.m in Sources */,
-				3A42231F22F68A9E001D12C2 /* AGThemePackBox.m in Sources */,
+				3A42231F22F68A9E001D12C2 /* AGThemeCollection.m in Sources */,
+				3ABB28BE234231D200B90117 /* UIImage+AGThemeManager.m in Sources */,
+				3ABB28BB234231B000B90117 /* UIFont+AGThemeManager.m in Sources */,
 				3A42231E22F68A9E001D12C2 /* AGThemePack.m in Sources */,
 				3A42234C22F6AC5D001D12C2 /* AGMainCollectionViewController.m in Sources */,
 				3A4222FE22F6891A001D12C2 /* AppDelegate.m in Sources */,
+				3ABB28CE2343049100B90117 /* AGDarkThemePack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +556,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3MK3532499;
 				INFOPLIST_FILE = AGThemeManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -532,6 +575,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3MK3532499;
 				INFOPLIST_FILE = AGThemeManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

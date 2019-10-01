@@ -24,7 +24,7 @@
         
         // 添加元素
         self[kAGThemePackHomeCellContentTextColor] = [UIColor orangeColor];
-        self[kAGThemePackHomeCellContentTextFont] = [UIFont systemFontOfSize:10];
+        self[kAGThemePackHomeCellContentTextFont] = [UIFont systemFontOfSize:16];
         self[kAGThemePackHomeCellIconImageName] = @"ic_share_weibo";
         
     }

@@ -1,35 +1,37 @@
 //
-//  AGThemePackBox.m
+//  AGThemeCollection.m
 //  
 //
 //  Created by JohnnyB0Y on 2019/8/4.
 //  Copyright © 2019 JohnnyB0Y. All rights reserved.
 //
 
-#import "AGThemePackBox.h"
+#import "AGThemeCollection.h"
 #import "AGThemePack.h"
 
-@interface AGThemePackBox ()
+@interface AGThemeCollection ()
 
 @property (nonatomic, strong) NSMutableDictionary *dictM;
 
 @end
 
-@implementation AGThemePackBox
+@implementation AGThemeCollection
+@synthesize defaultPack = _defaultPack;
 
 #pragma mark - ----------- Life Cycle -----------
-+ (instancetype)newWithCurrentTheme:(NSString *)theme
++ (instancetype)newWithDefaultTheme:(NSString *)theme
 {
-    AGThemePackBox *packManager = [[self alloc] initWithCurrentTheme:theme];
+    AGThemeCollection *packManager = [[self alloc] initWithDefaultTheme:theme];
     return packManager;
 }
 
-- (instancetype)initWithCurrentTheme:(NSString *)theme
+- (instancetype)initWithDefaultTheme:(NSString *)theme
 {
     self = [super init];
     
     if ( self ) {
         NSParameterAssert(theme);
+        _defaultTheme = [theme copy];
         _currentTheme = [theme copy];
     }
     
@@ -60,6 +62,7 @@
     for (NSString *key in self.dictM.allKeys) {
         
         if ( [key isEqualToString:theme] ) {
+            _prevTheme = [_currentTheme copy];
             _currentTheme = [theme copy];
             return YES;
         }
@@ -77,11 +80,22 @@
     return _dictM;
 }
 
-- (AGThemePack *)themePack
+- (AGThemePack *)currentPack
 {
     return [self.dictM objectForKey:self.currentTheme];
 }
 
+- (AGThemePack *)defaultPack
+{
+    if ( nil == _defaultPack ) {
+        _defaultPack = [self.dictM objectForKey:_defaultTheme];
+    }
+    return _defaultPack;
+}
+
+- (AGThemePack *)prevPack
+{
+    return [self.dictM objectForKey:self.prevTheme];
+}
+
 @end
-
-

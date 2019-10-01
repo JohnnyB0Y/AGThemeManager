@@ -11,6 +11,7 @@
 #import "AGOrangeThemePack.h"
 #import "AGPurpleThemePack.h"
 #import "AGBlueThemePack.h"
+#import "AGDarkThemePack.h"
 
 @interface AppDelegate ()
 
@@ -22,13 +23,15 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     // 配置主题
-    AGThemePackBox *themePackBox = [AGThemePackBox newWithCurrentTheme:kAGOrangeThemePack];
-    [themePackBox ag_registerThemePack:[AGOrangeThemePack newWithPackName:kAGOrangeThemePack]];
-    [themePackBox ag_registerThemePack:[AGPurpleThemePack newWithPackName:kAGPurpleThemePack]];
-    [themePackBox ag_registerThemePack:[AGBlueThemePack newWithPackName:kAGBlueThemePack]];
-    [AGThemeManager sharedInstance].themePackBox = themePackBox;
+    AGThemeCollection *themeCollection = [AGThemeCollection newWithDefaultTheme:kAGOrangeThemePack];
+    [themeCollection ag_registerThemePack:[AGOrangeThemePack newWithPackName:kAGOrangeThemePack]];
+    [themeCollection ag_registerThemePack:[AGPurpleThemePack newWithPackName:kAGPurpleThemePack]];
+    [themeCollection ag_registerThemePack:[AGBlueThemePack newWithPackName:kAGBlueThemePack]];
+    [themeCollection ag_registerThemePack:[AGDarkThemePack newWithPackName:kAGDarkThemePack]]; // 黑暗模式
+    [AGThemeManager sharedInstance].themeCollection = themeCollection;
     // 打开调试日志
     [AGThemeManager sharedInstance].openLog = YES;
+    [AGThemeManager sharedInstance].systemDarkThemeName = kAGDarkThemePack; // 指定黑暗模式的主题包名
     
     return YES;
 }

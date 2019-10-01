@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "AGThemeManager" # 项目名称
-  s.version      = "0.0.1"        # 版本号 与 你仓库的 标签号 对应
+  s.version      = "0.1.0"        # 版本号 与 你仓库的 标签号 对应
   s.license      = "MIT"          # 开源证书
   s.summary      = "主题包管理，动态更新全局主题元素。" # 项目简介
 
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.source_files = "AGThemeManager/Core/**/*.{h,m}" # 你代码的位置， AGThemeManager/*.{h,m} 表示 AGThemeManager 文件夹下所有的.h和.m文件
   s.requires_arc = true # 是否启用ARC
 
-  s.platform     = :ios, "7.0" # 平台及支持的最低版本
+  s.platform     = :ios, "8.0" # 平台及支持的最低版本
   # s.ios.deployment_target = '7.0'
   # s.osx.deployment_target = '10.8'
   # s.watchos.deployment_target = '2.0'

@@ -81,6 +81,7 @@ static NSString * const kAGThemeName = @"kAGThemeName";
 {
     AGViewModel *vm = self.themePackVMS[indexPath.item];
     [[AGThemeManager sharedInstance] ag_changeTheme:vm[kAGThemeName]];
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (AGVMSection *)themePackVMS

@@ -37,17 +37,16 @@
     self.imageView.bounds = CGRectMake(0, 0, 30, 30);
     self.imageView.center = self.contentView.center;
     
-    __weak typeof(self) weakSelf = self;
-    [self ag_setupThemeUsingBlock:^(NSString * _Nonnull theme, AGThemePack * _Nonnull pack) {
-        __strong typeof(weakSelf) self = weakSelf;
-        if ( nil == self ) return;
-        // ...
-        self.backgroundColor = pack[kAGThemePackHomeCellContentTextColor];
-        
-        self.imageView.image = [UIImage imageNamed:pack[kAGThemePackHomeCellIconImageName]];
-    }];
+    [self ag_themeSupport];
+    [self ag_themeExecute];
+}
+
+- (void)traitCollectionDidChange:(UITraitCollection *)previousTraitCollection
+{
+    [super traitCollectionDidChange:previousTraitCollection];
     
-    [self ag_executeSetupThemeBlock];
+    self.backgroundColor = [UIColor ag_themeForKey:kAGThemePackHomeCellContentTextColor];
+    self.imageView.image = [UIImage ag_themeForKey:kAGThemePackHomeCellIconImageName];
 }
 
 #pragma mark - ----------- Getter Methods -----------
@@ -57,13 +56,6 @@
         _imageView = [[UIImageView alloc] init];
     }
     return _imageView;
-}
-
-- (void)dealloc
-{
-    if ( [AGThemeManager sharedInstance].openLog ) {
-        NSLog(@"AGMainCollectionViewCell dealloc!");
-    }
 }
 
 @end
