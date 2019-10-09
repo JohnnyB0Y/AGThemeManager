@@ -13,7 +13,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface AGVMSection : NSObject
-<NSCopying, NSMutableCopying, NSSecureCoding, AGVMJSONTransformable>
+<NSCopying, NSMutableCopying, NSSecureCoding>
+
+@property (class, readonly) AGVMSection *defaultInstance;
 
 @property (nonatomic, strong, nullable) AGViewModel *headerVM;
 @property (nonatomic, strong, nullable) AGViewModel *footerVM;
@@ -275,24 +277,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void) ag_enumerateHeaderFooterUsingBlock:(void(NS_NOESCAPE^)(AGViewModel *vm, NSUInteger idx, BOOL *stop))block;
 
 
-#pragma mark 归档持久化相关
-/** 添加到支持 归档(NSKeyedArchiver)、转Json字符串当中的 Key。*/
-- (void) ag_addArchivedCommonVMKey:(NSString *)key;
-- (void) ag_addArchivedHeaderVMKey:(NSString *)key;
-- (void) ag_addArchivedFooterVMKey:(NSString *)key;
-- (void) ag_addArchivedItemArrMKey:(NSString *)key;
-
-/** 添加到支持 归档(NSKeyedArchiver)、转Json字符串当中的 Key，使用类内置的key */
-- (void) ag_addAllArchivedObjectUseDefaultKeys;
-
-/** 移除要归档和转字符串的 keys */
-- (void) ag_removeArchivedCommonVMKey;
-- (void) ag_removeArchivedHeaderVMKey;
-- (void) ag_removeArchivedFooterVMKey;
-- (void) ag_removeArchivedItemArrMKey;
-- (void) ag_removeAllArchivedObjectKeys;
-
-
 #pragma mark - map、filter、reduce
 - (AGVMSection *) map:(NS_NOESCAPE AGVMMapBlock)block;
 - (AGVMSection *) filter:(NS_NOESCAPE AGVMFilterBlock)block;
@@ -303,6 +287,35 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype) init NS_UNAVAILABLE;
 + (instancetype) new NS_UNAVAILABLE;
 - (NSString *) ag_debugString;
+
+@end
+
+typedef NS_ENUM(NSUInteger, AGVMSectionDataType) {
+    AGVMSectionDataTypeCommon = 1, ///< 公共数据
+    AGVMSectionDataTypeHeader, ///< 头视图数据
+    AGVMSectionDataTypeFooter, ///< 尾视图数据
+    AGVMSectionDataTypeItemArr, ///< 列表数据
+};
+
+#pragma mark - 归档持久化
+@interface AGVMSection (AGVMArchived)
+
+- (void) ag_addArchivedKey:(NSString *)key forType:(AGVMSectionDataType)type;
+- (void) ag_removeArchivedKeyForType:(AGVMSectionDataType)type;
+
+- (void) ag_addAllArchivedObjectUseDefaultKeys;
+- (void) ag_removeAllArchivedKeys;
+
+@end
+
+#pragma mark - 序列化
+@interface AGVMSection (AGVMSerializable) <AGVMJSONTransformable>
+
+- (void) ag_addSerializableKey:(NSString *)key forType:(AGVMSectionDataType)type;
+- (void) ag_removeSerializableKeyForType:(AGVMSectionDataType)type;
+
+- (void) ag_addAllSerializableObjectUseDefaultKeys;
+- (void) ag_removeAllSerializableKeys;
 
 @end
 

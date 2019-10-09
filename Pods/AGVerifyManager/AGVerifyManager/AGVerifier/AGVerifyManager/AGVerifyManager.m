@@ -30,6 +30,11 @@ NSString * const kAGVerifyManagerCompletionBlock = @"kAGVerifyManagerCompletion
 
 @implementation AGVerifyManager
 
++ (AGVerifyManager *)defaultInstance
+{
+    return [[self alloc] init];
+}
+
 - (instancetype)init
 {
     self = [super init];
@@ -222,6 +227,43 @@ NSString * const kAGVerifyManagerCompletionBlock = @"kAGVerifyManagerCompletion
 #pragma mark -
 @implementation AGVerifyError
 
++ (AGVerifyError *)defaultInstance
+{
+    return [[self alloc] init];
+}
+
+- (AGVerifyError * _Nonnull (^)(NSString * _Nonnull))setMsg
+{
+    return ^AGVerifyError * _Nonnull(NSString * _Nonnull x) {
+        self->_msg = x;
+        return self;
+    };
+}
+
+- (AGVerifyError * _Nonnull (^)(NSInteger))setCode
+{
+    return ^AGVerifyError * _Nonnull(NSInteger x) {
+        self->_code = x;
+        return self;
+    };
+}
+
+- (AGVerifyError * _Nonnull (^)(NSDictionary * _Nonnull))setUserInfo
+{
+    return ^AGVerifyError * _Nonnull(NSDictionary * _Nonnull x) {
+        self->_userInfo = [x copy];
+        return self;
+    };
+}
+
+- (AGVerifyError * _Nonnull (^)(id _Nonnull))setContext
+{
+    return ^AGVerifyError * _Nonnull(id  _Nonnull x) {
+        self->_context = x;
+        return self;
+    };
+}
+
 #pragma mark - ----------- Override Methods ----------
 - (NSString *) debugDescription
 {
@@ -245,7 +287,7 @@ NSString * const kAGVerifyManagerCompletionBlock = @"kAGVerifyManagerCompletion
 
 AGVerifyManager * ag_newAGVerifyManager(void)
 {
-    return [AGVerifyManager new];
+    return AGVerifyManager.defaultInstance;
 }
 
 AGVerifyManagerVerifyingBlock ag_verifyManagerCopyVerifyingBlock(AGVerifyManagerVerifyingBlock block)

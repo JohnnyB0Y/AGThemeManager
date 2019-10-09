@@ -128,4 +128,7 @@ FOUNDATION_EXTERN NSString * const kAGVMImageURLText;       ///< 网络图片 �
 FOUNDATION_EXTERN NSString * const kAGVMImageURL;           ///< 网络图片 👉NSURL👈
 FOUNDATION_EXTERN NSString * const kAGVMImageURLPlaceholder;///< 占位网络图片 👉NSString👈
 
+
+FOUNDATION_EXTERN NSString * const kAGVMImageName; ///< 图片名 👉NSString👈
+
 #endif /* AGVMKeys_h */

@@ -65,8 +65,9 @@ static void *kAGViewModelProperty = &kAGViewModelProperty;
 
 - (void)setWidth:(CGFloat)width
 {
-    CGRect newFrame = CGRectMake(self.x, self.y, width, self.height);
-    [self setFrame:newFrame];
+    CGRect frame = self.frame;
+    frame.size.width = width;
+    self.frame = frame;
 }
 
 - (CGFloat)height
@@ -76,8 +77,9 @@ static void *kAGViewModelProperty = &kAGViewModelProperty;
 
 - (void)setHeight:(CGFloat)height
 {
-    CGRect newFrame = CGRectMake(self.x, self.y, self.width, height);
-    [self setFrame:newFrame];
+    CGRect frame = self.frame;
+    frame.size.height = height;
+    self.frame = frame;
 }
 
 - (CGSize)size
@@ -87,30 +89,33 @@ static void *kAGViewModelProperty = &kAGViewModelProperty;
 
 - (void)setSize:(CGSize)size
 {
-    CGRect newFrame = CGRectMake(self.x, self.y, size.width, size.height);
-    [self setFrame:newFrame];
+    CGRect frame = self.frame;
+    frame.size = size;
+    self.frame = frame;
 }
 
 - (CGFloat)x
 {
-    return self.frame.origin.x;
+    return CGRectGetMinX(self.frame);
 }
 
 - (void)setX:(CGFloat)x
 {
-    CGRect newFrame = CGRectMake(x, self.y, self.width, self.height);
-    [self setFrame:newFrame];
+    CGRect frame = self.frame;
+    frame.origin.x = x;
+    self.frame = frame;
 }
 
 - (CGFloat)y
 {
-    return self.frame.origin.y;
+    return CGRectGetMinY(self.frame);
 }
 
 - (void)setY:(CGFloat)y
 {
-    CGRect newFrame = CGRectMake(self.x, y, self.width, self.height);
-    [self setFrame:newFrame];
+    CGRect frame = self.frame;
+    frame.origin.y = y;
+    self.frame = frame;
 }
 
 - (CGPoint)origin
@@ -120,8 +125,9 @@ static void *kAGViewModelProperty = &kAGViewModelProperty;
 
 - (void)setOrigin:(CGPoint)origin
 {
-    CGRect newFrame = CGRectMake(origin.x, origin.y, self.width, self.height);
-    [self setFrame:newFrame];
+    CGRect frame = self.frame;
+    frame.origin = origin;
+    self.frame = frame;
 }
 
 - (CGFloat)centerX

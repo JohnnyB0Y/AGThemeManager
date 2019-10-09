@@ -16,13 +16,16 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (UIColor *) ag_colorWithHex:(NSString *)hex;
 
++ (UIColor *) ag_colorWithHex:(NSString *)hex alpha:(CGFloat)alpha;
+
 - (UIImage *) ag_colorImage;
 
 @end
 
-UIColor * ag_newRGBColor(CGFloat r, CGFloat g, CGFloat b);
-UIColor * ag_newRGBAColor(CGFloat r, CGFloat g, CGFloat b, CGFloat a);
-UIColor * ag_newHexColor(NSString *hexString);
-UIColor * ag_newRandomColor(void);
+FOUNDATION_EXTERN UIColor * ag_newRGBColor(CGFloat r, CGFloat g, CGFloat b);
+FOUNDATION_EXTERN UIColor * ag_newRGBAColor(CGFloat r, CGFloat g, CGFloat b, CGFloat a);
+FOUNDATION_EXTERN UIColor * ag_newHexColor(NSString *hexString);
+FOUNDATION_EXTERN UIColor * ag_newHexColorWithAlpha(NSString *hexString, CGFloat alpha);
+FOUNDATION_EXTERN UIColor * ag_newRandomColor(void);
 
 NS_ASSUME_NONNULL_END

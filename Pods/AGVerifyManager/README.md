@@ -4,6 +4,8 @@
 - 因为用户需要验证的数据是变化且各不相同的，所以把变化隔离开来，独立封装。
 - 验证的时候需要集中处理，所以用代码块统一了起来。
 
+![AGVerifyManagerDemo.png](https://upload-images.jianshu.io/upload_images/331623-b6ccc3d819e984dc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/350)
+
 ### cocoapods 集成
 ```
 platform :ios, '7.0'
@@ -45,7 +47,7 @@ ATWhiteSpaceVerifier *whiteSpaceVerifier = [ATWhiteSpaceVerifier new];
     
 // 4. 准备验证
 __weak typeof(self) weakSelf = self;
-[self.verifyManager ag_addVerifyForKey:@"k" verifying:^(id<AGVerifyManagerVerifying> start) {
+[self.verifyManager ag_addVerifyForKey:@"Key" verifying:^(id<AGVerifyManagerVerifying> start) {
         
     __strong typeof(weakSelf) self = weakSelf;
         
@@ -97,7 +99,7 @@ __weak typeof(self) weakSelf = self;
 }];
 
 // 5. 执行验证
-[self.verifyManager ag_executeVerifyBlockForKey:@"K"];
+[self.verifyManager ag_executeVerifyBlockForKey:@"Key"];
 
 ```
 

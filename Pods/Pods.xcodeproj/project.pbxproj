@@ -3,269 +3,273 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		001B04A25717BCF1A11A4DDFB06FE2DD /* AGVMSection.h in Headers */ = {isa = PBXBuildFile; fileRef = A977AC07B6310520D98E3222A415152F /* AGVMSection.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0102AC60B7FD01287C95291B018CCB5B /* AGCategories-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A83DFF33611D15DF5AA8600758B9F92F /* AGCategories-dummy.m */; };
-		04C41A13E91EB2E05D50F99D6AF1438B /* NSString+AGJudge.m in Sources */ = {isa = PBXBuildFile; fileRef = 4566369B0B69B29CE7306B48DA13A68E /* NSString+AGJudge.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		09AC271A2799B0915411EF3A66F9CB96 /* NSString+AGJudge.h in Headers */ = {isa = PBXBuildFile; fileRef = B93C5DDBC82C9B3C44E6B650F99B289E /* NSString+AGJudge.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0F2337F9AC759951AA9F0CF5DAD7246F /* AGVMSharedPackager.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A1E1E86F84C7C788188D96E405C34F /* AGVMSharedPackager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		10D7C51AB6D1A1B8EF9108AE061F30EE /* UICollectionReusableView+AGViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CA474184BD08EC604D3A1EA3394E7622 /* UICollectionReusableView+AGViewModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		14B6DE4B059E6A98E3C4288231865BA6 /* UIView+AGViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F0ED8AF410979591AAE2C36E685188 /* UIView+AGViewModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		18D634215ECC4CF5EA942ABF71AA0F2E /* NSFileManager+AGFolderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A0C1BA0676FADB9DBB1F72FD0E953 /* NSFileManager+AGFolderOperation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		197FF790EB5B9FC276E2F52F2A17A51C /* AGVMKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 9966958A0405A08C1A8C467A7E0A9FD4 /* AGVMKeys.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		1CE583D546FFCE5477A9EB939643CE0A /* AGVMKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 698D2FF651858B39EF77680A9147A517 /* AGVMKeys.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1EED8FDFE54A670FD90B770DA627E19C /* AGVMKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AD34025E33F4DC92DEDE53E26E16DB40 /* AGVMKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		21A7B4701985091A7989C1F02232A482 /* UIView+AGViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C0C15370C1D67D5454B17924FB3A7C4 /* UIView+AGViewModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		25C52D3CF792BC01DFCFF239C44E977D /* UIImage+AGTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E30A86936D8D4A48DCB63E4CAED92AE /* UIImage+AGTransform.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		276EE159C1CE6570DF2A929A2B96BA4C /* NSArray+AGViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 77A48770875270B5B55A347C2D6ED31E /* NSArray+AGViewModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		282FF46DC883E5666954AD529452BCF0 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 395FC6D8EC1DA17A4766D0DDBF4FCC17 /* SVProgressHUD-dummy.m */; };
-		290B70F830FB3BBA2CEB50F9DBE5BA29 /* AGVerifyManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E8D358095E56D126D7787CC314C4AE8 /* AGVerifyManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2E3A4052FB266CFAB2E3EC6B33E56ED7 /* AGVMManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E3CDE97DE03D544902B34E09608206 /* AGVMManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2F303F02C31F9A631237E976589970CA /* NSBundle+AGSupportCocoapods.h in Headers */ = {isa = PBXBuildFile; fileRef = 177D185A46E39E97DC7AEB106619F9A0 /* NSBundle+AGSupportCocoapods.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		315EB00E7E8A4C74FFBF815E066449FD /* Pods-AGThemeManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA96685CEFFEEDA8EC7054750FBA9F02 /* Pods-AGThemeManager-dummy.m */; };
-		33AE0D2098C3956257707F82DB2B207E /* AGTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A05B55DD12FC48DA044FF2FF70C13932 /* AGTimerManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		3997A31F56247BE41FF8B8296274E01D /* NSBundle+AGSupportCocoapods.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA30B3D0D7F8FAF03A843D68FF18B63 /* NSBundle+AGSupportCocoapods.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		3B3B4BCD3230C1EFB24BEBE597499863 /* UITableViewHeaderFooterView+AGViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2395B71A8FE3935C2CFEB0A03D1696EA /* UITableViewHeaderFooterView+AGViewModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3BDB4BAB5AE6B00F96E2C94E2EE36959 /* NSFileManager+AGFolderPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C579053AE1E4CC3F7AE71B9F1AC2434 /* NSFileManager+AGFolderPath.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		3D553119A2CC2B212B2CEA2FECD5C0E0 /* NSDate+AGGenerate.h in Headers */ = {isa = PBXBuildFile; fileRef = 741E63E6B729D4625F4DBD6624EE1BD5 /* NSDate+AGGenerate.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4114634F43E5E317BA640DE6D5BA671D /* AGVMProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = CAAB46F4C2B5A35873BE733BE3FB4BC3 /* AGVMProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		455AFB1E3675ED85FDC6089E810F8DE3 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC153D0AE6CE5D42C68529D8E652DBA /* SVProgressHUD.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		47DF090AE6BE9FCC4CC4539B71A711CA /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9FB239583E567FE83094C94711E149 /* SVIndefiniteAnimatedView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		4E0FB621EED13FF7DF2C75A39576FA94 /* UITableViewHeaderFooterView+AGViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1B806DF7BCC1642FCB55541D540536 /* UITableViewHeaderFooterView+AGViewModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		52A9E8F638B9EC934733FFEDAA862413 /* AGVMNotifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 77A59CA30D4176CC43FA1D3F0F5B204D /* AGVMNotifier.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5866D1B71BC95CB40151FAB4BB0D466A /* AGTimerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D592096E3257C5E60513C0E752A9B73F /* AGTimerManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5D4E18E3071D4B9DADADFC7253115F17 /* AGTimerManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18539D2E4121FDA110D87CF91D509AB2 /* AGTimerManager-dummy.m */; };
-		5D8091CFAE00366B03E8CE3123DCFAFC /* NSArray+AGViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC1B6B8BF60E8AF953D2155A55277B5 /* NSArray+AGViewModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		5E8C65759193AA936BFB250154406505 /* NSFileManager+AGFolderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 596F3E05AEE9C0F909E0DEF0AFB44B1A /* NSFileManager+AGFolderOperation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		628D516B805B20C84E55C7A1B1894ADC /* AGViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A25939A4201963505A55F8EF60F7AC /* AGViewModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		62F959A73AD3DEF406619BE4A04445BA /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = E59E826388F920BDDCA081B4096D15F7 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		68F8BFA1C176DA6E6F1C50570B76147A /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1FE57E0DC9ADE536B0D4EB0823CF02 /* SVProgressAnimatedView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		6C5E8194F61C78D64E4D2B3D39C21801 /* UITableViewCell+AGViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 793F4DEAC813604386C27A31F661AB9F /* UITableViewCell+AGViewModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		6DC39F6AC67AAF5F3A4D33445230E02F /* NSFileManager+AGFolderPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2C2F6DEDA6D2BD1A3DAA6BD9A416DA /* NSFileManager+AGFolderPath.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7051CC23BF836F387145401E3DD5282C /* NSDictionary+AGViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A48BBBFE3429BD2F42C85071EB90969C /* NSDictionary+AGViewModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		70B259A07E40D453482687329C8D9C43 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1969E2B4C74505522896FD9A3E8ACE /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		71836400C6EF7EDF5DB4D0F458A66E61 /* UIImage+AGGenerate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0CF385D407F6A9789041A85C86D28 /* UIImage+AGGenerate.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		786E48C49B1C3A115E371DC8F1E8D99F /* AGCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 40393FA0EA04B7A877A23A55D73EE7FE /* AGCategories.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7DB20C50ED771580CE552CDEC391A47D /* AGTMKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC825B71C1450F6424A3525329E3613 /* AGTMKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8735D06B2072D5D83F8754CE95A98C67 /* UICollectionViewCell+AGViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 322306120A7E088574A17C9A6E977B82 /* UICollectionViewCell+AGViewModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		8AFFFF19D5624BC8AEE1CECD263ACF4B /* UIScreen+AGViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF0B2EC732382F5403C7908A7567532 /* UIScreen+AGViewModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		8BC4E1D59387F6A09D2E5EE4425B54A0 /* AGVMManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F2A131098513173AAC1AB2207FFD5 /* AGVMManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		8D828BEA28F308E27068B551B5416178 /* UITableViewCell+AGViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B93995E8D4D784E6C8B37C37A80B82C3 /* UITableViewCell+AGViewModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		901D03154A98DB95BC9451A9ABEA0AA5 /* NSString+AGViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C8CCA6B6C02219184CFE8CBD2BA2078F /* NSString+AGViewModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		91EC8B31512C394393DD03CFFD81356F /* UITableView+AGViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B7A50228E994F98742188E8D85E140 /* UITableView+AGViewModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		937E5BED8B7F502BC2DE5BD4FDD258BF /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CF77C8CA32DDCFDB781F5BABD741EC3B /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		986CE22FFCEEFC4F3207D9E8A80CCF95 /* UICollectionView+AGViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 113FE77A6A05E830E1227B4A2A0D4031 /* UICollectionView+AGViewModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		9C2541F3D9F045F41F8DE8BE0293A5E1 /* UICollectionReusableView+AGViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDCD3F8C4182D76A5EE655D477300F8 /* UICollectionReusableView+AGViewModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		9D9C69AEFC515F3ED105DA45F624BE4E /* NSDate+AGGenerate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9526E4C256526EA938CE300525D3B2E9 /* NSDate+AGGenerate.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		9D9E9AAC6ACC88E37E33CE07A58D4842 /* UIViewController+AGViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE122919D74548A56D101667CDE52867 /* UIViewController+AGViewModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		A9548AE1C02AC6C7787EF5C7E709B9C7 /* UICollectionView+AGViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CC687177367C26316C507E3BFB455F8 /* UICollectionView+AGViewModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		ACF3062454EF3336D3278D71FED9F8B6 /* AGVerifyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 111DCF792DADACB3F3A1B3041C5A20C4 /* AGVerifyManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		ADD53F3FD2715A804ED11D9F1F506441 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C427C4084F1761412CD5A2CBD5D3AB /* SVRadialGradientLayer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		B4E72E3732E56329F788BF3CF871BD18 /* NSString+AGViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = FDC32C0EA6BC8F10309F4EF6299AC27D /* NSString+AGViewModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B5AD6BE8795F173155975A04D3A7BD0C /* UIColor+AGExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 579A5EF4942435C2794F4B2B77D91471 /* UIColor+AGExtensions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		BB76999D233CF1179A5915FFAB73AB2C /* UICollectionViewCell+AGViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B3459EAD9B676BB6BF05C1FD60412392 /* UICollectionViewCell+AGViewModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C37F8C5B64F974EE207C52E980EBCE1E /* AGVMFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = AE03AABA5A43D4DA7E74E5375C6D6873 /* AGVMFunction.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C9C38391F4A8C2C8117637AC58D24137 /* UITableView+AGViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 13662DFCE9AAB9A4506FD1580DC49900 /* UITableView+AGViewModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C9E4C30090C8820C455401B0EEBE588D /* NSDictionary+AGViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E67D332FC023B5F9A470B48D996259 /* NSDictionary+AGViewModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		CF2E95BB99EE69CBA4753408E2CE7AF6 /* UIImage+AGGenerate.h in Headers */ = {isa = PBXBuildFile; fileRef = C729FE930C8FD50B0315D7C9FD023228 /* UIImage+AGGenerate.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D0E01675AAA4F22C9F0332354563D778 /* UIScreen+AGViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B8ED9B48A34DF2B3A791D4992DEA3100 /* UIScreen+AGViewModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D9A5B75ECC381194F34A57550623D9DE /* AGViewModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E31CA014A507F071A20090608792660A /* AGViewModel-dummy.m */; };
-		E2088CB1AF43E85F60961CA5C0DD3AEB /* AGVMCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FBD66D2D2C92AFAAE96AC66CFE717C /* AGVMCommand.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		E21FC89622300A71A522AC65B9A557EE /* AGVMFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 720BB9AF1927CB01641FD7603F5D6B41 /* AGVMFunction.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E2FE2E727FD630ED95CAAE65C0C3F908 /* AGViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C16E189BB97179B7A99FE5349FD1FD4 /* AGViewModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E4FAB90415C2C90B132BC48656FD477E /* AGVMSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE10175ED06F935A91F5246DFCF17B4 /* AGVMSection.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		E64E7721F1C11A6498A7AFF5BFFDC854 /* UIColor+AGExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = C5F5C3338845E43C5F1A76104B97641A /* UIColor+AGExtensions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E7612FFB2940B7BA3273D653F240E73F /* AGVMSharedPackager.h in Headers */ = {isa = PBXBuildFile; fileRef = 851149BE6859E172D017B5FD0BB5691F /* AGVMSharedPackager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EDC4A25D5CF74B906F308A6F0808F8B3 /* AGVMNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = E65703825B733397E11A3E34053ABB11 /* AGVMNotifier.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		EE995C9B63717B07899946D6A1BA3277 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 537E44BACB5C15EDA693D197156BCB27 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F1BDA98BD1A63B8E4EC68A7ABCA21F56 /* UIImage+AGTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C34D992AF3F4A1A77129F5ABC97273 /* UIImage+AGTransform.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		F2A7031245FAFBB5572AD8D314C95DDA /* UIViewController+AGViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = EA81DC9972882191B5D44835F8FC4A75 /* UIViewController+AGViewModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F5A484382B3F848F8C7AD2C4B50CFB9D /* AGVerifyManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AE66C795A9B2295E47D777EFFDAD2 /* AGVerifyManager-dummy.m */; };
-		FEF8455A644D31B4F5EABA9FDCC16B59 /* AGVMCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 94DD6317EBB0814BA5C9B272B5EEFFA2 /* AGVMCommand.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		063E20A89E2E5C597B99774768D60B39 /* NSString+AGJudge.h in Headers */ = {isa = PBXBuildFile; fileRef = AF5BA49BB8B9B76ADA4ACAA17426220B /* NSString+AGJudge.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0D65E2C93DF7374D1A8B211383F38EF7 /* UICollectionView+AGViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 320CB5338C3EFC7BC57EBF831B1FA52F /* UICollectionView+AGViewModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1965C31FD4263162570F1D361A962D38 /* UIViewController+AGViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A771472219F85431508F3026DD1CC17B /* UIViewController+AGViewModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1B77D7340EC83E839FAE3D9BB7DF0D1F /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A78B58523969DE2D8D14BD5F4CA1B01 /* SVProgressAnimatedView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		27E2AC09776AD099CD77AC0C706DDA37 /* NSFileManager+AGFolderPath.m in Sources */ = {isa = PBXBuildFile; fileRef = F92BBF958170C8BF10DA52235321D5E2 /* NSFileManager+AGFolderPath.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		325D78383E0C91D288B73BAF1FE76F3D /* NSDictionary+AGViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 266059E2801E99A33CCEBF0D3C96E8F6 /* NSDictionary+AGViewModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		34FA15EE8EC52736EED9F09B7B365462 /* UITableView+AGViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A9990B9F7549BB2BA51BB83AA69FEDA2 /* UITableView+AGViewModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		35AAB3BD3EC9B2F4151C8A8466EA695B /* AGTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E17F4A8565F58BE0B084C07EB62F66 /* AGTimerManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		36AC2370B2D52FCE509642CE66451B2F /* AGCategories-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B40D0EE995A8ED725BAF655865BC3B25 /* AGCategories-dummy.m */; };
+		36EEB8C24CFFB150C3CA7970523A68C0 /* UICollectionViewCell+AGViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF68CAEDF4D6EFAB0686CE7DD9BD6854 /* UICollectionViewCell+AGViewModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		37A3E510947F02DB3D52BAF11C09310E /* NSDate+AGGenerate.h in Headers */ = {isa = PBXBuildFile; fileRef = DD3EF8395E18005030CC4ACFB4D994FE /* NSDate+AGGenerate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		39E2CDB19EF8405982E46F5032202602 /* NSFileManager+AGFolderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E69A6722F8DA4719DC326E7F60334E /* NSFileManager+AGFolderOperation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3A647744CDBE7F1975EB1AE10867381E /* AGVMNotifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C19D12E59E122C58DE15E8EB8FAC75F /* AGVMNotifier.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3D71C74B08D9556634BFBC77489F6467 /* AGVMKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E642C01374E46C0ADD62C8C54F5A0BB /* AGVMKeys.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		47BCD5648946ED19B7F80F38F787DB2D /* NSString+AGViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1DCBB9334C997549A350A45AE48FB0 /* NSString+AGViewModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		504CC010FC963120EDDA02E9D2C2C1B8 /* NSDictionary+AGViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A546279C15985512FEE1C59297232A01 /* NSDictionary+AGViewModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		511001C1C74906AD751B1EBCB6937199 /* UIImage+AGTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = A99AECD5190955BB39DB3591DCC365B4 /* UIImage+AGTransform.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		51BCF49A322C1D739E2988729D6C6C45 /* UIView+AGViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 077AF5AB4BED4ABBB41FC01242425F0D /* UIView+AGViewModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		52966E6B1CF84BFFCDAE9BBD7A131361 /* UIColor+AGExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 31DA2D5A379338AEDE05C6A9FBB4EB31 /* UIColor+AGExtensions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		55F599A3BF37F02BF94971B2B8DC8318 /* AGVMNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B63F8F66752199043DEC887FC27A3C3 /* AGVMNotifier.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		563977CD7C2EAE1B41626A63A69D3E00 /* Pods-AGThemeManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 390D2F19FEB327C7D766A4CF7255316B /* Pods-AGThemeManager-dummy.m */; };
+		56BC27D1E6C748409D085B72FBFB8C7F /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F38FC783F07425D58B6AA09120B2BB /* SVRadialGradientLayer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5B2961495EBF8D85B5DD6D93F920A0A9 /* NSString+AGViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A894EA9B32017C278F7D3D3E2D15DF87 /* NSString+AGViewModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5C430ADD63D445CCB2228A943383DC68 /* AGVMSharedPackager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9415B2C3745457DF12C0621A6FD87A17 /* AGVMSharedPackager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		65BF7E3994C534924B5136B52A1C725B /* UITableViewHeaderFooterView+AGViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 930C1BD0EFB0F4C5D3E399ACF66D5AA9 /* UITableViewHeaderFooterView+AGViewModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6958F12863A6B55AEA164F886EF6346B /* AGBaseVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = E800C32A83A1B5F1065A119E447DD8FA /* AGBaseVerifier.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6F6FF746FF91D8EA56FED13AA0D968B3 /* AGVerifyManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 236202D95E531E6C14D10AD2F7574893 /* AGVerifyManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		72EA5E1F693FE30D163352247713AEFF /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B607DE971A3203E15EE98CE9C140D2B /* SVProgressHUD.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		758CC246792C879FAE943148106880D2 /* UIImage+AGGenerate.h in Headers */ = {isa = PBXBuildFile; fileRef = B31A1AD82AA48A0738E09B4108DF29AC /* UIImage+AGGenerate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7B2347A14A7AE2D06ABCAB613CA7085E /* NSFileManager+AGFolderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = C8B9257B9ACB66FAF2C73EBC21883F11 /* NSFileManager+AGFolderOperation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7DEA1756F014F83B98EFE756F5981653 /* UITableView+AGViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD1588419B379E11BB868152DD45408 /* UITableView+AGViewModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		805917004BCF2D213C77C813547FFD38 /* UIColor+AGExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 259EBDA63045E63CC6D0C27D4875B1BE /* UIColor+AGExtensions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		833AE42A0726D19FEF14CD3EF83A1B7C /* AGViewModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0CF1B3389BA266AA67D2C2F78DEEB0 /* AGViewModel-dummy.m */; };
+		8649FA19DB7585214273380164946561 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = AF1B6B9CAFC63834ED942FF7EBC957B0 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		88B442677A6A2AA778CEAE58B0033F9A /* NSFileManager+AGFolderPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 609EA2BB311B1D8FAF01259F5279A3B3 /* NSFileManager+AGFolderPath.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		89EE2F25DEA5725051E787A54C2ED7B6 /* AGViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDDBF8F5535F14FA28580C14F98FD2D /* AGViewModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8A37DDCDB313F094655C67F106D9BF11 /* AGVMSection.m in Sources */ = {isa = PBXBuildFile; fileRef = B72FCFE1DCCCD80D7131DF522A4111D1 /* AGVMSection.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8AD8D8986BC73A2CC0B7718BA3E5D558 /* AGVMCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACE7350E82153FD64F3CB212FCE6CAD /* AGVMCommand.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8B5CBD7B2EEECA0E9B3D5D6B984DCA28 /* AGBaseVerifier.h in Headers */ = {isa = PBXBuildFile; fileRef = D95C295C093958A2E8DC275919CD551A /* AGBaseVerifier.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		93BAA2CD70202EF750A9F08ECA331CCD /* AGVMSection.h in Headers */ = {isa = PBXBuildFile; fileRef = BE0B2C272669F77DA90AAF29CF8092CA /* AGVMSection.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9622CEA0A3D5D4159CE792694DB78732 /* NSString+AGJudge.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F90633687A00E5729B65B3B67E2502 /* NSString+AGJudge.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		963F37F7AFEC3CE6439820B37EF45549 /* AGTimerManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B2CD43CB10DC77182D96FD693E5083 /* AGTimerManager-dummy.m */; };
+		979EB4CF4E166687EF14947A054AAFF1 /* NSDate+AGGenerate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4856B6396A7D8CDE0552ED4F03A38DA7 /* NSDate+AGGenerate.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9E1671007F678459D6C890D7B8AF27C3 /* UICollectionReusableView+AGViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1EC0353C75BF4E237F91727A912178 /* UICollectionReusableView+AGViewModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9E5C52BE711167A4DD1065818ACBB0DB /* UITableViewCell+AGViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F37C530B642DC28910882E54A763BE13 /* UITableViewCell+AGViewModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A0AFB5D493C17BE0C9A7D6532C2B5DF3 /* UIViewController+AGViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE908E76AB2816F8A7A67FDF98B85FC9 /* UIViewController+AGViewModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A164540BEA2A3DD92ED6653C750D1F1F /* UIImage+AGTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CC4E1AD04836DE6009D0D2AD1C1559 /* UIImage+AGTransform.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A396CCFFD7F3DAE9EBBB930DF7694133 /* AGTMKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 13234913C068B74A32B77DB65EE6CD97 /* AGTMKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A51C4292B6CAE2A75D925693B06B155D /* AGVMKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FF874BFD50DE695FF30E3D8FFA9EC690 /* AGVMKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A5F1711E160364AC71840CA4FA8A7789 /* AGVMManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C738E068710152F4063283B431260A /* AGVMManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AA6241F58C470C889F4DB0004BA81AF1 /* NSBundle+AGSupportCocoapods.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F6E8C4AEF27A48A7F21F3BB9708EB70 /* NSBundle+AGSupportCocoapods.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AE908EAD2020D63CF3762FE87A04B618 /* UITableViewCell+AGViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B9240BDEEC1AE93E4200601AE07912FF /* UITableViewCell+AGViewModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF559EEBDEEDF421756966862ED3E746 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = ACB80F300959AFF6E2191AB8A711E1AB /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF6EB95F11F65730D1BC17239B623576 /* AGVMKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = CE15AAF1D560E11E36BDB806A563F30F /* AGVMKeys.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B020C03333A74BD468ECF1429ECEDED8 /* AGVerifyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E744503E51ADDF05FED9CE177846D6B /* AGVerifyManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B0C9D0C709DDF592B5F69A1FC7FD54D4 /* AGVerifyManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC08A9D7894EAB13AE55087477CC20D /* AGVerifyManager-dummy.m */; };
+		B35C89172B442E81228965C0B665209A /* NSArray+AGViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 996EE66F6D78B1F6D7E841968D0BC17A /* NSArray+AGViewModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B7B6C49591317D7FD113953B6698CB79 /* UIImage+AGGenerate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DB3D695885FFD4667AEED08A80F537 /* UIImage+AGGenerate.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B8A498610ABB961EACF2CD94618D249E /* NSBundle+AGSupportCocoapods.m in Sources */ = {isa = PBXBuildFile; fileRef = E41DCD8F918FD179276EC0A51CADD5DC /* NSBundle+AGSupportCocoapods.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C0E2C41633CCA2B473A186ADDE148122 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D69892E8453D56EA168ED70E29EA97 /* SVIndefiniteAnimatedView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C1079DC83C525B12DFD0244294DF148C /* AGVMCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = EBA7241E0850839E534BC8E8F7586ACE /* AGVMCommand.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C56D2A691DEE741242C7223E02682F7B /* AGVMSharedPackager.m in Sources */ = {isa = PBXBuildFile; fileRef = 78901FD69F01C6EF28AB0E571D5D993F /* AGVMSharedPackager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CEA4FCB3C2A5CB8A0277F368D553EF62 /* NSArray+AGViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E1403AB5E225659EEF5A68FF3CA50F3 /* NSArray+AGViewModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D1EBB9146AB62B30497294B7D091E79B /* AGVMProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C50FCFC4B01F2DD4D12C3B1BAF04AF35 /* AGVMProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D27159A659C6D8A81562D2062E40C29A /* AGViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 833FB5AB25573212A0DF21E0FEA2986A /* AGViewModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D3AA67C84B0F54CE04B2A6E6239B0DA0 /* UITableViewHeaderFooterView+AGViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 06D3A17982EE482857C2C5FC181FE427 /* UITableViewHeaderFooterView+AGViewModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D3CDC5A93296500AC4311EF862404265 /* UIView+AGViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 19143B63DC378A55F7DC5F4F9C698892 /* UIView+AGViewModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D7967174156301D617B5523E7B8E3E8B /* UIScreen+AGViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AE92E50E2DF6409652D98CD554431B8 /* UIScreen+AGViewModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D902FCC3B744B881E719E5059E590801 /* UICollectionReusableView+AGViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 08681F5CDEB4187DC879F56AA175BF33 /* UICollectionReusableView+AGViewModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D92F74751D8868B22B2BBB8AB23A116C /* UICollectionViewCell+AGViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 25A47A0F9DE0A57751936DEC826E34CD /* UICollectionViewCell+AGViewModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DC85A1CC87F3496C48D0CC2B09E5322F /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = C9EB628F951D6676721B0FF78E1F602D /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DDE47E31436D31356F53D528FCDCCFA2 /* AGTimerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 285CD6DDC175AB4CEDF128F7A8C3846E /* AGTimerManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E03F143C95642A1F81948DFC51479225 /* AGVMManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D540F544795F3163E004E6BBC8D05318 /* AGVMManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E4034FE000F5230E902C2E3837B500C9 /* UICollectionView+AGViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CB7CF84AB665AC347FCF11E7AB696C2D /* UICollectionView+AGViewModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E56ED51862897266BF586BA26965E137 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B848E409AFA60852D94F9810A4779A4 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E9558FB8A688DCF4493C91C77BF8B9E2 /* AGVMFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 33040B832A85EE5CF11C4DE7DF06726C /* AGVMFunction.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EA0C0299378D11A3D03104B7ABA0A03A /* AGVMFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4AD935999C2A5DF569C34DB4F15DCA /* AGVMFunction.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ED141E898A6F86747999A58190D2CBCB /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EACEA3C5EA058A3857133B2AB44ADF98 /* SVProgressHUD-dummy.m */; };
+		EFDC2AFD45EA23BA456733262AB32D16 /* AGCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = F2ED413A5D957DB4C3C283492B0223E7 /* AGCategories.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FF565D4235058C4BFB6E8D54AEF10C40 /* UIScreen+AGViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 059CD991C311125FFC5CC71AB6F7B411 /* UIScreen+AGViewModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		287DD9CB93BE0E96FFC9F7633CD1D65D /* PBXContainerItemProxy */ = {
+		005716085BE2B4519E4F257032B869E4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5D7F9E6A999489EB9D66674D9A25CB87;
-			remoteInfo = AGViewModel;
-		};
-		2E350BD7C915186EF40369F5C8EE817D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4A6B3878A2274EEFC47284E7C875CAA4;
-			remoteInfo = AGCategories;
-		};
-		7C559E78B3186EBCC74775E8D99C5B22 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0D87566A88D159C66106BC15649E117D;
-			remoteInfo = AGTimerManager;
-		};
-		83B94276C7D4A65F06707CB476D59C1C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 865290849C4982707531E9F75E7729AF;
+			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
 			remoteInfo = SVProgressHUD;
 		};
-		A2759DD65680E53AF92D225819A719E1 /* PBXContainerItemProxy */ = {
+		7128AA0CDC937B78F49DB21E0CCA9976 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4EAD755574AB548EB3DE419FBA4FBAD1;
+			remoteGlobalIDString = F8C2D151885E87872EC4AA91950BE2B2;
+			remoteInfo = AGViewModel;
+		};
+		72F1AC763964F0C773451A05B72F1A3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24EA6397EC674E5FA2F36C7169CE58E6;
 			remoteInfo = AGVerifyManager;
+		};
+		CAFC7789F8FDBCDAF41AA8D312F8652A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1326E008E998819A7C90269C07FCC7A;
+			remoteInfo = AGTimerManager;
+		};
+		DA76D5C05E838422FC142B4CC2710D5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E51445FBB7BFF638642990D1E9138A52;
+			remoteInfo = AGCategories;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03A25939A4201963505A55F8EF60F7AC /* AGViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGViewModel.m; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGViewModel.m; sourceTree = "<group>"; };
-		08B7A50228E994F98742188E8D85E140 /* UITableView+AGViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+AGViewModel.m"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UITableView+AGViewModel.m"; sourceTree = "<group>"; };
-		111DCF792DADACB3F3A1B3041C5A20C4 /* AGVerifyManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGVerifyManager.m; path = AGVerifyManager/AGVerifier/AGVerifyManager/AGVerifyManager.m; sourceTree = "<group>"; };
-		113FE77A6A05E830E1227B4A2A0D4031 /* UICollectionView+AGViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+AGViewModel.m"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UICollectionView+AGViewModel.m"; sourceTree = "<group>"; };
-		13662DFCE9AAB9A4506FD1580DC49900 /* UITableView+AGViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+AGViewModel.h"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UITableView+AGViewModel.h"; sourceTree = "<group>"; };
-		177D185A46E39E97DC7AEB106619F9A0 /* NSBundle+AGSupportCocoapods.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+AGSupportCocoapods.h"; path = "AGCategories/Categories/NSBundle/NSBundle+AGSupportCocoapods.h"; sourceTree = "<group>"; };
-		18539D2E4121FDA110D87CF91D509AB2 /* AGTimerManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AGTimerManager-dummy.m"; sourceTree = "<group>"; };
-		1C0C15370C1D67D5454B17924FB3A7C4 /* UIView+AGViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+AGViewModel.h"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UIView+AGViewModel.h"; sourceTree = "<group>"; };
-		1E30A86936D8D4A48DCB63E4CAED92AE /* UIImage+AGTransform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AGTransform.h"; path = "AGCategories/Categories/UIImage/UIImage+AGTransform.h"; sourceTree = "<group>"; };
-		226FA8B8BFAA46F95E6DD49BB319C511 /* libAGTimerManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAGTimerManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		2395B71A8FE3935C2CFEB0A03D1696EA /* UITableViewHeaderFooterView+AGViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewHeaderFooterView+AGViewModel.h"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UITableViewHeaderFooterView+AGViewModel.h"; sourceTree = "<group>"; };
-		27F0ED8AF410979591AAE2C36E685188 /* UIView+AGViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+AGViewModel.m"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UIView+AGViewModel.m"; sourceTree = "<group>"; };
-		2B5A0C1BA0676FADB9DBB1F72FD0E953 /* NSFileManager+AGFolderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+AGFolderOperation.m"; path = "AGCategories/Categories/NSFileManager/NSFileManager+AGFolderOperation.m"; sourceTree = "<group>"; };
-		2C16E189BB97179B7A99FE5349FD1FD4 /* AGViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGViewModel.h; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGViewModel.h; sourceTree = "<group>"; };
-		2CC687177367C26316C507E3BFB455F8 /* UICollectionView+AGViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+AGViewModel.h"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UICollectionView+AGViewModel.h"; sourceTree = "<group>"; };
-		2DE10175ED06F935A91F5246DFCF17B4 /* AGVMSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGVMSection.m; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGVMSection.m; sourceTree = "<group>"; };
-		322306120A7E088574A17C9A6E977B82 /* UICollectionViewCell+AGViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionViewCell+AGViewModel.m"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UICollectionViewCell+AGViewModel.m"; sourceTree = "<group>"; };
-		381B97A0F77F3E6C632710E480DCECBA /* libAGViewModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAGViewModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		395FC6D8EC1DA17A4766D0DDBF4FCC17 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		3AA9138B876324022599D625DDB2662E /* libPods-AGThemeManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AGThemeManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DE0CF385D407F6A9789041A85C86D28 /* UIImage+AGGenerate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+AGGenerate.m"; path = "AGCategories/Categories/UIImage/UIImage+AGGenerate.m"; sourceTree = "<group>"; };
-		3E8D358095E56D126D7787CC314C4AE8 /* AGVerifyManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGVerifyManager.h; path = AGVerifyManager/AGVerifier/AGVerifyManager/AGVerifyManager.h; sourceTree = "<group>"; };
-		40393FA0EA04B7A877A23A55D73EE7FE /* AGCategories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGCategories.h; path = AGCategories/Categories/AGCategories.h; sourceTree = "<group>"; };
-		4566369B0B69B29CE7306B48DA13A68E /* NSString+AGJudge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+AGJudge.m"; path = "AGCategories/Categories/NSString/NSString+AGJudge.m"; sourceTree = "<group>"; };
-		4EA30B3D0D7F8FAF03A843D68FF18B63 /* NSBundle+AGSupportCocoapods.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+AGSupportCocoapods.m"; path = "AGCategories/Categories/NSBundle/NSBundle+AGSupportCocoapods.m"; sourceTree = "<group>"; };
-		537E44BACB5C15EDA693D197156BCB27 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
-		579A5EF4942435C2794F4B2B77D91471 /* UIColor+AGExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+AGExtensions.m"; path = "AGCategories/Categories/UIColor/UIColor+AGExtensions.m"; sourceTree = "<group>"; };
-		596F3E05AEE9C0F909E0DEF0AFB44B1A /* NSFileManager+AGFolderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+AGFolderOperation.h"; path = "AGCategories/Categories/NSFileManager/NSFileManager+AGFolderOperation.h"; sourceTree = "<group>"; };
-		5D4DA259382890BDA5E07A866784CA52 /* AGTimerManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGTimerManager-prefix.pch"; sourceTree = "<group>"; };
-		5DC2A2914AAD3DDC50B367314973F8D6 /* AGViewModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AGViewModel.xcconfig; sourceTree = "<group>"; };
-		5DC825B71C1450F6424A3525329E3613 /* AGTMKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGTMKit.h; path = AGTimerManager/AGTimerManager/AGTMKit.h; sourceTree = "<group>"; };
-		5E1969E2B4C74505522896FD9A3E8ACE /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
-		669A6F511566D319C3F6A88064FC3CEE /* AGTimerManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AGTimerManager.xcconfig; sourceTree = "<group>"; };
-		698D2FF651858B39EF77680A9147A517 /* AGVMKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGVMKeys.h; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGVMKeys.h; sourceTree = "<group>"; };
-		6AFA9288C8A2672607A181F60E1B272D /* Pods-AGThemeManager-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AGThemeManager-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6C579053AE1E4CC3F7AE71B9F1AC2434 /* NSFileManager+AGFolderPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+AGFolderPath.m"; path = "AGCategories/Categories/NSFileManager/NSFileManager+AGFolderPath.m"; sourceTree = "<group>"; };
-		6E8CB2B9AA1EEEE2B94D6D9A7DCFECA8 /* libAGCategories.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAGCategories.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F1FE57E0DC9ADE536B0D4EB0823CF02 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
-		720BB9AF1927CB01641FD7603F5D6B41 /* AGVMFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGVMFunction.h; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGVMFunction.h; sourceTree = "<group>"; };
-		729AEA4A747580C39EEDE53B98976A74 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
-		741E63E6B729D4625F4DBD6624EE1BD5 /* NSDate+AGGenerate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+AGGenerate.h"; path = "AGCategories/Categories/NSDate/NSDate+AGGenerate.h"; sourceTree = "<group>"; };
-		74C35BDC9F4ED85E1C989854DFDB90EA /* AGCategories.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AGCategories.xcconfig; sourceTree = "<group>"; };
-		77A48770875270B5B55A347C2D6ED31E /* NSArray+AGViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+AGViewModel.h"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/NSArray+AGViewModel.h"; sourceTree = "<group>"; };
-		77A59CA30D4176CC43FA1D3F0F5B204D /* AGVMNotifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGVMNotifier.h; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGVMNotifier.h; sourceTree = "<group>"; };
-		793F4DEAC813604386C27A31F661AB9F /* UITableViewCell+AGViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+AGViewModel.m"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UITableViewCell+AGViewModel.m"; sourceTree = "<group>"; };
-		7D5AE66C795A9B2295E47D777EFFDAD2 /* AGVerifyManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AGVerifyManager-dummy.m"; sourceTree = "<group>"; };
-		7F9FB239583E567FE83094C94711E149 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
-		82C427C4084F1761412CD5A2CBD5D3AB /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
-		851149BE6859E172D017B5FD0BB5691F /* AGVMSharedPackager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGVMSharedPackager.h; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGVMSharedPackager.h; sourceTree = "<group>"; };
-		8A2C2F6DEDA6D2BD1A3DAA6BD9A416DA /* NSFileManager+AGFolderPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+AGFolderPath.h"; path = "AGCategories/Categories/NSFileManager/NSFileManager+AGFolderPath.h"; sourceTree = "<group>"; };
-		8DD299F2953C1A7FD8AB71C63BF13060 /* AGVerifyManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGVerifyManager-prefix.pch"; sourceTree = "<group>"; };
-		8EC153D0AE6CE5D42C68529D8E652DBA /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
-		8F61E95B1AC17C4D9B850939055CAE54 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
-		90FBD66D2D2C92AFAAE96AC66CFE717C /* AGVMCommand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGVMCommand.m; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGVMCommand.m; sourceTree = "<group>"; };
-		94DD6317EBB0814BA5C9B272B5EEFFA2 /* AGVMCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGVMCommand.h; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGVMCommand.h; sourceTree = "<group>"; };
-		9526E4C256526EA938CE300525D3B2E9 /* NSDate+AGGenerate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+AGGenerate.m"; path = "AGCategories/Categories/NSDate/NSDate+AGGenerate.m"; sourceTree = "<group>"; };
-		9966958A0405A08C1A8C467A7E0A9FD4 /* AGVMKeys.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGVMKeys.m; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGVMKeys.m; sourceTree = "<group>"; };
-		9AF0B2EC732382F5403C7908A7567532 /* UIScreen+AGViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+AGViewModel.m"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UIScreen+AGViewModel.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A05B55DD12FC48DA044FF2FF70C13932 /* AGTimerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGTimerManager.m; path = AGTimerManager/AGTimerManager/AGTimerManager.m; sourceTree = "<group>"; };
-		A1E8F8F9D6DA45ABAB1394862650F59B /* AGCategories-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGCategories-prefix.pch"; sourceTree = "<group>"; };
-		A48BBBFE3429BD2F42C85071EB90969C /* NSDictionary+AGViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+AGViewModel.h"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/NSDictionary+AGViewModel.h"; sourceTree = "<group>"; };
-		A83DFF33611D15DF5AA8600758B9F92F /* AGCategories-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AGCategories-dummy.m"; sourceTree = "<group>"; };
-		A977AC07B6310520D98E3222A415152F /* AGVMSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGVMSection.h; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGVMSection.h; sourceTree = "<group>"; };
-		AA96685CEFFEEDA8EC7054750FBA9F02 /* Pods-AGThemeManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AGThemeManager-dummy.m"; sourceTree = "<group>"; };
-		AD34025E33F4DC92DEDE53E26E16DB40 /* AGVMKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGVMKit.h; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGVMKit.h; sourceTree = "<group>"; };
-		AE03AABA5A43D4DA7E74E5375C6D6873 /* AGVMFunction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGVMFunction.m; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGVMFunction.m; sourceTree = "<group>"; };
-		AE122919D74548A56D101667CDE52867 /* UIViewController+AGViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+AGViewModel.m"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UIViewController+AGViewModel.m"; sourceTree = "<group>"; };
-		B3459EAD9B676BB6BF05C1FD60412392 /* UICollectionViewCell+AGViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionViewCell+AGViewModel.h"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UICollectionViewCell+AGViewModel.h"; sourceTree = "<group>"; };
-		B5E3CDE97DE03D544902B34E09608206 /* AGVMManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGVMManager.h; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGVMManager.h; sourceTree = "<group>"; };
-		B71BE533462B20063D0A9E980B20AD13 /* AGViewModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGViewModel-prefix.pch"; sourceTree = "<group>"; };
-		B8E67D332FC023B5F9A470B48D996259 /* NSDictionary+AGViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+AGViewModel.m"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/NSDictionary+AGViewModel.m"; sourceTree = "<group>"; };
-		B8ED9B48A34DF2B3A791D4992DEA3100 /* UIScreen+AGViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScreen+AGViewModel.h"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UIScreen+AGViewModel.h"; sourceTree = "<group>"; };
-		B93995E8D4D784E6C8B37C37A80B82C3 /* UITableViewCell+AGViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+AGViewModel.h"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UITableViewCell+AGViewModel.h"; sourceTree = "<group>"; };
-		B93C5DDBC82C9B3C44E6B650F99B289E /* NSString+AGJudge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+AGJudge.h"; path = "AGCategories/Categories/NSString/NSString+AGJudge.h"; sourceTree = "<group>"; };
-		B988913836EA7AA7CC5D1C0807310CF9 /* libAGVerifyManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAGVerifyManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5F5C3338845E43C5F1A76104B97641A /* UIColor+AGExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+AGExtensions.h"; path = "AGCategories/Categories/UIColor/UIColor+AGExtensions.h"; sourceTree = "<group>"; };
-		C6A1E1E86F84C7C788188D96E405C34F /* AGVMSharedPackager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGVMSharedPackager.m; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGVMSharedPackager.m; sourceTree = "<group>"; };
-		C729FE930C8FD50B0315D7C9FD023228 /* UIImage+AGGenerate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AGGenerate.h"; path = "AGCategories/Categories/UIImage/UIImage+AGGenerate.h"; sourceTree = "<group>"; };
-		C8CCA6B6C02219184CFE8CBD2BA2078F /* NSString+AGViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+AGViewModel.m"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/NSString+AGViewModel.m"; sourceTree = "<group>"; };
-		CA474184BD08EC604D3A1EA3394E7622 /* UICollectionReusableView+AGViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionReusableView+AGViewModel.h"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UICollectionReusableView+AGViewModel.h"; sourceTree = "<group>"; };
-		CAAB46F4C2B5A35873BE733BE3FB4BC3 /* AGVMProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGVMProtocol.h; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGVMProtocol.h; sourceTree = "<group>"; };
-		CF77C8CA32DDCFDB781F5BABD741EC3B /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
-		D592096E3257C5E60513C0E752A9B73F /* AGTimerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGTimerManager.h; path = AGTimerManager/AGTimerManager/AGTimerManager.h; sourceTree = "<group>"; };
-		D7DE52D51B02F1AB8827BD0409BAB99D /* Pods-AGThemeManager-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGThemeManager-acknowledgements.plist"; sourceTree = "<group>"; };
-		DC1B806DF7BCC1642FCB55541D540536 /* UITableViewHeaderFooterView+AGViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewHeaderFooterView+AGViewModel.m"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UITableViewHeaderFooterView+AGViewModel.m"; sourceTree = "<group>"; };
-		DE01944B9F99EF6698BD9EE1E9F70D75 /* AGVerifyManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AGVerifyManager.xcconfig; sourceTree = "<group>"; };
-		DFC35AEA015BF259F7C6B8F48F5EE15C /* Pods-AGThemeManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGThemeManager.debug.xcconfig"; sourceTree = "<group>"; };
-		E31CA014A507F071A20090608792660A /* AGViewModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AGViewModel-dummy.m"; sourceTree = "<group>"; };
-		E486682C9668FBD2D257CDAC25155077 /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E59E826388F920BDDCA081B4096D15F7 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
-		E65703825B733397E11A3E34053ABB11 /* AGVMNotifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGVMNotifier.m; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGVMNotifier.m; sourceTree = "<group>"; };
-		EA3A0ECBAC878AEE51D216A1DA0D1846 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		EA81DC9972882191B5D44835F8FC4A75 /* UIViewController+AGViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+AGViewModel.h"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UIViewController+AGViewModel.h"; sourceTree = "<group>"; };
-		EFCED3AE5092D95952E14C2F8B712816 /* Pods-AGThemeManager-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGThemeManager-resources.sh"; sourceTree = "<group>"; };
-		F1C34D992AF3F4A1A77129F5ABC97273 /* UIImage+AGTransform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+AGTransform.m"; path = "AGCategories/Categories/UIImage/UIImage+AGTransform.m"; sourceTree = "<group>"; };
-		F41F2A131098513173AAC1AB2207FFD5 /* AGVMManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGVMManager.m; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGVMManager.m; sourceTree = "<group>"; };
-		FDC32C0EA6BC8F10309F4EF6299AC27D /* NSString+AGViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+AGViewModel.h"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/NSString+AGViewModel.h"; sourceTree = "<group>"; };
-		FEC1B6B8BF60E8AF953D2155A55277B5 /* NSArray+AGViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+AGViewModel.m"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/NSArray+AGViewModel.m"; sourceTree = "<group>"; };
-		FFDCD3F8C4182D76A5EE655D477300F8 /* UICollectionReusableView+AGViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionReusableView+AGViewModel.m"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UICollectionReusableView+AGViewModel.m"; sourceTree = "<group>"; };
-		FFE881EE47310F9AFE4E07FF0EDC752D /* Pods-AGThemeManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGThemeManager.release.xcconfig"; sourceTree = "<group>"; };
+		0211709165214FEA8B83305C7F78E5EF /* libPods-AGThemeManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AGThemeManager.a"; path = "libPods-AGThemeManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		059CD991C311125FFC5CC71AB6F7B411 /* UIScreen+AGViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+AGViewModel.m"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UIScreen+AGViewModel.m"; sourceTree = "<group>"; };
+		06D3A17982EE482857C2C5FC181FE427 /* UITableViewHeaderFooterView+AGViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewHeaderFooterView+AGViewModel.h"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UITableViewHeaderFooterView+AGViewModel.h"; sourceTree = "<group>"; };
+		077AF5AB4BED4ABBB41FC01242425F0D /* UIView+AGViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+AGViewModel.m"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UIView+AGViewModel.m"; sourceTree = "<group>"; };
+		08681F5CDEB4187DC879F56AA175BF33 /* UICollectionReusableView+AGViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionReusableView+AGViewModel.h"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UICollectionReusableView+AGViewModel.h"; sourceTree = "<group>"; };
+		0A78B58523969DE2D8D14BD5F4CA1B01 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		0E1403AB5E225659EEF5A68FF3CA50F3 /* NSArray+AGViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+AGViewModel.h"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/NSArray+AGViewModel.h"; sourceTree = "<group>"; };
+		13234913C068B74A32B77DB65EE6CD97 /* AGTMKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGTMKit.h; path = AGTimerManager/AGTimerManager/AGTMKit.h; sourceTree = "<group>"; };
+		19143B63DC378A55F7DC5F4F9C698892 /* UIView+AGViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+AGViewModel.h"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UIView+AGViewModel.h"; sourceTree = "<group>"; };
+		1B1DCBB9334C997549A350A45AE48FB0 /* NSString+AGViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+AGViewModel.m"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/NSString+AGViewModel.m"; sourceTree = "<group>"; };
+		1B63F8F66752199043DEC887FC27A3C3 /* AGVMNotifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGVMNotifier.m; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGVMNotifier.m; sourceTree = "<group>"; };
+		1F6E8C4AEF27A48A7F21F3BB9708EB70 /* NSBundle+AGSupportCocoapods.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+AGSupportCocoapods.h"; path = "AGCategories/Categories/NSBundle/NSBundle+AGSupportCocoapods.h"; sourceTree = "<group>"; };
+		2089057372344DB50736BACA083975E5 /* libAGCategories.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAGCategories.a; path = libAGCategories.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		236202D95E531E6C14D10AD2F7574893 /* AGVerifyManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGVerifyManager.h; path = AGVerifyManager/AGVerifier/AGVerifyManager/AGVerifyManager.h; sourceTree = "<group>"; };
+		2498056CA0B87BD073BA2E3C54B338D7 /* Pods-AGThemeManager-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AGThemeManager-acknowledgements.markdown"; sourceTree = "<group>"; };
+		259EBDA63045E63CC6D0C27D4875B1BE /* UIColor+AGExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+AGExtensions.m"; path = "AGCategories/Categories/UIColor/UIColor+AGExtensions.m"; sourceTree = "<group>"; };
+		25A47A0F9DE0A57751936DEC826E34CD /* UICollectionViewCell+AGViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionViewCell+AGViewModel.h"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UICollectionViewCell+AGViewModel.h"; sourceTree = "<group>"; };
+		266059E2801E99A33CCEBF0D3C96E8F6 /* NSDictionary+AGViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+AGViewModel.m"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/NSDictionary+AGViewModel.m"; sourceTree = "<group>"; };
+		285CD6DDC175AB4CEDF128F7A8C3846E /* AGTimerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGTimerManager.h; path = AGTimerManager/AGTimerManager/AGTimerManager.h; sourceTree = "<group>"; };
+		299F02105F633FA06988EE9F1F7D3674 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		29F38FC783F07425D58B6AA09120B2BB /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		2E744503E51ADDF05FED9CE177846D6B /* AGVerifyManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGVerifyManager.m; path = AGVerifyManager/AGVerifier/AGVerifyManager/AGVerifyManager.m; sourceTree = "<group>"; };
+		31DA2D5A379338AEDE05C6A9FBB4EB31 /* UIColor+AGExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+AGExtensions.h"; path = "AGCategories/Categories/UIColor/UIColor+AGExtensions.h"; sourceTree = "<group>"; };
+		320CB5338C3EFC7BC57EBF831B1FA52F /* UICollectionView+AGViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+AGViewModel.m"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UICollectionView+AGViewModel.m"; sourceTree = "<group>"; };
+		33040B832A85EE5CF11C4DE7DF06726C /* AGVMFunction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGVMFunction.m; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGVMFunction.m; sourceTree = "<group>"; };
+		38D69892E8453D56EA168ED70E29EA97 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		390D2F19FEB327C7D766A4CF7255316B /* Pods-AGThemeManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AGThemeManager-dummy.m"; sourceTree = "<group>"; };
+		3B848E409AFA60852D94F9810A4779A4 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		3C19D12E59E122C58DE15E8EB8FAC75F /* AGVMNotifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGVMNotifier.h; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGVMNotifier.h; sourceTree = "<group>"; };
+		3C44B54D7EC4BF217964168AC4CB732C /* libAGTimerManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAGTimerManager.a; path = libAGTimerManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E642C01374E46C0ADD62C8C54F5A0BB /* AGVMKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGVMKeys.h; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGVMKeys.h; sourceTree = "<group>"; };
+		4856B6396A7D8CDE0552ED4F03A38DA7 /* NSDate+AGGenerate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+AGGenerate.m"; path = "AGCategories/Categories/NSDate/NSDate+AGGenerate.m"; sourceTree = "<group>"; };
+		4ACE7350E82153FD64F3CB212FCE6CAD /* AGVMCommand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGVMCommand.m; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGVMCommand.m; sourceTree = "<group>"; };
+		4B607DE971A3203E15EE98CE9C140D2B /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		4C032A53C7B408329EC992170E96388E /* AGCategories-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGCategories-prefix.pch"; sourceTree = "<group>"; };
+		5B60B7E58DCF15C67B9EF390352B1501 /* AGVerifyManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGVerifyManager-prefix.pch"; sourceTree = "<group>"; };
+		5D7DC516663EED281B75E117147F57CA /* AGTimerManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AGTimerManager.xcconfig; sourceTree = "<group>"; };
+		5D8109AAC8C7F9B3BCFE3CFB62A116C2 /* AGCategories.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AGCategories.xcconfig; sourceTree = "<group>"; };
+		5DDDBF8F5535F14FA28580C14F98FD2D /* AGViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGViewModel.m; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGViewModel.m; sourceTree = "<group>"; };
+		5ED57C38441BA6DDA39D3C83E980BE8F /* Pods-AGThemeManager-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGThemeManager-acknowledgements.plist"; sourceTree = "<group>"; };
+		609EA2BB311B1D8FAF01259F5279A3B3 /* NSFileManager+AGFolderPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+AGFolderPath.h"; path = "AGCategories/Categories/NSFileManager/NSFileManager+AGFolderPath.h"; sourceTree = "<group>"; };
+		6AE92E50E2DF6409652D98CD554431B8 /* UIScreen+AGViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScreen+AGViewModel.h"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UIScreen+AGViewModel.h"; sourceTree = "<group>"; };
+		6CB14FED2316F8B41DE3BD9321550669 /* Pods-AGThemeManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGThemeManager.release.xcconfig"; sourceTree = "<group>"; };
+		73E69A6722F8DA4719DC326E7F60334E /* NSFileManager+AGFolderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+AGFolderOperation.m"; path = "AGCategories/Categories/NSFileManager/NSFileManager+AGFolderOperation.m"; sourceTree = "<group>"; };
+		78901FD69F01C6EF28AB0E571D5D993F /* AGVMSharedPackager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGVMSharedPackager.m; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGVMSharedPackager.m; sourceTree = "<group>"; };
+		833FB5AB25573212A0DF21E0FEA2986A /* AGViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGViewModel.h; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGViewModel.h; sourceTree = "<group>"; };
+		84DB3D695885FFD4667AEED08A80F537 /* UIImage+AGGenerate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+AGGenerate.m"; path = "AGCategories/Categories/UIImage/UIImage+AGGenerate.m"; sourceTree = "<group>"; };
+		8D4AD935999C2A5DF569C34DB4F15DCA /* AGVMFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGVMFunction.h; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGVMFunction.h; sourceTree = "<group>"; };
+		8F0CF1B3389BA266AA67D2C2F78DEEB0 /* AGViewModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AGViewModel-dummy.m"; sourceTree = "<group>"; };
+		930C1BD0EFB0F4C5D3E399ACF66D5AA9 /* UITableViewHeaderFooterView+AGViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewHeaderFooterView+AGViewModel.m"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UITableViewHeaderFooterView+AGViewModel.m"; sourceTree = "<group>"; };
+		9415B2C3745457DF12C0621A6FD87A17 /* AGVMSharedPackager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGVMSharedPackager.h; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGVMSharedPackager.h; sourceTree = "<group>"; };
+		95B2CD43CB10DC77182D96FD693E5083 /* AGTimerManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AGTimerManager-dummy.m"; sourceTree = "<group>"; };
+		996EE66F6D78B1F6D7E841968D0BC17A /* NSArray+AGViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+AGViewModel.m"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/NSArray+AGViewModel.m"; sourceTree = "<group>"; };
+		99E17F4A8565F58BE0B084C07EB62F66 /* AGTimerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGTimerManager.m; path = AGTimerManager/AGTimerManager/AGTimerManager.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F394BF1131C08CDB854C4FDB645E498 /* Pods-AGThemeManager-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGThemeManager-resources.sh"; sourceTree = "<group>"; };
+		9FD1588419B379E11BB868152DD45408 /* UITableView+AGViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+AGViewModel.m"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UITableView+AGViewModel.m"; sourceTree = "<group>"; };
+		A546279C15985512FEE1C59297232A01 /* NSDictionary+AGViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+AGViewModel.h"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/NSDictionary+AGViewModel.h"; sourceTree = "<group>"; };
+		A771472219F85431508F3026DD1CC17B /* UIViewController+AGViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+AGViewModel.h"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UIViewController+AGViewModel.h"; sourceTree = "<group>"; };
+		A894EA9B32017C278F7D3D3E2D15DF87 /* NSString+AGViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+AGViewModel.h"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/NSString+AGViewModel.h"; sourceTree = "<group>"; };
+		A9990B9F7549BB2BA51BB83AA69FEDA2 /* UITableView+AGViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+AGViewModel.h"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UITableView+AGViewModel.h"; sourceTree = "<group>"; };
+		A99AECD5190955BB39DB3591DCC365B4 /* UIImage+AGTransform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AGTransform.h"; path = "AGCategories/Categories/UIImage/UIImage+AGTransform.h"; sourceTree = "<group>"; };
+		A9C738E068710152F4063283B431260A /* AGVMManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGVMManager.m; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGVMManager.m; sourceTree = "<group>"; };
+		ACB80F300959AFF6E2191AB8A711E1AB /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		AF1B6B9CAFC63834ED942FF7EBC957B0 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		AF5BA49BB8B9B76ADA4ACAA17426220B /* NSString+AGJudge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+AGJudge.h"; path = "AGCategories/Categories/NSString/NSString+AGJudge.h"; sourceTree = "<group>"; };
+		B31A1AD82AA48A0738E09B4108DF29AC /* UIImage+AGGenerate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AGGenerate.h"; path = "AGCategories/Categories/UIImage/UIImage+AGGenerate.h"; sourceTree = "<group>"; };
+		B40D0EE995A8ED725BAF655865BC3B25 /* AGCategories-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AGCategories-dummy.m"; sourceTree = "<group>"; };
+		B72FCFE1DCCCD80D7131DF522A4111D1 /* AGVMSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGVMSection.m; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGVMSection.m; sourceTree = "<group>"; };
+		B9240BDEEC1AE93E4200601AE07912FF /* UITableViewCell+AGViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+AGViewModel.h"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UITableViewCell+AGViewModel.h"; sourceTree = "<group>"; };
+		BE0B2C272669F77DA90AAF29CF8092CA /* AGVMSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGVMSection.h; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGVMSection.h; sourceTree = "<group>"; };
+		BE908E76AB2816F8A7A67FDF98B85FC9 /* UIViewController+AGViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+AGViewModel.m"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UIViewController+AGViewModel.m"; sourceTree = "<group>"; };
+		C50FCFC4B01F2DD4D12C3B1BAF04AF35 /* AGVMProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGVMProtocol.h; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGVMProtocol.h; sourceTree = "<group>"; };
+		C5A08AFA288A2D750F0916B21B701D5D /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		C8B9257B9ACB66FAF2C73EBC21883F11 /* NSFileManager+AGFolderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+AGFolderOperation.h"; path = "AGCategories/Categories/NSFileManager/NSFileManager+AGFolderOperation.h"; sourceTree = "<group>"; };
+		C8E763F9CA0901F29AEF7852F34FCE9B /* libAGViewModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAGViewModel.a; path = libAGViewModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9EB628F951D6676721B0FF78E1F602D /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		CB7CF84AB665AC347FCF11E7AB696C2D /* UICollectionView+AGViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+AGViewModel.h"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UICollectionView+AGViewModel.h"; sourceTree = "<group>"; };
+		CCC08A9D7894EAB13AE55087477CC20D /* AGVerifyManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AGVerifyManager-dummy.m"; sourceTree = "<group>"; };
+		CE15AAF1D560E11E36BDB806A563F30F /* AGVMKeys.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGVMKeys.m; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGVMKeys.m; sourceTree = "<group>"; };
+		D540F544795F3163E004E6BBC8D05318 /* AGVMManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGVMManager.h; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGVMManager.h; sourceTree = "<group>"; };
+		D7D12D2D053758FC82F291F82EB21786 /* Pods-AGThemeManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGThemeManager.debug.xcconfig"; sourceTree = "<group>"; };
+		D95C295C093958A2E8DC275919CD551A /* AGBaseVerifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGBaseVerifier.h; path = AGVerifyManager/AGVerifier/AGVerifyManager/AGBaseVerifier.h; sourceTree = "<group>"; };
+		DD3EF8395E18005030CC4ACFB4D994FE /* NSDate+AGGenerate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+AGGenerate.h"; path = "AGCategories/Categories/NSDate/NSDate+AGGenerate.h"; sourceTree = "<group>"; };
+		DF1EC0353C75BF4E237F91727A912178 /* UICollectionReusableView+AGViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionReusableView+AGViewModel.m"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UICollectionReusableView+AGViewModel.m"; sourceTree = "<group>"; };
+		E137FCD15D966FAFA5FDFA0DC5FC6C78 /* AGTimerManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGTimerManager-prefix.pch"; sourceTree = "<group>"; };
+		E25BCB4CEF08D47ADB43340CFC34A622 /* AGViewModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AGViewModel.xcconfig; sourceTree = "<group>"; };
+		E41DCD8F918FD179276EC0A51CADD5DC /* NSBundle+AGSupportCocoapods.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+AGSupportCocoapods.m"; path = "AGCategories/Categories/NSBundle/NSBundle+AGSupportCocoapods.m"; sourceTree = "<group>"; };
+		E4DD6DF16E93765A1AFA0A5386B38D27 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		E4F90633687A00E5729B65B3B67E2502 /* NSString+AGJudge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+AGJudge.m"; path = "AGCategories/Categories/NSString/NSString+AGJudge.m"; sourceTree = "<group>"; };
+		E800C32A83A1B5F1065A119E447DD8FA /* AGBaseVerifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGBaseVerifier.m; path = AGVerifyManager/AGVerifier/AGVerifyManager/AGBaseVerifier.m; sourceTree = "<group>"; };
+		E97D43C46A45EE515A4DA3AF94398441 /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSVProgressHUD.a; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8D51EDD216290C973DDA5DD5FB2D66 /* AGVerifyManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AGVerifyManager.xcconfig; sourceTree = "<group>"; };
+		EACEA3C5EA058A3857133B2AB44ADF98 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		EB3A827457F7D9009ABC70D2A4F7690D /* AGViewModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGViewModel-prefix.pch"; sourceTree = "<group>"; };
+		EBA7241E0850839E534BC8E8F7586ACE /* AGVMCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGVMCommand.h; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGVMCommand.h; sourceTree = "<group>"; };
+		EFB37C8ACE178E5E63D0A29894ED9F58 /* libAGVerifyManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAGVerifyManager.a; path = libAGVerifyManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2ED413A5D957DB4C3C283492B0223E7 /* AGCategories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGCategories.h; path = AGCategories/Categories/AGCategories.h; sourceTree = "<group>"; };
+		F37C530B642DC28910882E54A763BE13 /* UITableViewCell+AGViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+AGViewModel.m"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UITableViewCell+AGViewModel.m"; sourceTree = "<group>"; };
+		F4CC4E1AD04836DE6009D0D2AD1C1559 /* UIImage+AGTransform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+AGTransform.m"; path = "AGCategories/Categories/UIImage/UIImage+AGTransform.m"; sourceTree = "<group>"; };
+		F92BBF958170C8BF10DA52235321D5E2 /* NSFileManager+AGFolderPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+AGFolderPath.m"; path = "AGCategories/Categories/NSFileManager/NSFileManager+AGFolderPath.m"; sourceTree = "<group>"; };
+		FF68CAEDF4D6EFAB0686CE7DD9BD6854 /* UICollectionViewCell+AGViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionViewCell+AGViewModel.m"; path = "AGViewModelDemo/__AppGlobalTool/AGViewModel/Category/UICollectionViewCell+AGViewModel.m"; sourceTree = "<group>"; };
+		FF874BFD50DE695FF30E3D8FFA9EC690 /* AGVMKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGVMKit.h; path = AGViewModelDemo/__AppGlobalTool/AGViewModel/AGVMKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		20CF0381104D749D6955801A20B4740B /* Frameworks */ = {
+		3328E58D1AAD5F5C82F7D30205A05FF7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		359C07EEEB6B0AD41EBA35752311FC11 /* Frameworks */ = {
+		70010619EE67FAA5998927DE2714A46F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F777F2BF112923455567CCD28E2DBCD /* Frameworks */ = {
+		7850222A34D14663D60B65027B621E1C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7BD60F4C85E5410B98B87850A3EF42A4 /* Frameworks */ = {
+		CBAF99DEFB78700753F823AA1E7E5A3F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4330F262876DE7B168B3554FE699465 /* Frameworks */ = {
+		F54C3B39469D8ED98E9108EDB26C732E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5A5D3F9676417732D538910DB320BDD /* Frameworks */ = {
+		FD7DC2517F444F81908DB840E94A3C1A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -275,199 +279,210 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		075F2FE3C671F6CA599DEF050BBAC07B /* Resources */ = {
+		0A1AA36CB6D21539788D2F630069990A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8F61E95B1AC17C4D9B850939055CAE54 /* SVProgressHUD.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		15AA686AFB4086BFD4AC9DA22710BC2F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DE01944B9F99EF6698BD9EE1E9F70D75 /* AGVerifyManager.xcconfig */,
-				7D5AE66C795A9B2295E47D777EFFDAD2 /* AGVerifyManager-dummy.m */,
-				8DD299F2953C1A7FD8AB71C63BF13060 /* AGVerifyManager-prefix.pch */,
+				5D7DC516663EED281B75E117147F57CA /* AGTimerManager.xcconfig */,
+				95B2CD43CB10DC77182D96FD693E5083 /* AGTimerManager-dummy.m */,
+				E137FCD15D966FAFA5FDFA0DC5FC6C78 /* AGTimerManager-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/AGVerifyManager";
+			path = "../Target Support Files/AGTimerManager";
 			sourceTree = "<group>";
 		};
-		1CF2A35B1D0D6450CB8A656B2B09AEEF /* AGCategories */ = {
+		0CC3FC3F4A0E30981A9B5640FA628303 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				40393FA0EA04B7A877A23A55D73EE7FE /* AGCategories.h */,
-				177D185A46E39E97DC7AEB106619F9A0 /* NSBundle+AGSupportCocoapods.h */,
-				4EA30B3D0D7F8FAF03A843D68FF18B63 /* NSBundle+AGSupportCocoapods.m */,
-				741E63E6B729D4625F4DBD6624EE1BD5 /* NSDate+AGGenerate.h */,
-				9526E4C256526EA938CE300525D3B2E9 /* NSDate+AGGenerate.m */,
-				596F3E05AEE9C0F909E0DEF0AFB44B1A /* NSFileManager+AGFolderOperation.h */,
-				2B5A0C1BA0676FADB9DBB1F72FD0E953 /* NSFileManager+AGFolderOperation.m */,
-				8A2C2F6DEDA6D2BD1A3DAA6BD9A416DA /* NSFileManager+AGFolderPath.h */,
-				6C579053AE1E4CC3F7AE71B9F1AC2434 /* NSFileManager+AGFolderPath.m */,
-				B93C5DDBC82C9B3C44E6B650F99B289E /* NSString+AGJudge.h */,
-				4566369B0B69B29CE7306B48DA13A68E /* NSString+AGJudge.m */,
-				C5F5C3338845E43C5F1A76104B97641A /* UIColor+AGExtensions.h */,
-				579A5EF4942435C2794F4B2B77D91471 /* UIColor+AGExtensions.m */,
-				C729FE930C8FD50B0315D7C9FD023228 /* UIImage+AGGenerate.h */,
-				3DE0CF385D407F6A9789041A85C86D28 /* UIImage+AGGenerate.m */,
-				1E30A86936D8D4A48DCB63E4CAED92AE /* UIImage+AGTransform.h */,
-				F1C34D992AF3F4A1A77129F5ABC97273 /* UIImage+AGTransform.m */,
-				B6645E70E19122AF0B307F753FB4350B /* Support Files */,
+				2089057372344DB50736BACA083975E5 /* libAGCategories.a */,
+				3C44B54D7EC4BF217964168AC4CB732C /* libAGTimerManager.a */,
+				EFB37C8ACE178E5E63D0A29894ED9F58 /* libAGVerifyManager.a */,
+				C8E763F9CA0901F29AEF7852F34FCE9B /* libAGViewModel.a */,
+				0211709165214FEA8B83305C7F78E5EF /* libPods-AGThemeManager.a */,
+				E97D43C46A45EE515A4DA3AF94398441 /* libSVProgressHUD.a */,
 			);
-			path = AGCategories;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23B77AE3A47018BF20C0065CD3F02241 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E4DD6DF16E93765A1AFA0A5386B38D27 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		33418E1E1D803DAD6808010EE3569691 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				862F3344715C23463D2C9764A76A700C /* Pods-AGThemeManager */,
+				7511F608F838AFB3BFA26B75FDEA0B6A /* Pods-AGThemeManager */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		37F50607E2346590726C548B62402F6E /* AGViewModel */ = {
+		3B5D745DD3F114173752EF2B393189CE /* AGViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				2C16E189BB97179B7A99FE5349FD1FD4 /* AGViewModel.h */,
-				03A25939A4201963505A55F8EF60F7AC /* AGViewModel.m */,
-				94DD6317EBB0814BA5C9B272B5EEFFA2 /* AGVMCommand.h */,
-				90FBD66D2D2C92AFAAE96AC66CFE717C /* AGVMCommand.m */,
-				720BB9AF1927CB01641FD7603F5D6B41 /* AGVMFunction.h */,
-				AE03AABA5A43D4DA7E74E5375C6D6873 /* AGVMFunction.m */,
-				698D2FF651858B39EF77680A9147A517 /* AGVMKeys.h */,
-				9966958A0405A08C1A8C467A7E0A9FD4 /* AGVMKeys.m */,
-				AD34025E33F4DC92DEDE53E26E16DB40 /* AGVMKit.h */,
-				B5E3CDE97DE03D544902B34E09608206 /* AGVMManager.h */,
-				F41F2A131098513173AAC1AB2207FFD5 /* AGVMManager.m */,
-				77A59CA30D4176CC43FA1D3F0F5B204D /* AGVMNotifier.h */,
-				E65703825B733397E11A3E34053ABB11 /* AGVMNotifier.m */,
-				CAAB46F4C2B5A35873BE733BE3FB4BC3 /* AGVMProtocol.h */,
-				A977AC07B6310520D98E3222A415152F /* AGVMSection.h */,
-				2DE10175ED06F935A91F5246DFCF17B4 /* AGVMSection.m */,
-				851149BE6859E172D017B5FD0BB5691F /* AGVMSharedPackager.h */,
-				C6A1E1E86F84C7C788188D96E405C34F /* AGVMSharedPackager.m */,
-				77A48770875270B5B55A347C2D6ED31E /* NSArray+AGViewModel.h */,
-				FEC1B6B8BF60E8AF953D2155A55277B5 /* NSArray+AGViewModel.m */,
-				A48BBBFE3429BD2F42C85071EB90969C /* NSDictionary+AGViewModel.h */,
-				B8E67D332FC023B5F9A470B48D996259 /* NSDictionary+AGViewModel.m */,
-				FDC32C0EA6BC8F10309F4EF6299AC27D /* NSString+AGViewModel.h */,
-				C8CCA6B6C02219184CFE8CBD2BA2078F /* NSString+AGViewModel.m */,
-				CA474184BD08EC604D3A1EA3394E7622 /* UICollectionReusableView+AGViewModel.h */,
-				FFDCD3F8C4182D76A5EE655D477300F8 /* UICollectionReusableView+AGViewModel.m */,
-				2CC687177367C26316C507E3BFB455F8 /* UICollectionView+AGViewModel.h */,
-				113FE77A6A05E830E1227B4A2A0D4031 /* UICollectionView+AGViewModel.m */,
-				B3459EAD9B676BB6BF05C1FD60412392 /* UICollectionViewCell+AGViewModel.h */,
-				322306120A7E088574A17C9A6E977B82 /* UICollectionViewCell+AGViewModel.m */,
-				B8ED9B48A34DF2B3A791D4992DEA3100 /* UIScreen+AGViewModel.h */,
-				9AF0B2EC732382F5403C7908A7567532 /* UIScreen+AGViewModel.m */,
-				13662DFCE9AAB9A4506FD1580DC49900 /* UITableView+AGViewModel.h */,
-				08B7A50228E994F98742188E8D85E140 /* UITableView+AGViewModel.m */,
-				B93995E8D4D784E6C8B37C37A80B82C3 /* UITableViewCell+AGViewModel.h */,
-				793F4DEAC813604386C27A31F661AB9F /* UITableViewCell+AGViewModel.m */,
-				2395B71A8FE3935C2CFEB0A03D1696EA /* UITableViewHeaderFooterView+AGViewModel.h */,
-				DC1B806DF7BCC1642FCB55541D540536 /* UITableViewHeaderFooterView+AGViewModel.m */,
-				1C0C15370C1D67D5454B17924FB3A7C4 /* UIView+AGViewModel.h */,
-				27F0ED8AF410979591AAE2C36E685188 /* UIView+AGViewModel.m */,
-				EA81DC9972882191B5D44835F8FC4A75 /* UIViewController+AGViewModel.h */,
-				AE122919D74548A56D101667CDE52867 /* UIViewController+AGViewModel.m */,
-				8462727B3443CD8BE26D38E4CAE53C0B /* Support Files */,
+				833FB5AB25573212A0DF21E0FEA2986A /* AGViewModel.h */,
+				5DDDBF8F5535F14FA28580C14F98FD2D /* AGViewModel.m */,
+				EBA7241E0850839E534BC8E8F7586ACE /* AGVMCommand.h */,
+				4ACE7350E82153FD64F3CB212FCE6CAD /* AGVMCommand.m */,
+				8D4AD935999C2A5DF569C34DB4F15DCA /* AGVMFunction.h */,
+				33040B832A85EE5CF11C4DE7DF06726C /* AGVMFunction.m */,
+				3E642C01374E46C0ADD62C8C54F5A0BB /* AGVMKeys.h */,
+				CE15AAF1D560E11E36BDB806A563F30F /* AGVMKeys.m */,
+				FF874BFD50DE695FF30E3D8FFA9EC690 /* AGVMKit.h */,
+				D540F544795F3163E004E6BBC8D05318 /* AGVMManager.h */,
+				A9C738E068710152F4063283B431260A /* AGVMManager.m */,
+				3C19D12E59E122C58DE15E8EB8FAC75F /* AGVMNotifier.h */,
+				1B63F8F66752199043DEC887FC27A3C3 /* AGVMNotifier.m */,
+				C50FCFC4B01F2DD4D12C3B1BAF04AF35 /* AGVMProtocol.h */,
+				BE0B2C272669F77DA90AAF29CF8092CA /* AGVMSection.h */,
+				B72FCFE1DCCCD80D7131DF522A4111D1 /* AGVMSection.m */,
+				9415B2C3745457DF12C0621A6FD87A17 /* AGVMSharedPackager.h */,
+				78901FD69F01C6EF28AB0E571D5D993F /* AGVMSharedPackager.m */,
+				0E1403AB5E225659EEF5A68FF3CA50F3 /* NSArray+AGViewModel.h */,
+				996EE66F6D78B1F6D7E841968D0BC17A /* NSArray+AGViewModel.m */,
+				A546279C15985512FEE1C59297232A01 /* NSDictionary+AGViewModel.h */,
+				266059E2801E99A33CCEBF0D3C96E8F6 /* NSDictionary+AGViewModel.m */,
+				A894EA9B32017C278F7D3D3E2D15DF87 /* NSString+AGViewModel.h */,
+				1B1DCBB9334C997549A350A45AE48FB0 /* NSString+AGViewModel.m */,
+				08681F5CDEB4187DC879F56AA175BF33 /* UICollectionReusableView+AGViewModel.h */,
+				DF1EC0353C75BF4E237F91727A912178 /* UICollectionReusableView+AGViewModel.m */,
+				CB7CF84AB665AC347FCF11E7AB696C2D /* UICollectionView+AGViewModel.h */,
+				320CB5338C3EFC7BC57EBF831B1FA52F /* UICollectionView+AGViewModel.m */,
+				25A47A0F9DE0A57751936DEC826E34CD /* UICollectionViewCell+AGViewModel.h */,
+				FF68CAEDF4D6EFAB0686CE7DD9BD6854 /* UICollectionViewCell+AGViewModel.m */,
+				6AE92E50E2DF6409652D98CD554431B8 /* UIScreen+AGViewModel.h */,
+				059CD991C311125FFC5CC71AB6F7B411 /* UIScreen+AGViewModel.m */,
+				A9990B9F7549BB2BA51BB83AA69FEDA2 /* UITableView+AGViewModel.h */,
+				9FD1588419B379E11BB868152DD45408 /* UITableView+AGViewModel.m */,
+				B9240BDEEC1AE93E4200601AE07912FF /* UITableViewCell+AGViewModel.h */,
+				F37C530B642DC28910882E54A763BE13 /* UITableViewCell+AGViewModel.m */,
+				06D3A17982EE482857C2C5FC181FE427 /* UITableViewHeaderFooterView+AGViewModel.h */,
+				930C1BD0EFB0F4C5D3E399ACF66D5AA9 /* UITableViewHeaderFooterView+AGViewModel.m */,
+				19143B63DC378A55F7DC5F4F9C698892 /* UIView+AGViewModel.h */,
+				077AF5AB4BED4ABBB41FC01242425F0D /* UIView+AGViewModel.m */,
+				A771472219F85431508F3026DD1CC17B /* UIViewController+AGViewModel.h */,
+				BE908E76AB2816F8A7A67FDF98B85FC9 /* UIViewController+AGViewModel.m */,
+				5562720E1BEC71DFDEB8BC0CB0E0C687 /* Support Files */,
 			);
+			name = AGViewModel;
 			path = AGViewModel;
 			sourceTree = "<group>";
 		};
-		5342D2BC6745D8E76093A1A4B0CFD963 /* Pods */ = {
+		3B8010CF212B1179D5E72361C4C0E135 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1CF2A35B1D0D6450CB8A656B2B09AEEF /* AGCategories */,
-				65D48DC0F77FA35708989CC171A9FD8D /* AGTimerManager */,
-				AA416283FB86D548DFE259EE8870C0D9 /* AGVerifyManager */,
-				37F50607E2346590726C548B62402F6E /* AGViewModel */,
-				DF1E1A2B955F4B582796B73CDD9E0DAD /* SVProgressHUD */,
+				EA8D51EDD216290C973DDA5DD5FB2D66 /* AGVerifyManager.xcconfig */,
+				CCC08A9D7894EAB13AE55087477CC20D /* AGVerifyManager-dummy.m */,
+				5B60B7E58DCF15C67B9EF390352B1501 /* AGVerifyManager-prefix.pch */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/AGVerifyManager";
 			sourceTree = "<group>";
 		};
-		65D48DC0F77FA35708989CC171A9FD8D /* AGTimerManager */ = {
+		5562720E1BEC71DFDEB8BC0CB0E0C687 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D592096E3257C5E60513C0E752A9B73F /* AGTimerManager.h */,
-				A05B55DD12FC48DA044FF2FF70C13932 /* AGTimerManager.m */,
-				5DC825B71C1450F6424A3525329E3613 /* AGTMKit.h */,
-				E3572CA6F64BE818CD8A6755E963FBF8 /* Support Files */,
-			);
-			path = AGTimerManager;
-			sourceTree = "<group>";
-		};
-		6AE8645F80D12D903547297B97320BE8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6E8CB2B9AA1EEEE2B94D6D9A7DCFECA8 /* libAGCategories.a */,
-				226FA8B8BFAA46F95E6DD49BB319C511 /* libAGTimerManager.a */,
-				B988913836EA7AA7CC5D1C0807310CF9 /* libAGVerifyManager.a */,
-				381B97A0F77F3E6C632710E480DCECBA /* libAGViewModel.a */,
-				3AA9138B876324022599D625DDB2662E /* libPods-AGThemeManager.a */,
-				E486682C9668FBD2D257CDAC25155077 /* libSVProgressHUD.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		8462727B3443CD8BE26D38E4CAE53C0B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5DC2A2914AAD3DDC50B367314973F8D6 /* AGViewModel.xcconfig */,
-				E31CA014A507F071A20090608792660A /* AGViewModel-dummy.m */,
-				B71BE533462B20063D0A9E980B20AD13 /* AGViewModel-prefix.pch */,
+				E25BCB4CEF08D47ADB43340CFC34A622 /* AGViewModel.xcconfig */,
+				8F0CF1B3389BA266AA67D2C2F78DEEB0 /* AGViewModel-dummy.m */,
+				EB3A827457F7D9009ABC70D2A4F7690D /* AGViewModel-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/AGViewModel";
 			sourceTree = "<group>";
 		};
-		862F3344715C23463D2C9764A76A700C /* Pods-AGThemeManager */ = {
+		7511F608F838AFB3BFA26B75FDEA0B6A /* Pods-AGThemeManager */ = {
 			isa = PBXGroup;
 			children = (
-				6AFA9288C8A2672607A181F60E1B272D /* Pods-AGThemeManager-acknowledgements.markdown */,
-				D7DE52D51B02F1AB8827BD0409BAB99D /* Pods-AGThemeManager-acknowledgements.plist */,
-				AA96685CEFFEEDA8EC7054750FBA9F02 /* Pods-AGThemeManager-dummy.m */,
-				EFCED3AE5092D95952E14C2F8B712816 /* Pods-AGThemeManager-resources.sh */,
-				DFC35AEA015BF259F7C6B8F48F5EE15C /* Pods-AGThemeManager.debug.xcconfig */,
-				FFE881EE47310F9AFE4E07FF0EDC752D /* Pods-AGThemeManager.release.xcconfig */,
+				2498056CA0B87BD073BA2E3C54B338D7 /* Pods-AGThemeManager-acknowledgements.markdown */,
+				5ED57C38441BA6DDA39D3C83E980BE8F /* Pods-AGThemeManager-acknowledgements.plist */,
+				390D2F19FEB327C7D766A4CF7255316B /* Pods-AGThemeManager-dummy.m */,
+				9F394BF1131C08CDB854C4FDB645E498 /* Pods-AGThemeManager-resources.sh */,
+				D7D12D2D053758FC82F291F82EB21786 /* Pods-AGThemeManager.debug.xcconfig */,
+				6CB14FED2316F8B41DE3BD9321550669 /* Pods-AGThemeManager.release.xcconfig */,
 			);
 			name = "Pods-AGThemeManager";
 			path = "Target Support Files/Pods-AGThemeManager";
 			sourceTree = "<group>";
 		};
-		95A9DB65B857CC17853E339C3E6FDB8C /* Support Files */ = {
+		7F6809F95EE426063AAE2733BCBD266E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				729AEA4A747580C39EEDE53B98976A74 /* SVProgressHUD.xcconfig */,
-				395FC6D8EC1DA17A4766D0DDBF4FCC17 /* SVProgressHUD-dummy.m */,
-				EA3A0ECBAC878AEE51D216A1DA0D1846 /* SVProgressHUD-prefix.pch */,
+				893F10EE9E79990AC1722F84D0D2BC59 /* AGCategories */,
+				943900CE08C0F99EC6AED752543D4D30 /* AGTimerManager */,
+				E3F3B86CE63EE2142A450BBFBE52ADC8 /* AGVerifyManager */,
+				3B5D745DD3F114173752EF2B393189CE /* AGViewModel */,
+				BF0F5C6EB9AA4610D00DA860BD83D70E /* SVProgressHUD */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SVProgressHUD";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		AA416283FB86D548DFE259EE8870C0D9 /* AGVerifyManager */ = {
+		893F10EE9E79990AC1722F84D0D2BC59 /* AGCategories */ = {
 			isa = PBXGroup;
 			children = (
-				3E8D358095E56D126D7787CC314C4AE8 /* AGVerifyManager.h */,
-				111DCF792DADACB3F3A1B3041C5A20C4 /* AGVerifyManager.m */,
-				15AA686AFB4086BFD4AC9DA22710BC2F /* Support Files */,
+				F2ED413A5D957DB4C3C283492B0223E7 /* AGCategories.h */,
+				1F6E8C4AEF27A48A7F21F3BB9708EB70 /* NSBundle+AGSupportCocoapods.h */,
+				E41DCD8F918FD179276EC0A51CADD5DC /* NSBundle+AGSupportCocoapods.m */,
+				DD3EF8395E18005030CC4ACFB4D994FE /* NSDate+AGGenerate.h */,
+				4856B6396A7D8CDE0552ED4F03A38DA7 /* NSDate+AGGenerate.m */,
+				C8B9257B9ACB66FAF2C73EBC21883F11 /* NSFileManager+AGFolderOperation.h */,
+				73E69A6722F8DA4719DC326E7F60334E /* NSFileManager+AGFolderOperation.m */,
+				609EA2BB311B1D8FAF01259F5279A3B3 /* NSFileManager+AGFolderPath.h */,
+				F92BBF958170C8BF10DA52235321D5E2 /* NSFileManager+AGFolderPath.m */,
+				AF5BA49BB8B9B76ADA4ACAA17426220B /* NSString+AGJudge.h */,
+				E4F90633687A00E5729B65B3B67E2502 /* NSString+AGJudge.m */,
+				31DA2D5A379338AEDE05C6A9FBB4EB31 /* UIColor+AGExtensions.h */,
+				259EBDA63045E63CC6D0C27D4875B1BE /* UIColor+AGExtensions.m */,
+				B31A1AD82AA48A0738E09B4108DF29AC /* UIImage+AGGenerate.h */,
+				84DB3D695885FFD4667AEED08A80F537 /* UIImage+AGGenerate.m */,
+				A99AECD5190955BB39DB3591DCC365B4 /* UIImage+AGTransform.h */,
+				F4CC4E1AD04836DE6009D0D2AD1C1559 /* UIImage+AGTransform.m */,
+				AF8EB5743B24D40CA8E21B9881AB626E /* Support Files */,
 			);
-			path = AGVerifyManager;
+			name = AGCategories;
+			path = AGCategories;
 			sourceTree = "<group>";
 		};
-		B6645E70E19122AF0B307F753FB4350B /* Support Files */ = {
+		943900CE08C0F99EC6AED752543D4D30 /* AGTimerManager */ = {
 			isa = PBXGroup;
 			children = (
-				74C35BDC9F4ED85E1C989854DFDB90EA /* AGCategories.xcconfig */,
-				A83DFF33611D15DF5AA8600758B9F92F /* AGCategories-dummy.m */,
-				A1E8F8F9D6DA45ABAB1394862650F59B /* AGCategories-prefix.pch */,
+				285CD6DDC175AB4CEDF128F7A8C3846E /* AGTimerManager.h */,
+				99E17F4A8565F58BE0B084C07EB62F66 /* AGTimerManager.m */,
+				13234913C068B74A32B77DB65EE6CD97 /* AGTMKit.h */,
+				0A1AA36CB6D21539788D2F630069990A /* Support Files */,
+			);
+			name = AGTimerManager;
+			path = AGTimerManager;
+			sourceTree = "<group>";
+		};
+		AF8EB5743B24D40CA8E21B9881AB626E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D8109AAC8C7F9B3BCFE3CFB62A116C2 /* AGCategories.xcconfig */,
+				B40D0EE995A8ED725BAF655865BC3B25 /* AGCategories-dummy.m */,
+				4C032A53C7B408329EC992170E96388E /* AGCategories-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/AGCategories";
+			sourceTree = "<group>";
+		};
+		BF0F5C6EB9AA4610D00DA860BD83D70E /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				AF1B6B9CAFC63834ED942FF7EBC957B0 /* SVIndefiniteAnimatedView.h */,
+				38D69892E8453D56EA168ED70E29EA97 /* SVIndefiniteAnimatedView.m */,
+				3B848E409AFA60852D94F9810A4779A4 /* SVProgressAnimatedView.h */,
+				0A78B58523969DE2D8D14BD5F4CA1B01 /* SVProgressAnimatedView.m */,
+				ACB80F300959AFF6E2191AB8A711E1AB /* SVProgressHUD.h */,
+				4B607DE971A3203E15EE98CE9C140D2B /* SVProgressHUD.m */,
+				C9EB628F951D6676721B0FF78E1F602D /* SVRadialGradientLayer.h */,
+				29F38FC783F07425D58B6AA09120B2BB /* SVRadialGradientLayer.m */,
+				23B77AE3A47018BF20C0065CD3F02241 /* Resources */,
+				FD47B841C762F69BB163BAC23E0F60A3 /* Support Files */,
+			);
+			name = SVProgressHUD;
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -475,8 +490,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				5342D2BC6745D8E76093A1A4B0CFD963 /* Pods */,
-				6AE8645F80D12D903547297B97320BE8 /* Products */,
+				7F6809F95EE426063AAE2733BCBD266E /* Pods */,
+				0CC3FC3F4A0E30981A9B5640FA628303 /* Products */,
 				33418E1E1D803DAD6808010EE3569691 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -488,111 +503,108 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DF1E1A2B955F4B582796B73CDD9E0DAD /* SVProgressHUD */ = {
+		E3F3B86CE63EE2142A450BBFBE52ADC8 /* AGVerifyManager */ = {
 			isa = PBXGroup;
 			children = (
-				E59E826388F920BDDCA081B4096D15F7 /* SVIndefiniteAnimatedView.h */,
-				7F9FB239583E567FE83094C94711E149 /* SVIndefiniteAnimatedView.m */,
-				5E1969E2B4C74505522896FD9A3E8ACE /* SVProgressAnimatedView.h */,
-				6F1FE57E0DC9ADE536B0D4EB0823CF02 /* SVProgressAnimatedView.m */,
-				537E44BACB5C15EDA693D197156BCB27 /* SVProgressHUD.h */,
-				8EC153D0AE6CE5D42C68529D8E652DBA /* SVProgressHUD.m */,
-				CF77C8CA32DDCFDB781F5BABD741EC3B /* SVRadialGradientLayer.h */,
-				82C427C4084F1761412CD5A2CBD5D3AB /* SVRadialGradientLayer.m */,
-				075F2FE3C671F6CA599DEF050BBAC07B /* Resources */,
-				95A9DB65B857CC17853E339C3E6FDB8C /* Support Files */,
+				D95C295C093958A2E8DC275919CD551A /* AGBaseVerifier.h */,
+				E800C32A83A1B5F1065A119E447DD8FA /* AGBaseVerifier.m */,
+				236202D95E531E6C14D10AD2F7574893 /* AGVerifyManager.h */,
+				2E744503E51ADDF05FED9CE177846D6B /* AGVerifyManager.m */,
+				3B8010CF212B1179D5E72361C4C0E135 /* Support Files */,
 			);
-			path = SVProgressHUD;
+			name = AGVerifyManager;
+			path = AGVerifyManager;
 			sourceTree = "<group>";
 		};
-		E3572CA6F64BE818CD8A6755E963FBF8 /* Support Files */ = {
+		FD47B841C762F69BB163BAC23E0F60A3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				669A6F511566D319C3F6A88064FC3CEE /* AGTimerManager.xcconfig */,
-				18539D2E4121FDA110D87CF91D509AB2 /* AGTimerManager-dummy.m */,
-				5D4DA259382890BDA5E07A866784CA52 /* AGTimerManager-prefix.pch */,
+				C5A08AFA288A2D750F0916B21B701D5D /* SVProgressHUD.xcconfig */,
+				EACEA3C5EA058A3857133B2AB44ADF98 /* SVProgressHUD-dummy.m */,
+				299F02105F633FA06988EE9F1F7D3674 /* SVProgressHUD-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/AGTimerManager";
+			path = "../Target Support Files/SVProgressHUD";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0256FB1D9F35B6CA202C2DC0E3DD4530 /* Headers */ = {
+		60478B43D5E6AFB1B873A9F48E7DD563 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2FE2E727FD630ED95CAAE65C0C3F908 /* AGViewModel.h in Headers */,
-				FEF8455A644D31B4F5EABA9FDCC16B59 /* AGVMCommand.h in Headers */,
-				E21FC89622300A71A522AC65B9A557EE /* AGVMFunction.h in Headers */,
-				1CE583D546FFCE5477A9EB939643CE0A /* AGVMKeys.h in Headers */,
-				1EED8FDFE54A670FD90B770DA627E19C /* AGVMKit.h in Headers */,
-				2E3A4052FB266CFAB2E3EC6B33E56ED7 /* AGVMManager.h in Headers */,
-				52A9E8F638B9EC934733FFEDAA862413 /* AGVMNotifier.h in Headers */,
-				4114634F43E5E317BA640DE6D5BA671D /* AGVMProtocol.h in Headers */,
-				001B04A25717BCF1A11A4DDFB06FE2DD /* AGVMSection.h in Headers */,
-				E7612FFB2940B7BA3273D653F240E73F /* AGVMSharedPackager.h in Headers */,
-				276EE159C1CE6570DF2A929A2B96BA4C /* NSArray+AGViewModel.h in Headers */,
-				7051CC23BF836F387145401E3DD5282C /* NSDictionary+AGViewModel.h in Headers */,
-				B4E72E3732E56329F788BF3CF871BD18 /* NSString+AGViewModel.h in Headers */,
-				10D7C51AB6D1A1B8EF9108AE061F30EE /* UICollectionReusableView+AGViewModel.h in Headers */,
-				A9548AE1C02AC6C7787EF5C7E709B9C7 /* UICollectionView+AGViewModel.h in Headers */,
-				BB76999D233CF1179A5915FFAB73AB2C /* UICollectionViewCell+AGViewModel.h in Headers */,
-				D0E01675AAA4F22C9F0332354563D778 /* UIScreen+AGViewModel.h in Headers */,
-				C9C38391F4A8C2C8117637AC58D24137 /* UITableView+AGViewModel.h in Headers */,
-				8D828BEA28F308E27068B551B5416178 /* UITableViewCell+AGViewModel.h in Headers */,
-				3B3B4BCD3230C1EFB24BEBE597499863 /* UITableViewHeaderFooterView+AGViewModel.h in Headers */,
-				21A7B4701985091A7989C1F02232A482 /* UIView+AGViewModel.h in Headers */,
-				F2A7031245FAFBB5572AD8D314C95DDA /* UIViewController+AGViewModel.h in Headers */,
+				DDE47E31436D31356F53D528FCDCCFA2 /* AGTimerManager.h in Headers */,
+				A396CCFFD7F3DAE9EBBB930DF7694133 /* AGTMKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		27DB6FA7FBD17ABCAA89E69FF7BFBBC6 /* Headers */ = {
+		82AE844D059601DC2703AA7C9027023F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				786E48C49B1C3A115E371DC8F1E8D99F /* AGCategories.h in Headers */,
-				2F303F02C31F9A631237E976589970CA /* NSBundle+AGSupportCocoapods.h in Headers */,
-				3D553119A2CC2B212B2CEA2FECD5C0E0 /* NSDate+AGGenerate.h in Headers */,
-				5E8C65759193AA936BFB250154406505 /* NSFileManager+AGFolderOperation.h in Headers */,
-				6DC39F6AC67AAF5F3A4D33445230E02F /* NSFileManager+AGFolderPath.h in Headers */,
-				09AC271A2799B0915411EF3A66F9CB96 /* NSString+AGJudge.h in Headers */,
-				E64E7721F1C11A6498A7AFF5BFFDC854 /* UIColor+AGExtensions.h in Headers */,
-				CF2E95BB99EE69CBA4753408E2CE7AF6 /* UIImage+AGGenerate.h in Headers */,
-				25C52D3CF792BC01DFCFF239C44E977D /* UIImage+AGTransform.h in Headers */,
+				EFDC2AFD45EA23BA456733262AB32D16 /* AGCategories.h in Headers */,
+				AA6241F58C470C889F4DB0004BA81AF1 /* NSBundle+AGSupportCocoapods.h in Headers */,
+				37A3E510947F02DB3D52BAF11C09310E /* NSDate+AGGenerate.h in Headers */,
+				7B2347A14A7AE2D06ABCAB613CA7085E /* NSFileManager+AGFolderOperation.h in Headers */,
+				88B442677A6A2AA778CEAE58B0033F9A /* NSFileManager+AGFolderPath.h in Headers */,
+				063E20A89E2E5C597B99774768D60B39 /* NSString+AGJudge.h in Headers */,
+				52966E6B1CF84BFFCDAE9BBD7A131361 /* UIColor+AGExtensions.h in Headers */,
+				758CC246792C879FAE943148106880D2 /* UIImage+AGGenerate.h in Headers */,
+				511001C1C74906AD751B1EBCB6937199 /* UIImage+AGTransform.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D8E8B11BE85F035F208F718B4C8B409 /* Headers */ = {
+		83545987027702CB6DC5079DF9CE2DD4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				290B70F830FB3BBA2CEB50F9DBE5BA29 /* AGVerifyManager.h in Headers */,
+				D27159A659C6D8A81562D2062E40C29A /* AGViewModel.h in Headers */,
+				C1079DC83C525B12DFD0244294DF148C /* AGVMCommand.h in Headers */,
+				EA0C0299378D11A3D03104B7ABA0A03A /* AGVMFunction.h in Headers */,
+				3D71C74B08D9556634BFBC77489F6467 /* AGVMKeys.h in Headers */,
+				A51C4292B6CAE2A75D925693B06B155D /* AGVMKit.h in Headers */,
+				E03F143C95642A1F81948DFC51479225 /* AGVMManager.h in Headers */,
+				3A647744CDBE7F1975EB1AE10867381E /* AGVMNotifier.h in Headers */,
+				D1EBB9146AB62B30497294B7D091E79B /* AGVMProtocol.h in Headers */,
+				93BAA2CD70202EF750A9F08ECA331CCD /* AGVMSection.h in Headers */,
+				5C430ADD63D445CCB2228A943383DC68 /* AGVMSharedPackager.h in Headers */,
+				CEA4FCB3C2A5CB8A0277F368D553EF62 /* NSArray+AGViewModel.h in Headers */,
+				504CC010FC963120EDDA02E9D2C2C1B8 /* NSDictionary+AGViewModel.h in Headers */,
+				5B2961495EBF8D85B5DD6D93F920A0A9 /* NSString+AGViewModel.h in Headers */,
+				D902FCC3B744B881E719E5059E590801 /* UICollectionReusableView+AGViewModel.h in Headers */,
+				E4034FE000F5230E902C2E3837B500C9 /* UICollectionView+AGViewModel.h in Headers */,
+				D92F74751D8868B22B2BBB8AB23A116C /* UICollectionViewCell+AGViewModel.h in Headers */,
+				D7967174156301D617B5523E7B8E3E8B /* UIScreen+AGViewModel.h in Headers */,
+				34FA15EE8EC52736EED9F09B7B365462 /* UITableView+AGViewModel.h in Headers */,
+				AE908EAD2020D63CF3762FE87A04B618 /* UITableViewCell+AGViewModel.h in Headers */,
+				D3AA67C84B0F54CE04B2A6E6239B0DA0 /* UITableViewHeaderFooterView+AGViewModel.h in Headers */,
+				D3CDC5A93296500AC4311EF862404265 /* UIView+AGViewModel.h in Headers */,
+				1965C31FD4263162570F1D361A962D38 /* UIViewController+AGViewModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		49725A0C9551CD5873DE8E489962CC03 /* Headers */ = {
+		84F89F5907D615DC2461E40F6A38A0EA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5866D1B71BC95CB40151FAB4BB0D466A /* AGTimerManager.h in Headers */,
-				7DB20C50ED771580CE552CDEC391A47D /* AGTMKit.h in Headers */,
+				8B5CBD7B2EEECA0E9B3D5D6B984DCA28 /* AGBaseVerifier.h in Headers */,
+				6F6FF746FF91D8EA56FED13AA0D968B3 /* AGVerifyManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD6F8649F594F4AD8120F7BDAEE3F7CE /* Headers */ = {
+		E41722A1BD41872D45B97FCEF2427E81 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62F959A73AD3DEF406619BE4A04445BA /* SVIndefiniteAnimatedView.h in Headers */,
-				70B259A07E40D453482687329C8D9C43 /* SVProgressAnimatedView.h in Headers */,
-				EE995C9B63717B07899946D6A1BA3277 /* SVProgressHUD.h in Headers */,
-				937E5BED8B7F502BC2DE5BD4FDD258BF /* SVRadialGradientLayer.h in Headers */,
+				8649FA19DB7585214273380164946561 /* SVIndefiniteAnimatedView.h in Headers */,
+				E56ED51862897266BF586BA26965E137 /* SVProgressAnimatedView.h in Headers */,
+				AF559EEBDEEDF421756966862ED3E746 /* SVProgressHUD.h in Headers */,
+				DC85A1CC87F3496C48D0CC2B09E5322F /* SVRadialGradientLayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F79D182247AE78183BDBA89ABAF95E50 /* Headers */ = {
+		F8177DAB8E74F52E404B8319C4B10834 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -602,81 +614,13 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0D87566A88D159C66106BC15649E117D /* AGTimerManager */ = {
+		1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B656E50617A015262CB821359ED3199 /* Build configuration list for PBXNativeTarget "AGTimerManager" */;
+			buildConfigurationList = F49D2BFAAA78D95C1429E59AB1A23ACE /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
 			buildPhases = (
-				49725A0C9551CD5873DE8E489962CC03 /* Headers */,
-				47BD5A29711386F352DB71FDE72942B0 /* Sources */,
-				E4330F262876DE7B168B3554FE699465 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = AGTimerManager;
-			productName = AGTimerManager;
-			productReference = 226FA8B8BFAA46F95E6DD49BB319C511 /* libAGTimerManager.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		4A6B3878A2274EEFC47284E7C875CAA4 /* AGCategories */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9BEB6D25E1AEA7AD8030F77CAFC07963 /* Build configuration list for PBXNativeTarget "AGCategories" */;
-			buildPhases = (
-				27DB6FA7FBD17ABCAA89E69FF7BFBBC6 /* Headers */,
-				35B93E5809A1B845B58C1EA9ED93C2C9 /* Sources */,
-				5F777F2BF112923455567CCD28E2DBCD /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = AGCategories;
-			productName = AGCategories;
-			productReference = 6E8CB2B9AA1EEEE2B94D6D9A7DCFECA8 /* libAGCategories.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		4EAD755574AB548EB3DE419FBA4FBAD1 /* AGVerifyManager */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6DF4CE634010F70E185BF2A4780032F0 /* Build configuration list for PBXNativeTarget "AGVerifyManager" */;
-			buildPhases = (
-				3D8E8B11BE85F035F208F718B4C8B409 /* Headers */,
-				8B43FD3F3DA481531A3BAC9FAAD75C5F /* Sources */,
-				E5A5D3F9676417732D538910DB320BDD /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = AGVerifyManager;
-			productName = AGVerifyManager;
-			productReference = B988913836EA7AA7CC5D1C0807310CF9 /* libAGVerifyManager.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		5D7F9E6A999489EB9D66674D9A25CB87 /* AGViewModel */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 458DB5F505D5FFED8011500C9C1990BB /* Build configuration list for PBXNativeTarget "AGViewModel" */;
-			buildPhases = (
-				0256FB1D9F35B6CA202C2DC0E3DD4530 /* Headers */,
-				82C35A6B9A8D4E235001E08513EADF18 /* Sources */,
-				359C07EEEB6B0AD41EBA35752311FC11 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = AGViewModel;
-			productName = AGViewModel;
-			productReference = 381B97A0F77F3E6C632710E480DCECBA /* libAGViewModel.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		865290849C4982707531E9F75E7729AF /* SVProgressHUD */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7232E6FEA549C0B5C0594EFD3462061E /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
-			buildPhases = (
-				BD6F8649F594F4AD8120F7BDAEE3F7CE /* Headers */,
-				5A66A2C95B49DC605E7104087BFAFB58 /* Sources */,
-				7BD60F4C85E5410B98B87850A3EF42A4 /* Frameworks */,
+				E41722A1BD41872D45B97FCEF2427E81 /* Headers */,
+				653EF978AC8050BE5586582A6F468FE9 /* Sources */,
+				70010619EE67FAA5998927DE2714A46F /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -684,29 +628,97 @@
 			);
 			name = SVProgressHUD;
 			productName = SVProgressHUD;
-			productReference = E486682C9668FBD2D257CDAC25155077 /* libSVProgressHUD.a */;
+			productReference = E97D43C46A45EE515A4DA3AF94398441 /* libSVProgressHUD.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		D510DB38BE31585CCF25E335B6CA5467 /* Pods-AGThemeManager */ = {
+		24EA6397EC674E5FA2F36C7169CE58E6 /* AGVerifyManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBB0279727511C54DBF866B508F06F74 /* Build configuration list for PBXNativeTarget "Pods-AGThemeManager" */;
+			buildConfigurationList = 3BCE305E07D5025D628A298865ED4CFA /* Build configuration list for PBXNativeTarget "AGVerifyManager" */;
 			buildPhases = (
-				F79D182247AE78183BDBA89ABAF95E50 /* Headers */,
-				E85B06F5EBD4A112055CA7D65D9EEF9F /* Sources */,
-				20CF0381104D749D6955801A20B4740B /* Frameworks */,
+				84F89F5907D615DC2461E40F6A38A0EA /* Headers */,
+				6E9251F6371E529A6F77E13644C919B6 /* Sources */,
+				FD7DC2517F444F81908DB840E94A3C1A /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B718F32135A2737BF958837967A8E7C9 /* PBXTargetDependency */,
-				4E016C9B811F973E042ED274C9C0F0A8 /* PBXTargetDependency */,
-				C6F8973B48D2AB857114424F18CE4E09 /* PBXTargetDependency */,
-				38B44A45CD6A99E22B3A03FFEFF657D3 /* PBXTargetDependency */,
-				4B9783A4EF999DFA5F27E4645F8188A6 /* PBXTargetDependency */,
+			);
+			name = AGVerifyManager;
+			productName = AGVerifyManager;
+			productReference = EFB37C8ACE178E5E63D0A29894ED9F58 /* libAGVerifyManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C58A0FEF264C643C33A216042B9268E8 /* Pods-AGThemeManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D00216FD5A9BB933ADDB0FB21BE81020 /* Build configuration list for PBXNativeTarget "Pods-AGThemeManager" */;
+			buildPhases = (
+				F8177DAB8E74F52E404B8319C4B10834 /* Headers */,
+				3612EFD604346810D4F1AE0CD6518805 /* Sources */,
+				7850222A34D14663D60B65027B621E1C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F663B3D9D0B010D29970275862DFA90C /* PBXTargetDependency */,
+				27FA7CFDA620A7F199871C6AEB25515D /* PBXTargetDependency */,
+				44DFCAB1E39150B5D4344B385BE6C0D7 /* PBXTargetDependency */,
+				A89FFEE40A76C6EE1024444867434102 /* PBXTargetDependency */,
+				F9F9E4289F16D89E6B7D9658B01987CA /* PBXTargetDependency */,
 			);
 			name = "Pods-AGThemeManager";
 			productName = "Pods-AGThemeManager";
-			productReference = 3AA9138B876324022599D625DDB2662E /* libPods-AGThemeManager.a */;
+			productReference = 0211709165214FEA8B83305C7F78E5EF /* libPods-AGThemeManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E1326E008E998819A7C90269C07FCC7A /* AGTimerManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BA44513CE37A1ECB4767793D81853BB /* Build configuration list for PBXNativeTarget "AGTimerManager" */;
+			buildPhases = (
+				60478B43D5E6AFB1B873A9F48E7DD563 /* Headers */,
+				8AC9821C2EDF706924852880784872C6 /* Sources */,
+				F54C3B39469D8ED98E9108EDB26C732E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AGTimerManager;
+			productName = AGTimerManager;
+			productReference = 3C44B54D7EC4BF217964168AC4CB732C /* libAGTimerManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E51445FBB7BFF638642990D1E9138A52 /* AGCategories */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CBD5B1F681A4A35BC4FA4ACE910D112 /* Build configuration list for PBXNativeTarget "AGCategories" */;
+			buildPhases = (
+				82AE844D059601DC2703AA7C9027023F /* Headers */,
+				B3F55CD7CD7E53C2F1747B79E55A1C0E /* Sources */,
+				3328E58D1AAD5F5C82F7D30205A05FF7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AGCategories;
+			productName = AGCategories;
+			productReference = 2089057372344DB50736BACA083975E5 /* libAGCategories.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F8C2D151885E87872EC4AA91950BE2B2 /* AGViewModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64DAF0C79F8E350270D3BE7B5B863CBB /* Build configuration list for PBXNativeTarget "AGViewModel" */;
+			buildPhases = (
+				83545987027702CB6DC5079DF9CE2DD4 /* Headers */,
+				57BF9614F8D03B3098F67B35B713D605 /* Sources */,
+				CBAF99DEFB78700753F823AA1E7E5A3F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AGViewModel;
+			productName = AGViewModel;
+			productReference = C8E763F9CA0901F29AEF7852F34FCE9B /* libAGViewModel.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -715,166 +727,257 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 6AE8645F80D12D903547297B97320BE8 /* Products */;
+			productRefGroup = 0CC3FC3F4A0E30981A9B5640FA628303 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4A6B3878A2274EEFC47284E7C875CAA4 /* AGCategories */,
-				0D87566A88D159C66106BC15649E117D /* AGTimerManager */,
-				4EAD755574AB548EB3DE419FBA4FBAD1 /* AGVerifyManager */,
-				5D7F9E6A999489EB9D66674D9A25CB87 /* AGViewModel */,
-				D510DB38BE31585CCF25E335B6CA5467 /* Pods-AGThemeManager */,
-				865290849C4982707531E9F75E7729AF /* SVProgressHUD */,
+				E51445FBB7BFF638642990D1E9138A52 /* AGCategories */,
+				E1326E008E998819A7C90269C07FCC7A /* AGTimerManager */,
+				24EA6397EC674E5FA2F36C7169CE58E6 /* AGVerifyManager */,
+				F8C2D151885E87872EC4AA91950BE2B2 /* AGViewModel */,
+				C58A0FEF264C643C33A216042B9268E8 /* Pods-AGThemeManager */,
+				1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		35B93E5809A1B845B58C1EA9ED93C2C9 /* Sources */ = {
+		3612EFD604346810D4F1AE0CD6518805 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0102AC60B7FD01287C95291B018CCB5B /* AGCategories-dummy.m in Sources */,
-				3997A31F56247BE41FF8B8296274E01D /* NSBundle+AGSupportCocoapods.m in Sources */,
-				9D9C69AEFC515F3ED105DA45F624BE4E /* NSDate+AGGenerate.m in Sources */,
-				18D634215ECC4CF5EA942ABF71AA0F2E /* NSFileManager+AGFolderOperation.m in Sources */,
-				3BDB4BAB5AE6B00F96E2C94E2EE36959 /* NSFileManager+AGFolderPath.m in Sources */,
-				04C41A13E91EB2E05D50F99D6AF1438B /* NSString+AGJudge.m in Sources */,
-				B5AD6BE8795F173155975A04D3A7BD0C /* UIColor+AGExtensions.m in Sources */,
-				71836400C6EF7EDF5DB4D0F458A66E61 /* UIImage+AGGenerate.m in Sources */,
-				F1BDA98BD1A63B8E4EC68A7ABCA21F56 /* UIImage+AGTransform.m in Sources */,
+				563977CD7C2EAE1B41626A63A69D3E00 /* Pods-AGThemeManager-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		47BD5A29711386F352DB71FDE72942B0 /* Sources */ = {
+		57BF9614F8D03B3098F67B35B713D605 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D4E18E3071D4B9DADADFC7253115F17 /* AGTimerManager-dummy.m in Sources */,
-				33AE0D2098C3956257707F82DB2B207E /* AGTimerManager.m in Sources */,
+				833AE42A0726D19FEF14CD3EF83A1B7C /* AGViewModel-dummy.m in Sources */,
+				89EE2F25DEA5725051E787A54C2ED7B6 /* AGViewModel.m in Sources */,
+				8AD8D8986BC73A2CC0B7718BA3E5D558 /* AGVMCommand.m in Sources */,
+				E9558FB8A688DCF4493C91C77BF8B9E2 /* AGVMFunction.m in Sources */,
+				AF6EB95F11F65730D1BC17239B623576 /* AGVMKeys.m in Sources */,
+				A5F1711E160364AC71840CA4FA8A7789 /* AGVMManager.m in Sources */,
+				55F599A3BF37F02BF94971B2B8DC8318 /* AGVMNotifier.m in Sources */,
+				8A37DDCDB313F094655C67F106D9BF11 /* AGVMSection.m in Sources */,
+				C56D2A691DEE741242C7223E02682F7B /* AGVMSharedPackager.m in Sources */,
+				B35C89172B442E81228965C0B665209A /* NSArray+AGViewModel.m in Sources */,
+				325D78383E0C91D288B73BAF1FE76F3D /* NSDictionary+AGViewModel.m in Sources */,
+				47BCD5648946ED19B7F80F38F787DB2D /* NSString+AGViewModel.m in Sources */,
+				9E1671007F678459D6C890D7B8AF27C3 /* UICollectionReusableView+AGViewModel.m in Sources */,
+				0D65E2C93DF7374D1A8B211383F38EF7 /* UICollectionView+AGViewModel.m in Sources */,
+				36EEB8C24CFFB150C3CA7970523A68C0 /* UICollectionViewCell+AGViewModel.m in Sources */,
+				FF565D4235058C4BFB6E8D54AEF10C40 /* UIScreen+AGViewModel.m in Sources */,
+				7DEA1756F014F83B98EFE756F5981653 /* UITableView+AGViewModel.m in Sources */,
+				9E5C52BE711167A4DD1065818ACBB0DB /* UITableViewCell+AGViewModel.m in Sources */,
+				65BF7E3994C534924B5136B52A1C725B /* UITableViewHeaderFooterView+AGViewModel.m in Sources */,
+				51BCF49A322C1D739E2988729D6C6C45 /* UIView+AGViewModel.m in Sources */,
+				A0AFB5D493C17BE0C9A7D6532C2B5DF3 /* UIViewController+AGViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A66A2C95B49DC605E7104087BFAFB58 /* Sources */ = {
+		653EF978AC8050BE5586582A6F468FE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47DF090AE6BE9FCC4CC4539B71A711CA /* SVIndefiniteAnimatedView.m in Sources */,
-				68F8BFA1C176DA6E6F1C50570B76147A /* SVProgressAnimatedView.m in Sources */,
-				282FF46DC883E5666954AD529452BCF0 /* SVProgressHUD-dummy.m in Sources */,
-				455AFB1E3675ED85FDC6089E810F8DE3 /* SVProgressHUD.m in Sources */,
-				ADD53F3FD2715A804ED11D9F1F506441 /* SVRadialGradientLayer.m in Sources */,
+				C0E2C41633CCA2B473A186ADDE148122 /* SVIndefiniteAnimatedView.m in Sources */,
+				1B77D7340EC83E839FAE3D9BB7DF0D1F /* SVProgressAnimatedView.m in Sources */,
+				ED141E898A6F86747999A58190D2CBCB /* SVProgressHUD-dummy.m in Sources */,
+				72EA5E1F693FE30D163352247713AEFF /* SVProgressHUD.m in Sources */,
+				56BC27D1E6C748409D085B72FBFB8C7F /* SVRadialGradientLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82C35A6B9A8D4E235001E08513EADF18 /* Sources */ = {
+		6E9251F6371E529A6F77E13644C919B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9A5B75ECC381194F34A57550623D9DE /* AGViewModel-dummy.m in Sources */,
-				628D516B805B20C84E55C7A1B1894ADC /* AGViewModel.m in Sources */,
-				E2088CB1AF43E85F60961CA5C0DD3AEB /* AGVMCommand.m in Sources */,
-				C37F8C5B64F974EE207C52E980EBCE1E /* AGVMFunction.m in Sources */,
-				197FF790EB5B9FC276E2F52F2A17A51C /* AGVMKeys.m in Sources */,
-				8BC4E1D59387F6A09D2E5EE4425B54A0 /* AGVMManager.m in Sources */,
-				EDC4A25D5CF74B906F308A6F0808F8B3 /* AGVMNotifier.m in Sources */,
-				E4FAB90415C2C90B132BC48656FD477E /* AGVMSection.m in Sources */,
-				0F2337F9AC759951AA9F0CF5DAD7246F /* AGVMSharedPackager.m in Sources */,
-				5D8091CFAE00366B03E8CE3123DCFAFC /* NSArray+AGViewModel.m in Sources */,
-				C9E4C30090C8820C455401B0EEBE588D /* NSDictionary+AGViewModel.m in Sources */,
-				901D03154A98DB95BC9451A9ABEA0AA5 /* NSString+AGViewModel.m in Sources */,
-				9C2541F3D9F045F41F8DE8BE0293A5E1 /* UICollectionReusableView+AGViewModel.m in Sources */,
-				986CE22FFCEEFC4F3207D9E8A80CCF95 /* UICollectionView+AGViewModel.m in Sources */,
-				8735D06B2072D5D83F8754CE95A98C67 /* UICollectionViewCell+AGViewModel.m in Sources */,
-				8AFFFF19D5624BC8AEE1CECD263ACF4B /* UIScreen+AGViewModel.m in Sources */,
-				91EC8B31512C394393DD03CFFD81356F /* UITableView+AGViewModel.m in Sources */,
-				6C5E8194F61C78D64E4D2B3D39C21801 /* UITableViewCell+AGViewModel.m in Sources */,
-				4E0FB621EED13FF7DF2C75A39576FA94 /* UITableViewHeaderFooterView+AGViewModel.m in Sources */,
-				14B6DE4B059E6A98E3C4288231865BA6 /* UIView+AGViewModel.m in Sources */,
-				9D9E9AAC6ACC88E37E33CE07A58D4842 /* UIViewController+AGViewModel.m in Sources */,
+				6958F12863A6B55AEA164F886EF6346B /* AGBaseVerifier.m in Sources */,
+				B0C9D0C709DDF592B5F69A1FC7FD54D4 /* AGVerifyManager-dummy.m in Sources */,
+				B020C03333A74BD468ECF1429ECEDED8 /* AGVerifyManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B43FD3F3DA481531A3BAC9FAAD75C5F /* Sources */ = {
+		8AC9821C2EDF706924852880784872C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5A484382B3F848F8C7AD2C4B50CFB9D /* AGVerifyManager-dummy.m in Sources */,
-				ACF3062454EF3336D3278D71FED9F8B6 /* AGVerifyManager.m in Sources */,
+				963F37F7AFEC3CE6439820B37EF45549 /* AGTimerManager-dummy.m in Sources */,
+				35AAB3BD3EC9B2F4151C8A8466EA695B /* AGTimerManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E85B06F5EBD4A112055CA7D65D9EEF9F /* Sources */ = {
+		B3F55CD7CD7E53C2F1747B79E55A1C0E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				315EB00E7E8A4C74FFBF815E066449FD /* Pods-AGThemeManager-dummy.m in Sources */,
+				36AC2370B2D52FCE509642CE66451B2F /* AGCategories-dummy.m in Sources */,
+				B8A498610ABB961EACF2CD94618D249E /* NSBundle+AGSupportCocoapods.m in Sources */,
+				979EB4CF4E166687EF14947A054AAFF1 /* NSDate+AGGenerate.m in Sources */,
+				39E2CDB19EF8405982E46F5032202602 /* NSFileManager+AGFolderOperation.m in Sources */,
+				27E2AC09776AD099CD77AC0C706DDA37 /* NSFileManager+AGFolderPath.m in Sources */,
+				9622CEA0A3D5D4159CE792694DB78732 /* NSString+AGJudge.m in Sources */,
+				805917004BCF2D213C77C813547FFD38 /* UIColor+AGExtensions.m in Sources */,
+				B7B6C49591317D7FD113953B6698CB79 /* UIImage+AGGenerate.m in Sources */,
+				A164540BEA2A3DD92ED6653C750D1F1F /* UIImage+AGTransform.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		38B44A45CD6A99E22B3A03FFEFF657D3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AGViewModel;
-			target = 5D7F9E6A999489EB9D66674D9A25CB87 /* AGViewModel */;
-			targetProxy = 287DD9CB93BE0E96FFC9F7633CD1D65D /* PBXContainerItemProxy */;
-		};
-		4B9783A4EF999DFA5F27E4645F8188A6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SVProgressHUD;
-			target = 865290849C4982707531E9F75E7729AF /* SVProgressHUD */;
-			targetProxy = 83B94276C7D4A65F06707CB476D59C1C /* PBXContainerItemProxy */;
-		};
-		4E016C9B811F973E042ED274C9C0F0A8 /* PBXTargetDependency */ = {
+		27FA7CFDA620A7F199871C6AEB25515D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AGTimerManager;
-			target = 0D87566A88D159C66106BC15649E117D /* AGTimerManager */;
-			targetProxy = 7C559E78B3186EBCC74775E8D99C5B22 /* PBXContainerItemProxy */;
+			target = E1326E008E998819A7C90269C07FCC7A /* AGTimerManager */;
+			targetProxy = CAFC7789F8FDBCDAF41AA8D312F8652A /* PBXContainerItemProxy */;
 		};
-		B718F32135A2737BF958837967A8E7C9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AGCategories;
-			target = 4A6B3878A2274EEFC47284E7C875CAA4 /* AGCategories */;
-			targetProxy = 2E350BD7C915186EF40369F5C8EE817D /* PBXContainerItemProxy */;
-		};
-		C6F8973B48D2AB857114424F18CE4E09 /* PBXTargetDependency */ = {
+		44DFCAB1E39150B5D4344B385BE6C0D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AGVerifyManager;
-			target = 4EAD755574AB548EB3DE419FBA4FBAD1 /* AGVerifyManager */;
-			targetProxy = A2759DD65680E53AF92D225819A719E1 /* PBXContainerItemProxy */;
+			target = 24EA6397EC674E5FA2F36C7169CE58E6 /* AGVerifyManager */;
+			targetProxy = 72F1AC763964F0C773451A05B72F1A3F /* PBXContainerItemProxy */;
+		};
+		A89FFEE40A76C6EE1024444867434102 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AGViewModel;
+			target = F8C2D151885E87872EC4AA91950BE2B2 /* AGViewModel */;
+			targetProxy = 7128AA0CDC937B78F49DB21E0CCA9976 /* PBXContainerItemProxy */;
+		};
+		F663B3D9D0B010D29970275862DFA90C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AGCategories;
+			target = E51445FBB7BFF638642990D1E9138A52 /* AGCategories */;
+			targetProxy = DA76D5C05E838422FC142B4CC2710D5B /* PBXContainerItemProxy */;
+		};
+		F9F9E4289F16D89E6B7D9658B01987CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
+			targetProxy = 005716085BE2B4519E4F257032B869E4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		06D1BD9CCD42F6FD8FEFD6433836BC71 /* Debug */ = {
+		1129C142CDE7F93E5F65C52D9847FDBF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE01944B9F99EF6698BD9EE1E9F70D75 /* AGVerifyManager.xcconfig */;
+			baseConfigurationReference = C5A08AFA288A2D750F0916B21B701D5D /* SVProgressHUD.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/AGVerifyManager/AGVerifyManager-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = AGVerifyManager;
-				PRODUCT_NAME = AGVerifyManager;
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17C93E0FB6573C3ACBD46733CC456E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CB14FED2316F8B41DE3BD9321550669 /* Pods-AGThemeManager.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3130224D8E392F13F8BF341CD706799C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7D12D2D053758FC82F291F82EB21786 /* Pods-AGThemeManager.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BD789C7F1067B588F0279DD1094CC1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D7DC516663EED281B75E117147F57CA /* AGTimerManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AGTimerManager/AGTimerManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AGTimerManager;
+				PRODUCT_NAME = AGTimerManager;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		426F085EDC7FDE80FC9810CA80BC211D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D8109AAC8C7F9B3BCFE3CFB62A116C2 /* AGCategories.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AGCategories/AGCategories-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AGCategories;
+				PRODUCT_NAME = AGCategories;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -883,11 +986,94 @@
 			};
 			name = Debug;
 		};
-		07488D4657FB0A78086563621D425F8A /* Debug */ = {
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		508B8B125370F6F58DCAC3396D4200F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D8109AAC8C7F9B3BCFE3CFB62A116C2 /* AGCategories.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AGCategories/AGCategories-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AGCategories;
+				PRODUCT_NAME = AGCategories;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -935,7 +1121,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -943,69 +1129,21 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		3D07B798D9C0B028E38D8DA897EF3C8A /* Release */ = {
+		9D327BD23F32358E3A00AEDDD318E5E0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 669A6F511566D319C3F6A88064FC3CEE /* AGTimerManager.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/AGTimerManager/AGTimerManager-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = AGTimerManager;
-				PRODUCT_NAME = AGTimerManager;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		4674998E1198A078114F82B0F7F2CB9F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 729AEA4A747580C39EEDE53B98976A74 /* SVProgressHUD.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = SVProgressHUD;
-				PRODUCT_NAME = SVProgressHUD;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		86D649CB9C527C90509E8FE54824131F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE01944B9F99EF6698BD9EE1E9F70D75 /* AGVerifyManager.xcconfig */;
+			baseConfigurationReference = EA8D51EDD216290C973DDA5DD5FB2D66 /* AGVerifyManager.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/AGVerifyManager/AGVerifyManager-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -1020,21 +1158,21 @@
 			};
 			name = Release;
 		};
-		8BC45A2D9913F32DA1284F4F2F2FBD71 /* Debug */ = {
+		BDE1B562A47AE0662E3DBD0421233CD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 669A6F511566D319C3F6A88064FC3CEE /* AGTimerManager.xcconfig */;
+			baseConfigurationReference = EA8D51EDD216290C973DDA5DD5FB2D66 /* AGVerifyManager.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/AGTimerManager/AGTimerManager-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				GCC_PREFIX_HEADER = "Target Support Files/AGVerifyManager/AGVerifyManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = AGTimerManager;
-				PRODUCT_NAME = AGTimerManager;
+				PRODUCT_MODULE_NAME = AGVerifyManager;
+				PRODUCT_NAME = AGVerifyManager;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1043,93 +1181,9 @@
 			};
 			name = Debug;
 		};
-		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
+		C91E657779E99963233F116F53683F78 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		B320DB4620D2CA5AEB5453F72F384E71 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74C35BDC9F4ED85E1C989854DFDB90EA /* AGCategories.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/AGCategories/AGCategories-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = AGCategories;
-				PRODUCT_NAME = AGCategories;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		BEAB03E80D2BEDC94790548F561CE8C8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 729AEA4A747580C39EEDE53B98976A74 /* SVProgressHUD.xcconfig */;
+			baseConfigurationReference = C5A08AFA288A2D750F0916B21B701D5D /* SVProgressHUD.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1150,61 +1204,16 @@
 			};
 			name = Debug;
 		};
-		E502608CA17B0021803D02B119E66959 /* Debug */ = {
+		E295259F6522E9476D9257D31CEF95F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74C35BDC9F4ED85E1C989854DFDB90EA /* AGCategories.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/AGCategories/AGCategories-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = AGCategories;
-				PRODUCT_NAME = AGCategories;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		E6071F665C4CA682B22E47AD6346182A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFE881EE47310F9AFE4E07FF0EDC752D /* Pods-AGThemeManager.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		EFD542038B20C4EDC8C9695E0A9EFDF9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DC2A2914AAD3DDC50B367314973F8D6 /* AGViewModel.xcconfig */;
+			baseConfigurationReference = E25BCB4CEF08D47ADB43340CFC34A622 /* AGViewModel.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/AGViewModel/AGViewModel-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -1218,16 +1227,16 @@
 			};
 			name = Debug;
 		};
-		F45B43AC8F7A22D0B66F406E60A1A1DE /* Release */ = {
+		E67D61495787319783EC8045D03EEDAD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DC2A2914AAD3DDC50B367314973F8D6 /* AGViewModel.xcconfig */;
+			baseConfigurationReference = E25BCB4CEF08D47ADB43340CFC34A622 /* AGViewModel.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/AGViewModel/AGViewModel-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -1242,23 +1251,25 @@
 			};
 			name = Release;
 		};
-		F53F0990BEBBA38F66EF86798557BA76 /* Debug */ = {
+		E7773B173D2CF370C7204B0EAD713164 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFC35AEA015BF259F7C6B8F48F5EE15C /* Pods-AGThemeManager.debug.xcconfig */;
+			baseConfigurationReference = 5D7DC516663EED281B75E117147F57CA /* AGTimerManager.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
+				GCC_PREFIX_HEADER = "Target Support Files/AGTimerManager/AGTimerManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AGTimerManager;
+				PRODUCT_NAME = AGTimerManager;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1266,11 +1277,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		458DB5F505D5FFED8011500C9C1990BB /* Build configuration list for PBXNativeTarget "AGViewModel" */ = {
+		0BA44513CE37A1ECB4767793D81853BB /* Build configuration list for PBXNativeTarget "AGTimerManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EFD542038B20C4EDC8C9695E0A9EFDF9 /* Debug */,
-				F45B43AC8F7A22D0B66F406E60A1A1DE /* Release */,
+				E7773B173D2CF370C7204B0EAD713164 /* Debug */,
+				3BD789C7F1067B588F0279DD1094CC1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BCE305E07D5025D628A298865ED4CFA /* Build configuration list for PBXNativeTarget "AGVerifyManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE1B562A47AE0662E3DBD0421233CD9 /* Debug */,
+				9D327BD23F32358E3A00AEDDD318E5E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1278,53 +1298,44 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				07488D4657FB0A78086563621D425F8A /* Debug */,
-				A1962E6FF39BBAC201A2E5DDF99557DF /* Release */,
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B656E50617A015262CB821359ED3199 /* Build configuration list for PBXNativeTarget "AGTimerManager" */ = {
+		5CBD5B1F681A4A35BC4FA4ACE910D112 /* Build configuration list for PBXNativeTarget "AGCategories" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8BC45A2D9913F32DA1284F4F2F2FBD71 /* Debug */,
-				3D07B798D9C0B028E38D8DA897EF3C8A /* Release */,
+				426F085EDC7FDE80FC9810CA80BC211D /* Debug */,
+				508B8B125370F6F58DCAC3396D4200F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6DF4CE634010F70E185BF2A4780032F0 /* Build configuration list for PBXNativeTarget "AGVerifyManager" */ = {
+		64DAF0C79F8E350270D3BE7B5B863CBB /* Build configuration list for PBXNativeTarget "AGViewModel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				06D1BD9CCD42F6FD8FEFD6433836BC71 /* Debug */,
-				86D649CB9C527C90509E8FE54824131F /* Release */,
+				E295259F6522E9476D9257D31CEF95F2 /* Debug */,
+				E67D61495787319783EC8045D03EEDAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7232E6FEA549C0B5C0594EFD3462061E /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+		D00216FD5A9BB933ADDB0FB21BE81020 /* Build configuration list for PBXNativeTarget "Pods-AGThemeManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEAB03E80D2BEDC94790548F561CE8C8 /* Debug */,
-				4674998E1198A078114F82B0F7F2CB9F /* Release */,
+				3130224D8E392F13F8BF341CD706799C /* Debug */,
+				17C93E0FB6573C3ACBD46733CC456E10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9BEB6D25E1AEA7AD8030F77CAFC07963 /* Build configuration list for PBXNativeTarget "AGCategories" */ = {
+		F49D2BFAAA78D95C1429E59AB1A23ACE /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E502608CA17B0021803D02B119E66959 /* Debug */,
-				B320DB4620D2CA5AEB5453F72F384E71 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CBB0279727511C54DBF866B508F06F74 /* Build configuration list for PBXNativeTarget "Pods-AGThemeManager" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F53F0990BEBBA38F66EF86798557BA76 /* Debug */,
-				E6071F665C4CA682B22E47AD6346182A /* Release */,
+				C91E657779E99963233F116F53683F78 /* Debug */,
+				1129C142CDE7F93E5F65C52D9847FDBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

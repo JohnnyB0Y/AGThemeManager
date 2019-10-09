@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 #pragma mark - @interface
 @interface AGVMSharedPackager : NSObject
 
-+ (instancetype) sharedInstance;
+@property (class, readonly) AGVMSharedPackager *sharedInstance;
 
 - (NSArray<AGViewModel *> *) ag_packageDatas:(nullable NSArray *)datas
                                      mergeVM:(nullable AGViewModel *)mergeVM

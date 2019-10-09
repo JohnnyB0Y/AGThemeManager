@@ -263,7 +263,7 @@ BOOL ag_isChineseUnichar(const unichar hs, const unichar ls, int strLen)
     // 还有扩展汉字 Unicode
     // unichar 最大 131072；
     // 一~龥  \u4e00~\u9fa5
-    if ( hs >= 0x4e00 || hs <= 0x9fa5 ) {
+    if ( hs >= 0x4e00 && hs <= 0x9fa5 ) {
         return YES;
     }
     return NO;

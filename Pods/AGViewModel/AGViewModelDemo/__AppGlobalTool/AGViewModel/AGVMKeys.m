@@ -108,3 +108,6 @@ NSString * const kAGVMThumbnailImage = @"kAGVMThumbnailImage"; ///< 缩略图 �
 NSString * const kAGVMImageURLText = @"kAGVMImageURLText"; ///< 网络图片 👉NSString👈
 NSString * const kAGVMImageURL = @"kAGVMImageURL"; ///< 网络图片 👉NSURL👈
 NSString * const kAGVMImageURLPlaceholder = @"kAGVMImageURLPlaceholder"; ///< 占位网络图片 👉NSString👈
+
+
+NSString * const kAGVMImageName = @"kAGVMImageName"; ///< 图片名 👉NSString👈

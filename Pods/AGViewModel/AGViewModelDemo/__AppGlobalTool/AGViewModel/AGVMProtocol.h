@@ -18,9 +18,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark - ------------- enum --------------
 typedef NS_ENUM(NSUInteger, AGResourceFileType) {
-    AGResourceFileTypeStoryboard, // Storyboard文件
-    AGResourceFileTypeNib, // Nib文件
-    AGResourceFileTypeCode // 代码
+    AGResourceFileTypeStoryboard, ///< Storyboard文件
+    AGResourceFileTypeNib, ///< Nib文件
+    AGResourceFileTypeCode ///< 代码
 };
 
 #pragma mark - ------------- typedef block --------------
@@ -56,29 +56,29 @@ typedef void (^AGVMNotificationBlock)
 
 typedef void (^AGVMSafeSetHandleBlock)
 (
-    _Nullable id value, // 数据
-    BOOL safe // 数据是否类型安全
+    _Nullable id value, ///< 数据
+    BOOL safe ///< 数据是否类型安全
 );
 
 
 typedef _Nullable id (^AGVMSafeGetHandleBlock)
 (
-    _Nullable id value, // 数据
-    BOOL safe // 数据是否类型安全
+    _Nullable id value, ///< 数据
+    BOOL safe ///< 数据是否类型安全
 );
 
 
 typedef NSNumber * _Nullable (^AGVMSafeGetNumberHandleBlock)
 (
-    _Nullable id value, // 数据
-    BOOL safe // 数据是否类型安全
+    _Nullable id value, ///< 数据
+    BOOL safe ///< 数据是否类型安全
 );
 
 #pragma mark JSON transform block
 typedef id _Nullable (^AGVMJSONTransformBlock)
 (
-    _Nullable id obj, // 数据对象
-    BOOL *useDefault // 是否跳过block处理，使用默认处理方式：*useDefault = YES;
+    _Nullable id obj, ///< 数据对象
+    BOOL *useDefault ///< 是否跳过block处理，使用默认处理方式：*useDefault = YES;
 );
 
 #pragma mark viewModelManager block

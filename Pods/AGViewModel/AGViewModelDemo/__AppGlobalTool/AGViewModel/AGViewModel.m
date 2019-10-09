@@ -16,6 +16,7 @@
 
 @property (nonatomic, strong) AGVMNotifier *notifier;
 @property (nonatomic, strong) NSMutableDictionary<NSString *, id> *archivedDictM; ///< 归档字典
+@property (nonatomic, strong) NSMutableDictionary<NSString *, id> *serializationDictM; ///< 序列化字典
 @property (nonatomic, strong) NSMutableDictionary<NSString *, AGVMCommand *> *commandDictM; ///< 命令字典
 @property (nonatomic, strong) NSMapTable *weaklyMT; ///< 弱引用 map
 
@@ -276,6 +277,7 @@
     vm->_archivedDictM = [_archivedDictM mutableCopy];
     vm->_weaklyMT = [_weaklyMT mutableCopy];
     vm->_commandDictM = [_commandDictM mutableCopy];
+    vm->_serializationDictM = [_serializationDictM mutableCopy];
     return vm;
 }
 
@@ -291,11 +293,11 @@
         
         NSMutableDictionary *dictM = ag_newNSMutableDictionary(_archivedDictM.count);
         [_archivedDictM enumerateKeysAndObjectsUsingBlock:^(NSString * _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
-            id archiveObj = self->_bindingModel[key];
-            BOOL isConformsToProtocol = [archiveObj conformsToProtocol:@protocol(NSCoding)];
+            id targetObj = self->_bindingModel[key];
+            BOOL isConformsToProtocol = [targetObj conformsToProtocol:@protocol(NSCoding)];
             NSAssert(isConformsToProtocol, @"Archived object not conform to <NSCoding> protocol.");
             if ( isConformsToProtocol ) {
-                [dictM setObject:archiveObj forKey:key];
+                [dictM setObject:targetObj forKey:key];
             }
         }];
         
@@ -319,49 +321,6 @@
     }];
     
     return self;
-}
-
-/** 更新数据，并添加到支持 归档(NSKeyedArchiver)、转Json字符串当中。*/
-- (void) ag_addArchivedObjectKey:(NSString *)key
-{
-    NSParameterAssert(key);
-    [self.archivedDictM setObject:kAGVMObject forKey:key];
-}
-
-- (void) ag_removeArchivedObjectKey:(NSString *)key
-{
-    NSParameterAssert(key);
-    [_archivedDictM removeObjectForKey:key];
-}
-
-- (void) ag_removeAllArchivedObjectKeys
-{
-    [_archivedDictM removeAllObjects];
-}
-
-#pragma mark AGVMJSONTransformable
-- (NSString *) ag_toJSONStringWithExchangeKey:(AGViewModel *)vm
-                              customTransform:(NS_NOESCAPE AGVMJSONTransformBlock)block
-{
-    NSMutableDictionary *dictM = ag_newNSMutableDictionary(_archivedDictM.count);
-    [_archivedDictM enumerateKeysAndObjectsUsingBlock:^(NSString * _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
-        id archiveObj = self->_bindingModel[key];
-        if ( [archiveObj conformsToProtocol:@protocol(NSCoding)] ) {
-            [dictM setObject:archiveObj forKey:key];
-        }
-    }];
-    
-    return ag_newJSONStringWithDictionary(dictM, vm, block);
-}
-
-- (NSString *)ag_toJSONStringWithCustomTransform:(NS_NOESCAPE AGVMJSONTransformBlock)block
-{
-    return [self ag_toJSONStringWithExchangeKey:nil customTransform:block];
-}
-
-- (NSString *)ag_toJSONString
-{
-    return [self ag_toJSONStringWithCustomTransform:nil];
 }
 
 #pragma mark - ------------ Override Methods --------------
@@ -445,6 +404,14 @@
     return _archivedDictM;
 }
 
+- (NSMutableDictionary<NSString *,id> *)serializationDictM
+{
+    if ( nil == _serializationDictM ) {
+        _serializationDictM = [NSMutableDictionary dictionaryWithCapacity:6];
+    }
+    return _serializationDictM;
+}
+
 - (NSMutableDictionary<NSString *, AGVMCommand *> *)commandDictM
 {
     if ( nil == _commandDictM ) {
@@ -459,6 +426,75 @@
         _weaklyMT = [NSMapTable strongToWeakObjectsMapTable];
     }
     return _weaklyMT;
+}
+
+@end
+
+@implementation AGViewModel (AGVMArchived)
+
+- (void) ag_addArchivedKey:(NSString *)key
+{
+    NSParameterAssert(key);
+    [self.archivedDictM setObject:kAGVMObject forKey:key];
+}
+
+- (void) ag_removeArchivedKey:(NSString *)key
+{
+    NSParameterAssert(key);
+    [_archivedDictM removeObjectForKey:key];
+}
+
+- (void) ag_removeAllArchivedKeys
+{
+    [_archivedDictM removeAllObjects];
+}
+
+@end
+
+@implementation AGViewModel (AGVMSerializable)
+
+- (void) ag_addSerializableKey:(NSString *)key
+{
+    NSParameterAssert(key);
+    [self.serializationDictM setObject:kAGVMObject forKey:key];
+}
+
+- (void) ag_removeSerializableKey:(NSString *)key
+{
+    NSParameterAssert(key);
+    [_serializationDictM removeObjectForKey:key];
+}
+
+- (void) ag_removeAllSerializableKeys
+{
+    [_serializationDictM removeAllObjects];
+}
+
+#pragma mark AGVMJSONTransformable
+- (NSString *) ag_toJSONStringWithExchangeKey:(AGViewModel *)vm
+                              customTransform:(NS_NOESCAPE AGVMJSONTransformBlock)block
+{
+    if ( _serializationDictM.count <= 0 ) return nil;
+    
+    NSMutableDictionary *dictM = ag_newNSMutableDictionary(_serializationDictM.count);
+    [_serializationDictM enumerateKeysAndObjectsUsingBlock:^(NSString * _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
+        id targetObj = self->_bindingModel[key];
+        if ( targetObj ) {
+            [dictM setObject:targetObj forKey:key];
+        }
+    }];
+    
+    return ag_newJSONStringWithDictionary(dictM, vm, block);
+}
+
+- (NSString *)ag_toJSONStringWithCustomTransform:(NS_NOESCAPE AGVMJSONTransformBlock)block
+{
+    return [self ag_toJSONStringWithExchangeKey:nil customTransform:block];
+}
+
+- (NSString *)ag_toJSONString
+{
+    return [self ag_toJSONStringWithCustomTransform:nil];
 }
 
 @end
@@ -875,6 +911,11 @@
 
 @implementation AGViewModel (AGVMMethodChaining)
 
++ (AGViewModel *)defaultInstance
+{
+    return [self newWithModel:nil];
+}
+
 - (AGVMSetObjectForKeyBlock)setObjectForKey
 {
     return ^AGViewModel * _Nonnull(id  _Nullable object, NSString * _Nonnull forKey) {
@@ -990,7 +1031,7 @@
 - (AGViewModel * _Nonnull (^)(NSString * _Nonnull))addArchivedKey
 {
     return ^AGViewModel * _Nonnull(NSString * _Nonnull key) {
-        [self ag_addArchivedObjectKey:key];
+        [self ag_addArchivedKey:key];
         return self;
     };
 }
@@ -998,7 +1039,39 @@
 - (AGViewModel * _Nonnull (^)(NSString * _Nonnull))removeArchivedKey
 {
     return ^AGViewModel * _Nonnull(NSString * _Nonnull key) {
-        [self ag_removeArchivedObjectKey:key];
+        [self ag_removeArchivedKey:key];
+        return self;
+    };
+}
+
+- (AGViewModel * _Nonnull (^)(void))removeAllArchivedKeys
+{
+    return ^AGViewModel * _Nonnull{
+        [self ag_removeAllArchivedKeys];
+        return self;
+    };
+}
+
+- (AGViewModel * _Nonnull (^)(NSString * _Nonnull))addSerializableKey
+{
+    return ^AGViewModel * _Nonnull(NSString * _Nonnull key) {
+        [self ag_addSerializableKey:key];
+        return self;
+    };
+}
+
+- (AGViewModel * _Nonnull (^)(NSString * _Nonnull))removeSerializableKey
+{
+    return ^AGViewModel * _Nonnull(NSString * _Nonnull key) {
+        [self ag_removeSerializableKey:key];
+        return self;
+    };
+}
+
+- (AGViewModel * _Nonnull (^)(void))removeAllSerializableKeys
+{
+    return ^AGViewModel * _Nonnull{
+        [self ag_removeAllSerializableKeys];
         return self;
     };
 }

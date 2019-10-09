@@ -21,6 +21,11 @@
     return ag_newHexColor(hex);
 }
 
++ (UIColor *) ag_colorWithHex:(NSString *)hex alpha:(CGFloat)alpha
+{
+    return ag_newHexColorWithAlpha(hex, alpha);
+}
+
 - (UIImage *)ag_colorImage
 {
     return [UIImage ag_imageWithColor:self size:CGSizeZero];
@@ -48,6 +53,11 @@ UIColor * ag_newRandomColor(void)
 }
 
 UIColor * ag_newHexColor(NSString *hexString)
+{
+    return ag_newHexColorWithAlpha(hexString, 1.0f);
+}
+
+UIColor * ag_newHexColorWithAlpha(NSString *hexString, CGFloat alpha)
 {
     NSString *colorStr = [[hexString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];
     
@@ -86,5 +96,5 @@ UIColor * ag_newHexColor(NSString *hexString)
     [[NSScanner scannerWithString:gStr] scanHexInt:&g];
     [[NSScanner scannerWithString:bStr] scanHexInt:&b];
     
-    return [UIColor colorWithRed:((float) r / 255.0f) green:((float) g / 255.0f) blue:((float) b / 255.0f) alpha:1.0f];
+    return [UIColor colorWithRed:((float) r / 255.0f) green:((float) g / 255.0f) blue:((float) b / 255.0f) alpha:alpha];
 }

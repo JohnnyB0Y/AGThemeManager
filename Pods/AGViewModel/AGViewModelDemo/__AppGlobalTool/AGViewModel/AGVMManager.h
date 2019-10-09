@@ -13,7 +13,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark - interface
 @interface AGVMManager : NSObject
-<NSCopying, NSMutableCopying, NSSecureCoding, AGVMJSONTransformable>
+<NSCopying, NSMutableCopying, NSSecureCoding>
+
+@property (class, readonly) AGVMManager *defaultInstance;
 
 @property (nonatomic, strong, readonly) NSMutableArray<AGVMSection *> *sectionArrM;
 @property (nonatomic, assign, readonly) NSInteger count;
@@ -181,23 +183,36 @@ NS_ASSUME_NONNULL_BEGIN
 - (void) ag_enumerateSectionsHeaderFooterUsingBlock:(void(NS_NOESCAPE^)(AGViewModel *vm, NSIndexPath *indexPath, BOOL *stop))block;
 
 
-#pragma mark 归档持久化相关
-/** 添加到支持 归档(NSKeyedArchiver)、转Json字符串当中的 Key。*/
-- (void) ag_addArchivedCommonVMKey:(NSString *)key;
-- (void) ag_addArchivedSectionArrMKey:(NSString *)key;
-
-/** 添加到支持 归档(NSKeyedArchiver)、转Json字符串当中的 Key，使用类内置的key */
-- (void) ag_addAllArchivedObjectUseDefaultKeys;
-
-/** 移除要归档和转字符串的 keys */
-- (void) ag_removeArchivedCommonVMKey;
-- (void) ag_removeArchivedSectionArrMKey;
-- (void) ag_removeAllArchivedObjectKeys;
-
-
 // ...
 - (instancetype) init NS_UNAVAILABLE;
 + (instancetype) new NS_UNAVAILABLE;
+
+@end
+
+typedef NS_ENUM(NSUInteger, AGVMManagerDataType) {
+    AGVMManagerDataTypeCommon = 1, ///< 公共数据
+    AGVMManagerDataTypeSectionArr, ///< 列表数据
+};
+
+#pragma mark - 归档持久化
+@interface AGVMManager (AGVMArchived)
+
+- (void) ag_addArchivedKey:(NSString *)key forType:(AGVMManagerDataType)type;
+- (void) ag_removeArchivedKeyForType:(AGVMManagerDataType)type;
+
+- (void) ag_addAllArchivedObjectUseDefaultKeys;
+- (void) ag_removeAllArchivedKeys;
+
+@end
+
+#pragma mark - 序列化
+@interface AGVMManager (AGVMSerializable) <AGVMJSONTransformable>
+
+- (void) ag_addSerializableKey:(NSString *)key forType:(AGVMManagerDataType)type;
+- (void) ag_removeSerializableKeyForType:(AGVMManagerDataType)type;
+
+- (void) ag_addAllSerializableObjectUseDefaultKeys;
+- (void) ag_removeAllSerializableKeys;
 
 @end
 

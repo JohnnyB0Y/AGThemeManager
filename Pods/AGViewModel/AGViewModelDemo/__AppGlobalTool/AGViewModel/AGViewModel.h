@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark - interface
 @interface AGViewModel : NSObject
-<NSCopying, NSMutableCopying, NSSecureCoding, AGVMJSONTransformable>
+<NSCopying, NSMutableCopying, NSSecureCoding>
 
 @property (nonatomic, weak,   readonly, nullable) UIView<AGVMResponsive> *bindingView;
 @property (nonatomic, strong, readonly) NSMutableDictionary *bindingModel; ///< 不要直接@我，谢谢！
@@ -73,20 +73,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void) ag_refreshUIIfNeeded;
 
 
-#pragma mark 归档持久化相关
-/** 添加到支持 归档(NSKeyedArchiver)、转Json字符串当中。*/
-- (void) ag_addArchivedObjectKey:(NSString *)key;
-
-/** 从支持 归档(NSKeyedArchiver)、转Json字符串当中 移除。*/
-- (void) ag_removeArchivedObjectKey:(NSString *)key;
-
-/** 清空需要 归档(NSKeyedArchiver)、转Json字符串 的keys。*/
-- (void) ag_removeAllArchivedObjectKeys;
-
-/** 转成字符串（NSString、NSNumber、NSURL、实现 NSFastEnumeration 或 AGVMJSONTransformable 协议对象、{其他类型自行处理}）*/
-- (nullable NSString *) ag_toJSONString;
-
-
 #pragma mark 数据合并相关
 /**
  合并包含 keys 的模型数据
@@ -129,6 +115,24 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark debug 信息
 - (NSString *) ag_debugString;
+
+@end
+
+#pragma mark - 归档持久化
+@interface AGViewModel (AGVMArchived)
+
+- (void) ag_addArchivedKey:(NSString *)key;
+- (void) ag_removeArchivedKey:(NSString *)key;
+- (void) ag_removeAllArchivedKeys;
+
+@end
+
+#pragma mark - 序列化
+@interface AGViewModel (AGVMSerializable) <AGVMJSONTransformable>
+
+- (void) ag_addSerializableKey:(NSString *)key;
+- (void) ag_removeSerializableKey:(NSString *)key;
+- (void) ag_removeAllSerializableKeys;
 
 @end
 
@@ -176,33 +180,41 @@ NS_ASSUME_NONNULL_BEGIN
 #pragma mark - 链式方法
 @interface AGViewModel (AGVMMethodChaining)
 
+@property (class, readonly) AGViewModel *defaultInstance;
+
 // bindig model
-@property (nonatomic, copy, readonly) AGVMSetObjectForKeyBlock setObjectForKey;
-@property (nonatomic, copy, readonly) AGVMRemoveObjectForKeyBlock removeObjectForKey;
+@property (readonly) AGVMSetObjectForKeyBlock setObjectForKey;
+@property (readonly) AGVMRemoveObjectForKeyBlock removeObjectForKey;
 
-@property (nonatomic, copy, readonly) AGViewModel *(^mergeDictionary)(NSDictionary *dict);
-@property (nonatomic, copy, readonly) AGViewModel *(^mergeDictionaryForKeys)(NSDictionary *dict, NSArray<NSString *> *keys);
+@property (readonly) AGViewModel *(^mergeDictionary)(NSDictionary *dict);
+@property (readonly) AGViewModel *(^mergeDictionaryForKeys)(NSDictionary *dict, NSArray<NSString *> *keys);
 
-@property (nonatomic, copy, readonly) AGViewModel *(^mergeViewModel)(AGViewModel *vm);
-@property (nonatomic, copy, readonly) AGViewModel *(^mergeViewModelForKeys)(AGViewModel *vm, NSArray<NSString *> *keys);
+@property (readonly) AGViewModel *(^mergeViewModel)(AGViewModel *vm);
+@property (readonly) AGViewModel *(^mergeViewModelForKeys)(AGViewModel *vm, NSArray<NSString *> *keys);
 
 // property
-@property (nonatomic, copy, readonly) AGViewModel *(^setBindingView)(UIView<AGVMResponsive> * _Nullable bindingView);
-@property (nonatomic, copy, readonly) AGViewModel *(^setBindingViewConfigDataBlock)(AGVMConfigDataBlock);
-@property (nonatomic, copy, readonly) AGViewModel *(^setIndexPath)(NSIndexPath * _Nullable indexPath);
-@property (nonatomic, copy, readonly) AGViewModel *(^setDelegate)(id<AGVMDelegate> _Nullable delegate);
+@property (readonly) AGViewModel *(^setBindingView)(UIView<AGVMResponsive> * _Nullable bindingView);
+@property (readonly) AGViewModel *(^setBindingViewConfigDataBlock)(AGVMConfigDataBlock);
+@property (readonly) AGViewModel *(^setIndexPath)(NSIndexPath * _Nullable indexPath);
+@property (readonly) AGViewModel *(^setDelegate)(id<AGVMDelegate> _Nullable delegate);
 
 // command
-@property (nonatomic, copy, readonly) AGViewModel *(^setCommandForKey)(AGVMCommand *command, NSString *key);
-@property (nonatomic, copy, readonly) AGViewModel *(^removeCommandForKey)(NSString *key);
+@property (readonly) AGViewModel *(^setCommandForKey)(AGVMCommand *command, NSString *key);
+@property (readonly) AGViewModel *(^removeCommandForKey)(NSString *key);
 
 // weakly
-@property (nonatomic, copy, readonly) AGVMSetObjectForKeyBlock setWeaklyForKey;
-@property (nonatomic, copy, readonly) AGVMRemoveObjectForKeyBlock removeWeaklyForKey;
+@property (readonly) AGVMSetObjectForKeyBlock setWeaklyForKey;
+@property (readonly) AGVMRemoveObjectForKeyBlock removeWeaklyForKey;
 
 // archived
-@property (nonatomic, copy, readonly) AGViewModel *(^addArchivedKey)(NSString *key);
-@property (nonatomic, copy, readonly) AGViewModel *(^removeArchivedKey)(NSString *key);
+@property (readonly) AGViewModel *(^addArchivedKey)(NSString *key);
+@property (readonly) AGViewModel *(^removeArchivedKey)(NSString *key);
+@property (readonly) AGViewModel *(^removeAllArchivedKeys)(void);
+
+// serializable
+@property (readonly) AGViewModel *(^addSerializableKey)(NSString *key);
+@property (readonly) AGViewModel *(^removeSerializableKey)(NSString *key);
+@property (readonly) AGViewModel *(^removeAllSerializableKeys)(void);
 
 @end
 
