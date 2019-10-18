@@ -5,7 +5,7 @@
 platform :ios, '8.0'
 target 'AGThemeManager' do
 
-pod 'AGThemeManager', '~> 0.1.0'
+pod 'AGThemeManager', '~> 0.1.1'
 
 end
 ```
@@ -15,7 +15,7 @@ end
 ###### 对系统动态字体添加了支持
 ###### 对系统黑暗模式添加了支持
 
-#### 1，通过派生子类生成主题包，有3中方式生成主题包
+#### 1，通过派生子类生成主题包，有3种方式生成主题包
  
  - 工程中
  派生 AGThemePack 的子类，重写初始化方法 -initWithPackName: 并配置主题元素；
@@ -42,10 +42,10 @@ AGDataThemePack
  ```objective-c
  ###### 在UI类中添加对主题的支持 #######
  /// 添加主题支持
-- (void)ag_themeSupport;
+- (void)ag_themeAddSupport;
 
 /// 添加主题支持并执行修改
-- (void)ag_themeSupportAndExecute;
+- (void)ag_themeAddSupportAndExecute;
 
 /// 移除主题支持
 - (void)ag_themeRemoveSupport;
@@ -59,7 +59,7 @@ AGDataThemePack
 {
     [super traitCollectionDidChange:previousTraitCollection];
     
-    self.textLabel.font = [UIFont ag_themeWithDynamicFontForKey:kAGThemePackHomeCellContentTextFont];
+    self.textLabel.font = [UIFont ag_themeFontDynamicForKey:kAGThemePackHomeCellContentTextFont];
     self.textLabel.textColor = [UIColor ag_themeForKey:kAGThemePackHomeCellContentTextColor];
     self.imageView.image = [UIImage ag_themeForKey:kAGThemePackHomeCellIconImageName];
 }
