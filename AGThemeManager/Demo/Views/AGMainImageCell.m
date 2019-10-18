@@ -30,7 +30,7 @@
 - (void)setup
 {
     // 根据主题，配置好
-    [self ag_themeSupport];
+    [self ag_themeAddSupport];
     
     // 根据主题，直接执行
     [self ag_themeExecute];

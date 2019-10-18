@@ -16,10 +16,10 @@
 
 
 /// 添加主题支持
-- (void)ag_themeSupport;
+- (void)ag_themeAddSupport;
 
 /// 添加主题支持并执行修改
-- (void)ag_themeSupportAndExecute;
+- (void)ag_themeAddSupportAndExecute;
 
 /// 移除主题支持
 - (void)ag_themeRemoveSupport;

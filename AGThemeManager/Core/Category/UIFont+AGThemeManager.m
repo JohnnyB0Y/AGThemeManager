@@ -24,7 +24,7 @@
 
 /// 获取当前主题系统动态字体(根据系统字体大小变化)
 /// @param key 键
-+ (UIFont *)ag_themeWithFontTextStyleForKey:(NSString *)key
++ (UIFont *)ag_themeFontPreferredForKey:(NSString *)key
 {
     UIFontTextStyle fontTextStyle = AGThemeManager.sharedInstance.themeCollection.currentPack[key];
     if ( [fontTextStyle isKindOfClass:[NSString class]] ) {
@@ -45,7 +45,7 @@
     return nil;
 }
 
-+ (UIFont *)ag_themeWithDynamicFontForKey:(NSString *)key
++ (UIFont *)ag_themeFontDynamicForKey:(NSString *)key
 {
     UIFont *font = AGThemeManager.sharedInstance.themeCollection.currentPack[key];
     

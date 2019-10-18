@@ -18,9 +18,9 @@ NS_ASSUME_NONNULL_BEGIN
 + (nullable UIFont *)ag_themeForKey:(NSString *)key;
 
 
-/// 获取当前主题系统动态字体(根据系统字体大小变化)
+/// 获取当前主题系统动态字体(根据系统字体大小变化), [UIFont preferredFontForTextStyle:fontTextStyle]
 /// @param key 键
-+ (nullable UIFont *)ag_themeWithFontTextStyleForKey:(NSString *)key;
++ (nullable UIFont *)ag_themeFontPreferredForKey:(NSString *)key;
 
 
 /// 获取当前主题 UIFontTextStyle
@@ -30,7 +30,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 获取当前主题动态字体(根据系统字体大小变化)
 /// @param key 键
-+ (nullable UIFont *)ag_themeWithDynamicFontForKey:(NSString *)key;
++ (nullable UIFont *)ag_themeFontDynamicForKey:(NSString *)key;
 
 
 @end

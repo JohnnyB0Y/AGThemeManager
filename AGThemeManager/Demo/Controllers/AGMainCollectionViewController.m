@@ -35,7 +35,7 @@ static NSString * const reuseIdentifier = @"Cell";
     UIBarButtonItem *rightItem = [[UIBarButtonItem alloc] initWithTitle:@"更换主题" style:UIBarButtonItemStyleDone target:self action:@selector(rightItemClick:)];
     self.navigationItem.rightBarButtonItem = rightItem;
     
-    [self ag_themeSupport];
+    [self ag_themeAddSupport];
 }
 
 - (void)traitCollectionDidChange:(UITraitCollection *)previousTraitCollection

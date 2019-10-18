@@ -33,7 +33,7 @@
     
     self.textLabel.text = @"MIT License \n\nA short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.";
     
-    [self ag_themeSupportAndExecute];
+    [self ag_themeAddSupportAndExecute];
     
 }
 
@@ -41,7 +41,7 @@
 {
     [super traitCollectionDidChange:previousTraitCollection];
     
-    self.textLabel.font = [UIFont ag_themeWithDynamicFontForKey:kAGThemePackHomeCellContentTextFont];
+    self.textLabel.font = [UIFont ag_themeFontDynamicForKey:kAGThemePackHomeCellContentTextFont];
     self.textLabel.textColor = [UIColor ag_themeForKey:kAGThemePackHomeCellContentTextColor];
 }
 

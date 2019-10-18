@@ -10,14 +10,14 @@
 
 @implementation UIView (AGThemeManager)
 
-- (void)ag_themeSupport
+- (void)ag_themeAddSupport
 {
     [AGThemeManager.sharedInstance ag_addThemeResponder:self];
 }
 
-- (void)ag_themeSupportAndExecute
+- (void)ag_themeAddSupportAndExecute
 {
-    [self ag_themeSupport];
+    [self ag_themeAddSupport];
     [self ag_themeExecute];
 }
 

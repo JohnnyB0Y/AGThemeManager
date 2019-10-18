@@ -29,10 +29,10 @@
  2，在UI类中使用主题包
   ###### 在UI类中添加对主题的支持 #######
   /// 添加主题支持
- - (void)ag_themeSupport;
+ - (void)ag_themeAddSupport;
 
  /// 添加主题支持并执行修改
- - (void)ag_themeSupportAndExecute;
+ - (void)ag_themeAddSupportAndExecute;
 
  /// 移除主题支持
  - (void)ag_themeRemoveSupport;
@@ -46,7 +46,7 @@
  {
      [super traitCollectionDidChange:previousTraitCollection];
      
-     self.textLabel.font = [UIFont ag_themeWithDynamicFontForKey:kAGThemePackHomeCellContentTextFont];
+     self.textLabel.font = [UIFont ag_themeFontDynamicForKey:kAGThemePackHomeCellContentTextFont];
      self.textLabel.textColor = [UIColor ag_themeForKey:kAGThemePackHomeCellContentTextColor];
      self.imageView.image = [UIImage ag_themeForKey:kAGThemePackHomeCellIconImageName];
  }

@@ -37,7 +37,7 @@
     self.imageView.bounds = CGRectMake(0, 0, 30, 30);
     self.imageView.center = self.contentView.center;
     
-    [self ag_themeSupport];
+    [self ag_themeAddSupport];
     [self ag_themeExecute];
 }
 

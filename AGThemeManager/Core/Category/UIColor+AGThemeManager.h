@@ -20,7 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 取出当前主题的颜色
 /// @param key 键
-+ (nullable UIColor *)ag_themeWithColorNameForKey:(NSString *)key;
++ (nullable UIColor *)ag_themeColorNamedForKey:(NSString *)key;
 
 
 @end

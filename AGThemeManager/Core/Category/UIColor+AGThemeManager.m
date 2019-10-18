@@ -24,7 +24,7 @@
 
 /// 取出当前主题的颜色
 /// @param key 键
-+ (nullable UIColor *)ag_themeWithColorNameForKey:(NSString *)key
++ (nullable UIColor *)ag_themeColorNamedForKey:(NSString *)key
 {
     NSString *colorName = AGThemeManager.sharedInstance.themeCollection.currentPack[key];
     
